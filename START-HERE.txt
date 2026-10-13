@@ -1,0 +1,40 @@
+PANTRYCHEF - START HERE
+======================
+
+1. Extract the entire ZIP. Do not open or run files inside the ZIP.
+2. On Tarun's configured computer, double-click RUN-PANTRYCHEF.cmd.
+   Alternatively, open this folder in VS Code and run:
+   powershell -ExecutionPolicy Bypass -File .\start-app.ps1
+3. Open http://127.0.0.1:3000/ in your browser.
+4. Keep the app terminal open. Ctrl+C stops an app started in that terminal.
+   If port 3000 is already in use, open the URL to use the running app.
+
+ON A NEW COMPUTER
+-----------------
+The ZIP includes application source, database seed, migrations, dependencies
+manifest and lockfile, launcher, tests, screenshots and documentation.
+It does not bundle Node.js, Python, PostgreSQL, WSL, installed packages,
+private passwords, or your existing user accounts/pantry.
+
+Install Node.js 22+, Python 3.11+, WSL2 Ubuntu (distro name: Ubuntu), and
+PostgreSQL 16 with pgvector in Ubuntu. Follow README.md's fresh Windows setup.
+Restart VS Code after installing software so its terminal sees the commands.
+
+In the extracted folder's Windows PowerShell terminal:
+python -m pip install -r requirements.txt
+npm.cmd install
+npm.cmd run db:setup
+
+Then double-click RUN-PANTRYCHEF.cmd or run the start-app.ps1 command above.
+First-time setup needs internet for dependency installation.
+Setup creates its own pantrychef_app database and generates private credentials
+in .env.local. Do not overwrite that file on a working installation.
+Admin login details are in that private file. Regular users can create accounts.
+
+USING THE APP
+-------------
+Enter comma-separated ingredients and click Find my next meal.
+Open a meal card for detailed directions. Ready to cook only shows full matches.
+
+For database setup, alternative operating systems, troubleshooting and project
+requirements, read README.md and docs/PROJECT.md.

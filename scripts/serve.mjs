@@ -1,0 +1,11 @@
+import nextEnv from '@next/env';
+import {spawn} from 'node:child_process';
+import {createRequire} from 'node:module';
+import {keepDatabaseAlive} from './wsl.mjs';
+nextEnv.loadEnvConfig(process.cwd());
+const keepalive=keepDatabaseAlive();
+const require=createRequire(import.meta.url),mode=process.argv[2]||'dev';
+const child=spawn(process.execPath,[require.resolve('next/dist/bin/next'),mode,...(mode==='dev'?['--webpack']:[]),'--hostname','127.0.0.1',...process.argv.slice(3)],{stdio:'inherit',windowsHide:true});
+child.on('exit',code=>{keepalive?.kill();process.exit(code||0);});
+process.on('SIGINT',()=>{child.kill('SIGINT');keepalive?.kill();});
+process.on('SIGTERM',()=>{child.kill('SIGTERM');keepalive?.kill();});
