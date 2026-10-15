@@ -52,7 +52,32 @@ test('end-to-end database and role workflow',{timeout:120000},async()=>{
   assert.equal(Number((await request('recipes/'+recipeId)).data.recipe.avg_rating),0);
   assert.equal((await request('saved/'+recipeId,'DELETE',undefined,cookie)).status,200);
   assert.equal((await request('pantry','DELETE',undefined,cookie)).status,200);
+  // Vector R/U/D: edit structured ingredients and recompute the vector atomically.
+  const before=(await sql('SELECT embedding::text FROM recipes WHERE recipe_id=$1',[recipeId]))[0].embedding;
+  const pasta=meta.ingredients.find(i=>i.name==='pasta').ingredient_id;
+  const edited={title:'Integration Creamy Pasta',cuisine:'Italian',instructions:'Boil pasta in water until tender. Toss with garlic and serve warm.',prep_time_min:15,difficulty:'Easy',ingredients:[{ingredient_id:pasta,quantity:100,unit:'g',is_optional:false}]};
+  assert.equal((await request('recipes/'+recipeId,'PUT',edited,cookie)).status,403);
+  assert.equal((await request('recipes/'+recipeId,'PUT',edited)).status,401);
+  assert.equal((await request('recipes/'+recipeId,'PUT',edited,admin.cookie)).status,200);
+  const after=(await sql('SELECT embedding::text FROM recipes WHERE recipe_id=$1',[recipeId]))[0].embedding;
+  assert.notEqual(after,before);
+  assert.deepEqual(after.slice(1,-1).split(',').length,128);
+  assert.equal((await request('recipes/'+recipeId)).data.recipe.ingredients[0].ingredient_id,pasta);
+  assert.ok((await request('recipes?mode=text&q='+encodeURIComponent(edited.title))).data.recipes.some(r=>r.recipe_id===recipeId));
+  const {embed}=await import('../lib/embeddings.mjs');
+  const [distance]=await sql('SELECT embedding <=> $1::vector AS distance FROM recipes WHERE recipe_id=$2',[embed(edited.title+' '+edited.instructions+' pasta'),recipeId]);
+  assert.ok(Math.abs(Number(distance.distance))<0.000001);
+  assert.equal((await request('recipes/'+recipeId,'PUT',{...edited,ingredients:[{...edited.ingredients[0],ingredient_id:999999}]},admin.cookie)).status,400);
+  assert.equal((await sql('SELECT embedding::text FROM recipes WHERE recipe_id=$1',[recipeId]))[0].embedding,after);
+  // Deleting a vector-bearing recipe also removes dependent rows and search hits.
+  await request('saved/'+recipeId,'POST',{},cookie);
+  await request('ratings/'+recipeId,'PUT',{stars:4},cookie);
   assert.equal((await request('recipes/'+recipeId,'DELETE',undefined,admin.cookie)).status,200);
+  assert.equal((await request('recipes/'+recipeId)).status,404);
+  assert.equal((await sql('SELECT 1 FROM recipes WHERE recipe_id=$1 AND embedding IS NOT NULL',[recipeId])).length,0);
+  for(const table of ['recipe_ingredients','saved_recipes','ratings'])assert.equal((await sql(`SELECT 1 FROM ${table} WHERE recipe_id=$1`,[recipeId])).length,0);
+  assert.ok(!(await request('recipes?mode=semantic&q=creamy%20pasta')).data.recipes.some(r=>r.recipe_id===recipeId));
+
   assert.equal((await request('auth/logout','POST',{},cookie)).status,200);
   assert.equal((await request('pantry','GET',undefined,cookie)).status,401);
   await request('auth/logout','POST',{},admin.cookie);

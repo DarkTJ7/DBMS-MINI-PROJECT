@@ -38,12 +38,12 @@ and delete recipe records with cascading dependent-row cleanup.
 | JOIN / aggregates / GROUP BY / HAVING / subqueries | `pantry_match`, original demo queries, `cuisine_summary`, rating trigger |
 | At least four advanced concepts | Transactions, view, stored function, trigger, indexes, full-text, vector similarity (seven) |
 | Next.js web interface and backend integration | App Router React UI + Route Handlers + node-postgres |
-| Authentication and at least two roles | Password hashing, server sessions, user/admin guards in API |
+| Authentication and at least two roles | Password hashing, server sessions, API guards and PostgreSQL RLS policies |
 | Validation / integrity | FK/PK/UNIQUE/CHECK/NOT NULL plus API shape and bounds checks |
 | Environment-based configuration | `.env.local`, ignored by Git; `.env.example` contains placeholders |
 | Documentation / tests / screenshots | This document, README, TESTING, QUERY-PLANS, screenshots directory |
-| Git / GitHub and team contributions | Local Git initialized; students must create their own remote and real contribution history |
-| Two-member approved team | Responsibilities template below; names and instructor approval supplied by students |
+| Git / GitHub and team contributions | Extracted source tracked in DarkTJ7/DBMS-MINI-PROJECT; genuine individual work still required |
+| Two-member approved team | Tarun Jagan and Tanishk Gowda named; instructor approval remains student-supplied |
 
 ## System architecture
 
@@ -214,7 +214,7 @@ ORDER BY embedding <=> (SELECT embedding FROM recipes
 The trigger also recomputes the old recipe if an update moves a rating.
 
 **Transactions:** creating a recipe and its ingredient links is all-or-nothing.
-Pantry replacement locks the user's row, deletes old entries, and inserts new
+Pantry replacement takes a per-user transaction advisory lock, deletes old entries, and inserts new
 entries in a single transaction to prevent concurrent lost/duplicate writes.
 Errors roll back. The inherited procedure demonstrates CALL and transaction
 semantics, but the backend owns its transaction boundary.
@@ -255,7 +255,7 @@ FK/UNIQUE/CHECK/NOT NULL constraints protect integrity independently of UI check
    query plans. Discuss small-table sequential scans and synthetic load testing.
 9. Show tests and Git history with each member's actual contributions.
 
-## Team responsibilities (fill before submission)
+## Proposed team responsibilities and actual contribution evidence
 
 | Member | Database contribution | Application contribution |
 | --- | --- | --- |
@@ -268,7 +268,7 @@ of work performed by students. Obtain instructor approval for the two-member tea
 and title uniqueness. This project was developed with Codex assistance; review,
 understand, and disclose that assistance according to your course rules. The
 documentation does not certify originality approval or fabricate contribution
-history. No GitHub remote is created without your account/repository choice.
+history. The public repository is https://github.com/DarkTJ7/DBMS-MINI-PROJECT. A collaborator invitation was issued to tanishkgowda; acceptance is separate from contribution evidence.
 
 ## Screenshots, testing, conclusion, enhancements
 
@@ -279,3 +279,52 @@ Future work: licensed real recipe ingestion, better semantic models, quantity
 and unit conversion, structured substitutions, nutritional/allergen metadata,
 reset-password/email verification, and production deployment/observability.
 
+
+## Database-enforced permissions (15 October 2026)
+
+`database/access.sql` enables PostgreSQL row-level security on recipes,
+recipe_ingredients, users, user_pantry, saved_recipes and ratings. Ordinary API
+queries connect using `pantrychef_runtime`, which has no superuser, BYPASSRLS,
+role-creation or database-creation privileges, and does not own application tables.
+The runtime account cannot read password hashes/session records, promote users,
+change schema, or assume the owner role. It has no table writes on users/sessions.
+
+Each request gets an AsyncLocalStorage context containing only the SHA-256 digest
+of its opaque session cookie. Every SQL transaction sets that digest with
+transaction-local `set_config`; it is cleared on commit/rollback and cannot leak
+through the connection pool. SECURITY DEFINER helpers, with a fixed search path,
+resolve the digest against non-expired database sessions and derive the user's
+role from Users. No role or user ID supplied in JSON is trusted. Invalid,
+expired and revoked digests have visitor access.
+
+Visitors see approved recipes. Regular users see their own pending recipes and
+can create pending submissions; only admins may edit, moderate or delete recipes.
+Pantries and saved recipes belong to the session user. Ratings can be read with
+visible recipes; only their author may write them. Ingredient-link policies follow
+recipe visibility. Public profile views contain names/IDs only; the cuisine view
+uses invoker rights. A narrowly scoped owner-rights trigger maintains rating averages.
+
+The private owner connection remains the trust boundary for account registration,
+password verification, session issuance/revocation and maintenance. It is never
+selected for ordinary request queries. This does not defend against compromised
+server code or stolen owner credentials. Both connection URLs are server-only.
+Direct runtime SQL denial/isolation tests are in `tests/database-access.test.mjs`.
+
+## Recipe editing and vector Read / Update / Delete
+
+Sign in as admin, open a recipe, and click **Edit recipe**. The prefilled form
+supports title, instructions, cuisine, difficulty, cooking time and ingredient
+quantities/units/optional flags. `PUT /api/recipes/:id` validates all fields,
+embeds the updated title + instructions + ingredient names, and updates the recipe
+and replaces its ingredient links in a single transaction. The generated full-text
+column updates with the text. Moderation status and original creator are preserved.
+
+Read: Meaning search uses cosine distance on persisted embeddings. Update: editing
+regenerates the stored 128-D vector using the fitted local LSA model. Delete: admin
+deletion removes the vector-bearing row, ingredient links, ratings and saves; the
+recipe disappears from details/search. Integration tests compare vectors before
+and after an edit, check cosine distance against the expected new embedding, reject
+invalid/unauthorized updates, and verify cascading deletion and absent search hits.
+
+See `RUBRIC-CHECKLIST.md` for the 50-mark rubric mapping and `VIVA-GUIDE.md` for a
+practice/demo sequence. Those documents do not certify student authorship or marks.

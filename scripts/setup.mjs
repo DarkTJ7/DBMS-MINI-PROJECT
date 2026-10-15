@@ -33,9 +33,22 @@ try {
    console.log('Restored sample data into a new pantrychef_app database.');
   }
  }
+ // The owner URL is for migrations/authentication; request SQL uses a non-owner login.
+ if(!process.env.RUNTIME_DATABASE_URL){
+  const runtimeUri=new URL(process.env.DATABASE_URL);
+  runtimeUri.username='pantrychef_runtime';runtimeUri.password=randomBytes(24).toString('hex');
+  process.env.RUNTIME_DATABASE_URL=runtimeUri.toString();
+  writeFileSync('.env.local','\nRUNTIME_DATABASE_URL='+runtimeUri.toString()+'\n',{flag:'a'});
+ }
+ const runtimeUri=new URL(process.env.RUNTIME_DATABASE_URL);
+ if(runtimeUri.username!=='pantrychef_runtime'||runtimeUri.hostname!==uri.hostname||runtimeUri.pathname!==uri.pathname)throw new Error('RUNTIME_DATABASE_URL must use pantrychef_runtime on the same database.');
+ const roleDDL=`DO $$ BEGIN IF NOT EXISTS(SELECT 1 FROM pg_roles WHERE rolname='pantrychef_runtime') THEN CREATE ROLE pantrychef_runtime LOGIN; END IF; END $$; ALTER ROLE pantrychef_runtime NOSUPERUSER NOCREATEDB NOCREATEROLE NOREPLICATION NOBYPASSRLS PASSWORD '${decodeURIComponent(runtimeUri.password).replaceAll("'","''")}';`;
  const pool=new Pool({connectionString:process.env.DATABASE_URL});
+
  pool.on('error',e=>console.error('Database connection was interrupted:',e.code));
  try{
+  if(local&&process.platform==='win32')wsl(['psql','-X','-v','ON_ERROR_STOP=1','-d','pantrychef_app'],roleDDL);
+  else await pool.query(roleDDL); // remote provisioning needs CREATEROLE / a DBA
   const applied=await pool.query("SELECT to_regclass('public.app_sessions') AS table_name");
   if(!applied.rows[0].table_name)await pool.query(readFileSync('database/app.sql','utf8'));
   await pool.query(readFileSync('database/integrity.sql','utf8'));
@@ -73,6 +86,7 @@ try {
     await client.query('COMMIT');
    }catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
   }
+  await pool.query(readFileSync('database/access.sql','utf8'));
   const {rows}=await pool.query('SELECT count(*) AS recipes FROM recipes');
   console.log(`Setup complete: ${rows[0].recipes} recipes. Start with npm run dev. Admin credentials are in .env.local.`);
  }finally{await pool.end();}

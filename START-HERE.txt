@@ -38,3 +38,7 @@ Open a meal card for detailed directions. Ready to cook only shows full matches.
 
 For database setup, alternative operating systems, troubleshooting and project
 requirements, read README.md and docs/PROJECT.md.
+
+UPGRADING AN EXISTING COPY
+Run npm.cmd run db:setup once, then restart. Setup creates the restricted runtime
+login and PostgreSQL permission policies. Never share .env.local.

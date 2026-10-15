@@ -75,7 +75,46 @@ No forced optimizer switches were used to manufacture index selection.
 - LSA vocabulary limits synonym/general-language quality; no hosted model used.
 - Password reset, verification email, shared rate limits, and deployment security
   configuration remain production enhancements.
-- Students must supply team names, obtain instructor approval, create their own
-  GitHub repository, and record real individual contributions.
+- The named team and public source repository are in place. Instructor approval,
+  genuine individual contributions and the final viva remain student responsibilities.
 
 UI refinement: searching keeps programmatic focus on Meal results without drawing an outline around the section. Buttons retain visible keyboard focus. Recipe cards use larger text and a single column below 420px.
+
+## Rubric completion validation - 15 October 2026
+
+`node --test tests/*.test.mjs`: **5 tests passed, 0 failed** against the updated
+local PostgreSQL database and running API. This includes a new direct-database
+permission test and additional assertions in the API integration workflow.
+
+| New scenario | Observed result |
+| --- | --- |
+| Direct runtime login privilege inspection | Non-owner runtime, not superuser, no BYPASSRLS |
+| Read password hashes / session table | PostgreSQL 42501 permission denied |
+| Promote own role / alter recipe table / SET ROLE owner | PostgreSQL 42501 permission denied |
+| Read/write another user's pantry | Hidden / PostgreSQL 42501 |
+| Read pending recipe as visitor or another user | Hidden |
+| Approve/delete recipe as ordinary user using direct SQL | Zero affected rows |
+| Approve recipe as admin using direct SQL | One affected row; visitors can then read it |
+| Forged approved recipe insertion | PostgreSQL 42501 |
+| Expired session reading pantry | No rows |
+| Revoked admin session deleting recipe | Zero affected rows |
+| Sixteen concurrent pooled contexts | Each resolves its own actor ID |
+| PUT recipe as anonymous / regular user | HTTP 401 / 403 |
+| Admin PUT title, instructions, ingredients | HTTP 200; replaces structured ingredients |
+| Updated embedding | Changes; 128 dimensions; cosine distance to expected vector < 0.000001 |
+| Updated full-text search | Edited recipe found by its new title |
+| Invalid edited ingredient | HTTP 400; prior vector unchanged |
+| Delete vector-bearing recipe with rating/save | Recipe, embedding and dependent rows absent; details 404; absent from semantic results |
+
+Historical 100K plans above predate RLS and were measured using the maintenance
+connection. They demonstrate index behavior, not post-RLS API latency guarantees.
+
+Production build (`next build --webpack`) also passed. The final five-test run
+against `next start` passed in about 2.54 seconds; raw output is in
+`TEST-OUTPUT.txt`. Setup was rerun successfully to verify idempotence.
+
+Browser evidence: a temporary admin recipe was created, edited to add garlic and
+change title/instructions, saved successfully, and reopened with the persisted
+values. The form was exercised at a narrow browser size and verified on the
+production build at desktop size. `screenshots/admin-edit.png` captures the editor.
+The temporary recipe was removed after verification; the collection remains 906.

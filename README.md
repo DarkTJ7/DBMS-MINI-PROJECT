@@ -2,7 +2,6 @@
 
 **Team:** Tarun Jagan (Member 1), Tanishk Gowda (Member 2).
 
-
 A Next.js frontend and backend backed by PostgreSQL and pgvector. Enter pantry
 ingredients, find matching dishes, inspect missing ingredients, and save recipes.
 This implementation follows the supplied DBMS Level 3 project requirements.
@@ -55,7 +54,7 @@ npm.cmd run db:setup
 npm.cmd run dev
 ```
 
-`db:setup` generates `.env.local`, creates a dedicated restricted database login,
+`db:setup` generates `.env.local`, creates dedicated owner and restricted runtime database logins,
 creates `pantrychef_app`, restores the original seed into that **new database**,
 adds the app schema, hashes an administrator password, trains embeddings, and
 adds five coherent starter recipes. It does not drop existing databases.
@@ -70,7 +69,9 @@ DATABASE_URL to the old `pantrychef` database: use the new app database.
 
 The application connects through `DATABASE_URL`; WSL is only a Windows convenience.
 Copy `.env.example` to `.env.local` and enter your own connection URL and setup
-administrator details. Use a dedicated role that owns the project's tables.
+administrator details. Use a dedicated role that owns the project's tables. The DBA must provision the
+`pantrychef_runtime` login as well; remote `db:setup` currently needs CREATEROLE
+privileges to provision/update that login. Do not grant that privilege to runtime.
 Restore `database/pantrychef_seed_dump.sql` into an **empty** database after
 replacing `OWNER TO postgres` with your project's database role. Use a current
 PostgreSQL 16 client supporting `\restrict`. Install pgvector first. Then run:
@@ -163,10 +164,11 @@ Remove only the labeled synthetic clones afterwards with
 ## Git / GitHub
 
 Source files are tracked in https://github.com/DarkTJ7/DBMS-MINI-PROJECT.
-The initial source import was prepared with Codex assistance. Both members must
-review the implementation and make genuine commits for their own contributions.
+The source import and this rubric update were prepared with Codex assistance.
+Both members must review the implementation and record their own genuine work.
 The ZIP excludes Git metadata. On a friend's machine, run `git init` after extraction.
-See the team responsibilities template in `docs/PROJECT.md`.
+See the proposed responsibilities in `docs/PROJECT.md`; they are not a record of
+completed individual contributions.
 
 ## Troubleshooting
 
@@ -178,3 +180,22 @@ See the team responsibilities template in `docs/PROJECT.md`.
 - **No recipe matches:** disable Ready to cook, broaden filters, or add more ingredients.
 - **Admin login fails after editing .env.local:** editing the setup password does not
   reset an existing account. Setup intentionally does not overwrite existing users.
+
+## Database permissions and recipe editing
+
+Run `npm.cmd run db:setup` once after upgrading an existing copy, then restart the
+server. Setup is idempotent and adds `RUNTIME_DATABASE_URL` to private `.env.local`.
+Keep both database URLs private. Requests use the non-owner runtime account and
+PostgreSQL row-level policies; the owner account handles authentication/setup.
+A fresh setup provisions both accounts and applies `database/access.sql`.
+
+Admins can open a recipe and select **Edit recipe** to update its text and
+structured ingredients. Saving refreshes its vector and full-text search data
+atomically. Delete also removes its embedding, ingredient links, saves and ratings.
+
+- `docs/RUBRIC-CHECKLIST.md`: exact 50-mark rubric mapping and remaining human tasks.
+- `docs/VIVA-GUIDE.md`: demo steps and questions to practise.
+- `tests/database-access.test.mjs`: direct PostgreSQL permission/isolation checks.
+
+The project has Codex assistance. Both members must understand the implementation,
+follow the course's disclosure rules and contribute their own real changes.

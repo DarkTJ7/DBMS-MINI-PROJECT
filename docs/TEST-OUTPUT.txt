@@ -1,0 +1,13 @@
+✔ PostgreSQL enforces visibility, ownership and admin privileges without API guards (282.5171ms)
+✔ end-to-end database and role workflow (2195.6896ms)
+✔ recipe creation is atomic when a foreign key fails (6.1806ms)
+✔ passwords are salted and placeholder seed hashes cannot authenticate (253.2892ms)
+✔ validation rejects malformed IDs, unsafe origins, and weak signup passwords (102.4101ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2540.901

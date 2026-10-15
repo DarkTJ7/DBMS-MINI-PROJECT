@@ -27,7 +27,7 @@ if (-not (Test-Path '.\node_modules\next')) {
  else { throw 'Install Node.js from nodejs.org; it includes npm.' }
  if ($LASTEXITCODE -ne 0) { throw 'Dependency installation failed.' }
 }
-if (-not (Test-Path '.\.generated\lsa.json')) {
+if (-not (Test-Path '.\.generated\lsa.json') -or -not (Select-String -LiteralPath '.env.local' -Pattern '^RUNTIME_DATABASE_URL=' -Quiet -ErrorAction SilentlyContinue)) {
  node scripts/setup.mjs
  if ($LASTEXITCODE -ne 0) { throw 'Database setup failed. See README.md.' }
 }

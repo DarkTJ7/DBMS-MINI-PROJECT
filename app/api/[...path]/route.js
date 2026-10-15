@@ -1,7 +1,7 @@
 import {NextResponse} from 'next/server';
-import {sql,transaction} from '../../../lib/db.mjs';
+import {sql,transaction,ownerSql,withDatabaseSession} from '../../../lib/db.mjs';
 import {currentUser,requireUser,login,logout} from '../../../lib/auth.mjs';
-import {ApiError,credentials,hashPassword,verifyPassword,text,integer,ids,checkOrigin,rateLimit} from '../../../lib/security.mjs';
+import {ApiError,credentials,hashPassword,verifyPassword,text,integer,ids,checkOrigin,rateLimit,tokenHash} from '../../../lib/security.mjs';
 import {findRecipes,recipeDetail} from '../../../lib/recipes.mjs';
 import {embed} from '../../../lib/embeddings.mjs';
 export const runtime='nodejs';
@@ -22,7 +22,7 @@ async function handle(request,context) {
     sql('SELECT ingredient_id,name,category FROM ingredients ORDER BY name'),
     sql('SELECT * FROM cuisine_summary ORDER BY cuisine'),
     sql(`SELECT (SELECT count(*) FROM recipes WHERE status='approved') AS recipes,
-     (SELECT count(*) FROM ingredients) AS ingredients,(SELECT count(*) FROM users) AS cooks`)]);
+     (SELECT count(*) FROM ingredients) AS ingredients,(SELECT cooks FROM public_counts) AS cooks`)]);
    result={ingredients,cuisines,stats:stats[0]};
   }else if(key==='auth/me'&&method==='GET')result={user:await currentUser()};
   else if(['auth/login','auth/register'].includes(key)&&method==='POST') {
@@ -31,9 +31,9 @@ async function handle(request,context) {
    let user;
    if(signup) {
     const name=text(body.name,'Name',100);
-    [user]=await sql(`INSERT INTO users(name,email,password_hash,role) VALUES($1,$2,$3,'user') RETURNING user_id,name,email,role`,[name,email,hashPassword(password)]);
+    [user]=await ownerSql(`INSERT INTO users(name,email,password_hash,role) VALUES($1,$2,$3,'user') RETURNING user_id,name,email,role`,[name,email,hashPassword(password)]);
    }else {
-    [user]=await sql('SELECT user_id,name,email,role,password_hash FROM users WHERE email=$1',[email]);
+    [user]=await ownerSql('SELECT user_id,name,email,role,password_hash FROM users WHERE email=$1',[email]);
     if(!user||!verifyPassword(password,user.password_hash))throw new ApiError('Email or password is incorrect.',401);
     delete user.password_hash;
    }
@@ -47,7 +47,7 @@ async function handle(request,context) {
     const count=await sql('SELECT count(*)::int AS n FROM ingredients WHERE ingredient_id=ANY($1::int[])',[selected]);
     if(count[0].n!==selected.length)throw new ApiError('Unknown ingredient.');
     await transaction(async client=>{
-     await client.query('SELECT user_id FROM users WHERE user_id=$1 FOR UPDATE',[user.user_id]);
+     await client.query('SELECT pg_advisory_xact_lock(8041,$1)',[user.user_id]);
      await client.query('DELETE FROM user_pantry WHERE user_id=$1',[user.user_id]);
      await client.query('INSERT INTO user_pantry(user_id,ingredient_id,quantity) SELECT $1,unnest($2::int[]),1',[user.user_id,selected]);
     });result={ok:true};
@@ -73,8 +73,8 @@ async function handle(request,context) {
     await sql(`INSERT INTO ratings(user_id,recipe_id,stars,review_text) VALUES($1,$2,$3,$4)
      ON CONFLICT(user_id,recipe_id) DO UPDATE SET stars=excluded.stars,review_text=excluded.review_text`,[user.user_id,id,stars,review]);result={ok:true};
    }else if(method==='DELETE'){await sql('DELETE FROM ratings WHERE user_id=$1 AND recipe_id=$2',[user.user_id,id]);result={ok:true};}
-  }else if(key==='recipes'&&method==='POST') {
-   const user=await requireUser();
+  }else if((key==='recipes'&&method==='POST')||(path[0]==='recipes'&&path.length===2&&method==='PUT')) {
+   const user=await requireUser(method==='PUT');
    const title=text(body.title,'Title',200),instructions=text(body.instructions,'Instructions',10000,20),cuisine=text(body.cuisine,'Cuisine',50);
    const prep=integer(body.prep_time_min,'Prep time',1,600);
    if(!['Easy','Medium','Hard'].includes(body.difficulty))throw new ApiError('Invalid difficulty.');
@@ -91,6 +91,14 @@ async function handle(request,context) {
    if(ingredientNames.length!==ingredientIds.length)throw new ApiError('Unknown ingredient.');
    const vector=embed(title+' '+instructions+' '+ingredientNames.map(i=>i.name).join(' '));
    result=await transaction(async client=>{
+    if(method==='PUT'){
+     const id=integer(path[1],'Recipe ID');
+     const {rows}=await client.query(`UPDATE recipes SET title=$1,instructions=$2,cuisine=$3,prep_time_min=$4,difficulty=$5,embedding=$6::vector,is_sample=false WHERE recipe_id=$7 RETURNING recipe_id,status`,[title,instructions,cuisine,prep,body.difficulty,vector,id]);
+     if(!rows.length)throw new ApiError('Recipe not found.',404);
+     await client.query('DELETE FROM recipe_ingredients WHERE recipe_id=$1',[id]);
+     for(const i of ingredients)await client.query('INSERT INTO recipe_ingredients(recipe_id,ingredient_id,quantity,unit,is_optional) VALUES($1,$2,$3,$4,$5)',[id,i.ingredient_id,i.quantity,i.unit,i.is_optional]);
+     return rows[0];
+    }
     const {rows}=await client.query(`INSERT INTO recipes(title,instructions,cuisine,prep_time_min,difficulty,created_by,embedding,status,is_sample)
      VALUES($1,$2,$3,$4,$5,$6,$7::vector,$8,false) RETURNING recipe_id,status`,[title,instructions,cuisine,prep,body.difficulty,user.user_id,vector,user.role==='admin'?'approved':'pending']);
     for(const i of ingredients)await client.query(`INSERT INTO recipe_ingredients(recipe_id,ingredient_id,quantity,unit,is_optional) VALUES($1,$2,$3,$4,$5)`,[rows[0].recipe_id,i.ingredient_id,i.quantity,i.unit,i.is_optional]);
@@ -122,10 +130,15 @@ async function handle(request,context) {
   if(result===undefined)throw new ApiError('Endpoint not found.',404);
   return NextResponse.json(result,{headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
  }catch(e) {
+  if(e.code==='42501')return NextResponse.json({error:'Database permissions rejected this operation.'},{status:403});
   if(e.code==='23505')return NextResponse.json({error:'This email is already registered.'},{status:409});
   if(['23503','23514','23502','22003'].includes(e.code))return NextResponse.json({error:'The database rejected invalid data.'},{status:400});
   if(!(e instanceof ApiError))console.error('API error:',e.code||e.name,e.message.replace(/postgresql:\/\/[^\s]+/g,'[database URL]'));
   return NextResponse.json({error:e instanceof ApiError?e.message:'Database request failed. Check the server setup.'},{status:e.status||500});
  }
 }
-export const GET=handle,POST=handle,PUT=handle,PATCH=handle,DELETE=handle;
+function dispatch(request,context){
+ const token=request.cookies.get('pantrychef_session')?.value;
+ return withDatabaseSession(token?tokenHash(token):'',()=>handle(request,context));
+}
+export const GET=dispatch,POST=dispatch,PUT=dispatch,PATCH=dispatch,DELETE=dispatch;
