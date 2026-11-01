@@ -21,7 +21,7 @@ try {
   return
  }
 } finally { $localConnection.Dispose() }
-if (-not (Test-Path '.\node_modules\next')) {
+if (-not (Test-Path '.\node_modules\next') -or -not (Test-Path '.\node_modules\motion')) {
  if (Get-Command npm -ErrorAction SilentlyContinue) { npm.cmd install }
  elseif (Get-Command pnpm -ErrorAction SilentlyContinue) { pnpm install }
  else { throw 'Install Node.js from nodejs.org; it includes npm.' }

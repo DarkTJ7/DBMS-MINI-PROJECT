@@ -162,3 +162,15 @@ retrying the same build. In the browser, a quoted OR search for the three report
 titles returned five matching records (some titles occur more than once). All five
 used different loaded image URLs. The soup detail retained the same photo as its
 card and linked the correct Commons source. Evidence: screenshots/distinct-chicken-recipes.png.
+
+## Warm palette and smoother interactions (2026-11-01)
+
+- Replaced the green theme with warm ivory, charcoal and terracotta.
+- Added shared Motion timing tokens, gentle recipe-dialog entry/exit, staggered card entry, pantry chip feedback and notification transitions.
+- Existing results remain visible and disabled while replacements load. Initial loading uses static placeholders with reserved image dimensions.
+- MotionConfig and useReducedMotion honor reduced-motion preferences; transforms are also suppressed by CSS. Low-core devices skip nonessential transforms. Server-rendered content starts visible.
+- Verified in the browser: mushroom keyword search returns meals; current cards remain during the request; recipe detail opens, locks body scrolling, focuses Close, and Escape dismisses it and restores focus to its recipe card.
+- Verified a 390 × 844 phone viewport: no horizontal page overflow. Reset viewport after checking.
+- All nine existing database/API/photo/security tests passed. Production build passed.
+- No browser console errors or warnings during the interaction checks. Reduced-motion support was reviewed in code; OS accessibility settings were not changed.
+- Preview: `docs/screenshots/warm-palette-desktop.png`.

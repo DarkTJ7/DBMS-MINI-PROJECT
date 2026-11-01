@@ -220,3 +220,7 @@ asset together, then run the photo tests. Tests verify all 906 existing assignme
 have different paths, sources and image bytes; they also cover the three reported
 recipes and guard against stale photos after title edits. They do not certify
 that every photo depicts the exact synthetic ingredient list or cuisine.
+
+### Interface updates
+
+The interface uses warm ivory backgrounds, charcoal text and terracotta actions. Motion for React provides short card, pantry-chip and dialog transitions, with reduced-motion support and a nonessential-motion gate on low-core devices. Existing meals stay visible while a search loads; first-load placeholders reserve space.
