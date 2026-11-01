@@ -13,7 +13,7 @@ test('ingredient intent separates fish from fish sauce and supports exclusions',
  assert.deepEqual(ingredientIntent('fish without chicken',names).excluded,[['chicken breast']]);
 });
 test('fish and chicken require real ingredients in both search modes',async()=>{
- for(const mode of ['text','semantic'])for(const [q,allowed] of [['fish',['fish','salmon','tuna']],['chicken',['chicken breast']]]){
+ for(const mode of ['text','semantic'])for(const [q,allowed] of [['fish',['fish','salmon','tuna']],['chicken',['chicken','chicken breast']]]){
   const results=await findRecipes({mode,q});assert.ok(results.total>=10,`${mode} ${q}`);
   for(const recipe of results.recipes){
    assert.equal(recipe.is_sample,false);

@@ -111,6 +111,12 @@ button:focus-visible,a:focus-visible{outline:2px solid #a83f2d}
 .quick-add button:hover,.suggestions button:hover{background:#f8e9dc;border-color:#d8bda6}
 .close:hover{background:#f5dfcf}.pagination button:not(:disabled):hover{background:#f8eee4}
 .pantry-find{min-height:45px}
+.source-photo-placeholder{height:100%;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;background:linear-gradient(135deg,#f5ece2,#eee1d2);color:#95654b;text-align:center;padding:20px}
+.source-photo-placeholder>span{text-transform:capitalize;font-weight:600;letter-spacing:.4px}
+.source-photo-placeholder small{font-size:10px;color:#7c6b5b}
+.recipe-source{font-size:11px;line-height:1.8;color:#6b5c50;margin-bottom:22px;padding:13px 15px;background:#f7eee4;border-radius:8px}
+.recipe-source a{text-decoration:underline;text-underline-offset:3px}.recipe-source p+p{margin-top:5px}
+.source-ingredient-list li{align-items:flex-start;font-size:12px;line-height:1.65}
 .recipe-skeleton{overflow:hidden;border:1px solid var(--line);border-radius:14px;background:#fff}
 .skeleton-photo{height:155px;background:#efe7dd}
 .skeleton-content{padding:18px}.skeleton-content span{display:block;background:#f0e9e1;height:12px;border-radius:5px;margin-bottom:16px}
@@ -123,3 +129,5 @@ button:focus-visible,a:focus-visible{outline:2px solid #a83f2d}
  .recipe-card,.recipe-food-photo,.button svg,.search-go svg{transform:none!important}
  *,*:before,*:after{animation:none!important;transition:none!important}
 }
+
+.detail-art:has(.source-photo-placeholder){height:145px}

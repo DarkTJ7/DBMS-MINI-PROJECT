@@ -1,5 +1,9 @@
 # DBMS MINI PROJECT — PantryChef
 
+Current collection (2026-11-02): **545 public recipes, including 521 distinct meat/seafood recipes across chicken, fish, mutton, beef, lamb, prawns and lobster**. This includes 500 imported Wikibooks recipes with original measurements, methods and per-recipe attribution. Use the Protein filter to browse each category. Category counts overlap for mixed-meat dishes. See [recipe provenance and license details](docs/RECIPE-SOURCES.md).
+
+Imported recipes without verified photos show a labeled placeholder. Unknown source times are shown as unspecified; PantryChef does not manufacture timings or quantities. The 900 synthetic benchmark recipes stay outside normal discovery.
+
 **Team:** Tarun Jagan (Member 1), Tanishk Gowda (Member 2).
 
 A Next.js frontend and backend backed by PostgreSQL and pgvector. Enter pantry

@@ -1,0 +1,17 @@
+{
+  "source": "gossminn/wikibooks-cookbook",
+  "snapshot": "2024-07-31",
+  "rawSha256": "67fd704a6d9280742d2f217ad9f9e4f50921b84fcdefdff9bac749a518c4d46b",
+  "newRecipes": 500,
+  "categoryCounts": {
+    "lobster": 4,
+    "mutton": 7,
+    "beef": 155,
+    "lamb": 13,
+    "fish": 120,
+    "prawn": 40,
+    "chicken": 197
+  },
+  "license": "CC BY-SA 4.0",
+  "version": "seven-proteins-500-v2"
+}

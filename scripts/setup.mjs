@@ -8,6 +8,7 @@ import { keepDatabaseAlive } from './wsl.mjs';
 import {starterRecipes} from './starter-recipes.mjs';
 import {embed} from '../lib/embeddings.mjs';
 import {installIndianCatalog} from './indian-catalog.mjs';
+import {installMeatCatalog,catalogVersion} from './meat-catalog.mjs';
 const {Pool}=pg;
 const {loadEnvConfig}=nextEnv;
 function wsl(args,input='') { return execFileSync('wsl',['-d','Ubuntu','-u','postgres','--',...args],{input,encoding:'utf8',stdio:['pipe','pipe','pipe']}); }
@@ -59,8 +60,10 @@ try {
   await pool.query(`INSERT INTO users(name,email,password_hash,role) VALUES('PantryChef Admin',$1,$2,'admin')
    ON CONFLICT(email) DO NOTHING`,[adminEmail,hashPassword(adminPassword)]);
   const adminId=(await pool.query('SELECT user_id FROM users WHERE email=$1',[adminEmail])).rows[0].user_id;
-  const catalogChanged=await installIndianCatalog(pool,adminId);
-  if(!existsSync('.generated/lsa.json')||catalogChanged||JSON.parse(readFileSync('.generated/lsa.json','utf8')).catalogVersion!=='indian-home-kitchen-1') {
+  const indianChanged=await installIndianCatalog(pool,adminId);
+  const meatChanged=await installMeatCatalog(pool,adminId);
+  const catalogChanged=indianChanged||meatChanged;
+  if(!existsSync('.generated/lsa.json')||catalogChanged||JSON.parse(readFileSync('.generated/lsa.json','utf8')).catalogVersion!==catalogVersion) {
    console.log('Training 128-dimensional TF-IDF/SVD embeddings...');
    const {rows}=await pool.query(`SELECT r.recipe_id, r.title||' '||r.instructions||' '||string_agg(i.name,' ') AS text
     FROM recipes r JOIN recipe_ingredients ri USING(recipe_id) JOIN ingredients i USING(ingredient_id)
@@ -69,7 +72,7 @@ try {
    const client=await pool.connect();
    try{await client.query('BEGIN');for(let i=0;i<rows.length;i++)await client.query('UPDATE recipes SET embedding=$1::vector WHERE recipe_id=$2',['['+result.vectors[i].join(',')+']',rows[i].recipe_id]);await client.query('COMMIT');}
    catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
-   mkdirSync('.generated',{recursive:true});writeFileSync('.generated/lsa.json',JSON.stringify({...result.model,catalogVersion:'indian-home-kitchen-1'}));
+   mkdirSync('.generated',{recursive:true});writeFileSync('.generated/lsa.json',JSON.stringify({...result.model,catalogVersion}));
    await pool.query('REINDEX INDEX idx_recipes_embedding');await pool.query('ANALYZE');
   }
   for(const recipe of starterRecipes){

@@ -4,6 +4,7 @@ import {currentUser,requireUser,login,logout} from '../../../lib/auth.mjs';
 import {ApiError,credentials,hashPassword,verifyPassword,text,integer,ids,checkOrigin,rateLimit,tokenHash} from '../../../lib/security.mjs';
 import {findRecipes,recipeDetail} from '../../../lib/recipes.mjs';
 import {embed} from '../../../lib/embeddings.mjs';
+import {proteinGroups,proteinLabels} from '../../../lib/proteins.mjs';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
 async function handle(request,context) {
@@ -23,7 +24,8 @@ async function handle(request,context) {
     sql("SELECT cuisine,count(*) AS recipe_count FROM recipes WHERE status='approved' AND NOT is_sample GROUP BY cuisine ORDER BY cuisine"),
     sql(`SELECT (SELECT count(*) FROM recipes WHERE status='approved' AND NOT is_sample) AS recipes,
      (SELECT count(*) FROM ingredients) AS ingredients,(SELECT cooks FROM public_counts) AS cooks`)]);
-   result={ingredients,cuisines,stats:stats[0]};
+   const proteins=await Promise.all(Object.entries(proteinGroups).map(async([key,names])=>({key,label:proteinLabels[key],count:Number((await sql("SELECT count(DISTINCT r.recipe_id) AS n FROM recipes r JOIN recipe_ingredients ri USING(recipe_id) JOIN ingredients i USING(ingredient_id) WHERE r.status='approved' AND NOT r.is_sample AND NOT ri.is_optional AND i.name=ANY($1::text[])",[names]))[0].n)})));
+   result={ingredients,cuisines,stats:stats[0],proteins};
   }else if(key==='auth/me'&&method==='GET')result={user:await currentUser()};
   else if(['auth/login','auth/register'].includes(key)&&method==='POST') {
    const signup=key==='auth/register';const {email,password}=credentials(body,signup);
@@ -56,7 +58,7 @@ async function handle(request,context) {
    const selected=ids((p.get('ingredients')||'').split(',').filter(Boolean));
    const q=(p.get('q')||'').trim();if(q.length>300)throw new ApiError('Search must be at most 300 characters.');
    const page=integer(p.get('page')||1,'Page',1,10000);
-   result=await findRecipes({ingredientIds:selected,q,cuisine:p.get('cuisine')||'',diet:p.get('diet')||'',ready:p.get('ready')==='true',mode:p.get('mode')||'pantry',page});
+   result=await findRecipes({ingredientIds:selected,q,cuisine:p.get('cuisine')||'',diet:p.get('diet')||'',ready:p.get('ready')==='true',mode:p.get('mode')||'pantry',page,protein:p.get('protein')||''});
   }else if(key==='saved'&&method==='GET') {
    const user=await requireUser();result=await findRecipes({savedUser:user.user_id,page:integer(p.get('page')||1,'Page',1,10000)});
   }else if(path[0]==='saved'&&path.length===2) {
@@ -93,7 +95,7 @@ async function handle(request,context) {
    result=await transaction(async client=>{
     if(method==='PUT'){
      const id=integer(path[1],'Recipe ID');
-     const {rows}=await client.query(`UPDATE recipes SET title=$1,instructions=$2,cuisine=$3,prep_time_min=$4,difficulty=$5,embedding=$6::vector,is_sample=false WHERE recipe_id=$7 RETURNING recipe_id,status`,[title,instructions,cuisine,prep,body.difficulty,vector,id]);
+     const {rows}=await client.query(`UPDATE recipes SET title=$1,instructions=$2,cuisine=$3,prep_time_min=$4,difficulty=$5,embedding=$6::vector,is_sample=false,catalog_details=(catalog_details - 'steps' - 'ingredients' - 'time' - 'proteins') || jsonb_build_object('modified',true) WHERE recipe_id=$7 RETURNING recipe_id,status`,[title,instructions,cuisine,prep,body.difficulty,vector,id]);
      if(!rows.length)throw new ApiError('Recipe not found.',404);
      await client.query('DELETE FROM recipe_ingredients WHERE recipe_id=$1',[id]);
      for(const i of ingredients)await client.query('INSERT INTO recipe_ingredients(recipe_id,ingredient_id,quantity,unit,is_optional) VALUES($1,$2,$3,$4,$5)',[id,i.ingredient_id,i.quantity,i.unit,i.is_optional]);

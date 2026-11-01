@@ -185,3 +185,13 @@ card and linked the correct Commons source. Evidence: screenshots/distinct-chick
 - Browser: searching fish in Keyword returns exactly ten fish recipes; Meaning mode also returns fish dishes. Photos remain illustrative serving suggestions.
 - Home recipes are independently written variants, not externally imported/copyrighted instructions or claims of kitchen testing. Cooking-temperature checks use https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures. General ingredient/method references: https://www.indianhealthyrecipes.com/fish-curry-recipe/ and https://www.indianhealthyrecipes.com/chicken-curry/.
 - Production build passed; production browser check returned ten fish recipes in Meaning mode, each with a distinct image. Indian Fish Masala Curry showed its required fish quantity and five cooking steps. Screenshot: `docs/screenshots/accurate-fish-search.png`.
+
+## Seven proteins and 500 source recipes (2026-11-02)
+
+- 500 imported records have unique source URLs, titles, and normalized cooking-method hashes; all original ingredient lines and methods match the bundled source snapshot.
+- 521 distinct approved, non-synthetic recipes contain at least one of the seven supported proteins. The full public collection has 545 dishes. Counts overlap for mixed-meat recipes: chicken 208, fish 130, mutton 7, beef 155, lamb 13, prawn/shrimp 40, lobster 4.
+- All 16 tests passed. Raw output: `EXPANDED-MEAT-CATALOG-TEST-OUTPUT.txt`. Tests cover every page of each protein filter, Keyword/Meaning ingredient requirements, vegetarian exclusion, duplicate prevention, idempotent import, provenance preservation, and existing role/security behavior.
+- Browser verified the seven filter counts, mutton results, and lobster detail. Jerk Lobster displayed six original ingredient lines, its full method, servings, source/history links and CC BY-SA license. Missing time and photo values were labeled honestly.
+- Search performance: an EXPLAIN ANALYZE sample spent 10,991.739 ms in LLVM JIT out of 11,266.099 ms total. Recipe lookups now set `jit=off` only within that search transaction. Local development API checks afterwards: lobster 84 ms, mutton 24 ms, beef 34 ms. These are observations on this machine, not performance guarantees.
+- No change to row-level security or session derivation. Existing database-role tests passed after the query optimization.
+- Final production build passed. Production menu showed all seven category counts and 545 public dishes; mutton filter returned seven source-backed recipes. Final snapshot version is `seven-proteins-500-v2`; withdrawn imports are retained with rejected status rather than deleting their saved/review data. Preview: `docs/screenshots/expanded-protein-collection.png`.
