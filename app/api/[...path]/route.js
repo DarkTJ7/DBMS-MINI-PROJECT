@@ -20,8 +20,8 @@ async function handle(request,context) {
   if(key==='meta'&&method==='GET') {
    const [ingredients,cuisines,stats]=await Promise.all([
     sql('SELECT ingredient_id,name,category FROM ingredients ORDER BY name'),
-    sql('SELECT * FROM cuisine_summary ORDER BY cuisine'),
-    sql(`SELECT (SELECT count(*) FROM recipes WHERE status='approved') AS recipes,
+    sql("SELECT cuisine,count(*) AS recipe_count FROM recipes WHERE status='approved' AND NOT is_sample GROUP BY cuisine ORDER BY cuisine"),
+    sql(`SELECT (SELECT count(*) FROM recipes WHERE status='approved' AND NOT is_sample) AS recipes,
      (SELECT count(*) FROM ingredients) AS ingredients,(SELECT cooks FROM public_counts) AS cooks`)]);
    result={ingredients,cuisines,stats:stats[0]};
   }else if(key==='auth/me'&&method==='GET')result={user:await currentUser()};

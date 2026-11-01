@@ -224,3 +224,11 @@ that every photo depicts the exact synthetic ingredient list or cuisine.
 ### Interface updates
 
 The interface uses warm ivory backgrounds, charcoal text and terracotta actions. Motion for React provides short card, pantry-chip and dialog transitions, with reduced-motion support and a nonessential-motion gate on low-core devices. Existing meals stay visible while a search loads; first-load placeholders reserve space.
+
+### Accurate ingredient search and Indian recipes (2026-11-02)
+
+Searches now require any explicitly named ingredient, in both Keyword and Meaning modes. Fish means a required fish ingredient (including salmon/tuna), rather than a recipe that mentions fish sauce or general cooking advice. Named species remain specific. Semantic similarity ranks eligible results and omits weak matches.
+
+The public meal finder excludes synthetic scale-test recipes. Those records remain in PostgreSQL for the admin dashboard and performance exercises. The database includes 40 additional independently written home-style recipes: 10 fish, 10 chicken and 20 everyday Indian meals. Their ingredient quantities and cooking steps are stored together in `data/indian-recipes.mjs`; they are practical home versions, not claims of regional authenticity or kitchen-tested professional recipes. Each new recipe has a different credited representative photo.
+
+For an existing installation, run `npm run db:setup` once before restarting the app. `start-app.ps1` detects the catalogue model version and does this automatically. Setup imports the collection transactionally and idempotently, then refreshes the vector model; rerunning setup does not duplicate recipes. The photo and search tests cover this collection.

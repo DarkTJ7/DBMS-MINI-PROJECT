@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {access,readFile} from 'node:fs/promises';
 import {photoForRecipe,photos,assignments} from '../lib/recipe-photos.mjs';
+import {indianRecipes} from '../data/indian-recipes.mjs';
 
 test('recipe photos follow dish names consistently across recipe IDs',()=>{
  const cases={
@@ -65,4 +66,15 @@ test('the reported chicken soup and two pilafs use different appropriate images'
  // An edit cannot carry a stale photograph from the original assigned dish.
  const original=assignments.find(a=>a.title===titles[0]);
  assert.notEqual(photoForRecipe({recipe_id:original.id,title:'New Garlic Mushrooms'}).src,selected[0].src);
+});
+
+test('the new Indian collection has forty different, stable image files',async()=>{
+ const {createHash}=await import('node:crypto');const files=new Set(),hashes=new Set();
+ for(const recipe of indianRecipes){
+  const photo=photoForRecipe(recipe);assert.ok(!files.has(photo.src),recipe.title);files.add(photo.src);
+  const bytes=await readFile(new URL('../public'+photo.src,import.meta.url));
+  const hash=createHash('sha256').update(bytes).digest('hex');assert.ok(!hashes.has(hash),recipe.title);hashes.add(hash);
+  assert.equal(photoForRecipe({...recipe,recipe_id:999999}).src,photo.src);
+ }
+ assert.equal(files.size,40);
 });

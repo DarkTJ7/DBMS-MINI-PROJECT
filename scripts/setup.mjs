@@ -7,6 +7,7 @@ import { hashPassword } from '../lib/security.mjs';
 import { keepDatabaseAlive } from './wsl.mjs';
 import {starterRecipes} from './starter-recipes.mjs';
 import {embed} from '../lib/embeddings.mjs';
+import {installIndianCatalog} from './indian-catalog.mjs';
 const {Pool}=pg;
 const {loadEnvConfig}=nextEnv;
 function wsl(args,input='') { return execFileSync('wsl',['-d','Ubuntu','-u','postgres','--',...args],{input,encoding:'utf8',stdio:['pipe','pipe','pipe']}); }
@@ -57,19 +58,20 @@ try {
   if(!adminEmail||!adminPassword||adminPassword.length<10)throw new Error('Set ADMIN_EMAIL and a password of at least 10 characters in .env.local.');
   await pool.query(`INSERT INTO users(name,email,password_hash,role) VALUES('PantryChef Admin',$1,$2,'admin')
    ON CONFLICT(email) DO NOTHING`,[adminEmail,hashPassword(adminPassword)]);
-  if(!existsSync('.generated/lsa.json')) {
+  const adminId=(await pool.query('SELECT user_id FROM users WHERE email=$1',[adminEmail])).rows[0].user_id;
+  const catalogChanged=await installIndianCatalog(pool,adminId);
+  if(!existsSync('.generated/lsa.json')||catalogChanged||JSON.parse(readFileSync('.generated/lsa.json','utf8')).catalogVersion!=='indian-home-kitchen-1') {
    console.log('Training 128-dimensional TF-IDF/SVD embeddings...');
    const {rows}=await pool.query(`SELECT r.recipe_id, r.title||' '||r.instructions||' '||string_agg(i.name,' ') AS text
     FROM recipes r JOIN recipe_ingredients ri USING(recipe_id) JOIN ingredients i USING(ingredient_id)
-    WHERE r.embedding IS NOT NULL GROUP BY r.recipe_id ORDER BY r.recipe_id`);
+    WHERE r.status='approved' GROUP BY r.recipe_id ORDER BY r.recipe_id`);
    const result=JSON.parse(execFileSync(process.env.PYTHON_BIN||'python',['scripts/train_embeddings.py'],{input:JSON.stringify(rows),encoding:'utf8',maxBuffer:20*1024*1024}));
    const client=await pool.connect();
    try{await client.query('BEGIN');for(let i=0;i<rows.length;i++)await client.query('UPDATE recipes SET embedding=$1::vector WHERE recipe_id=$2',['['+result.vectors[i].join(',')+']',rows[i].recipe_id]);await client.query('COMMIT');}
    catch(e){await client.query('ROLLBACK');throw e;}finally{client.release();}
-   mkdirSync('.generated',{recursive:true});writeFileSync('.generated/lsa.json',JSON.stringify(result.model));
+   mkdirSync('.generated',{recursive:true});writeFileSync('.generated/lsa.json',JSON.stringify({...result.model,catalogVersion:'indian-home-kitchen-1'}));
    await pool.query('REINDEX INDEX idx_recipes_embedding');await pool.query('ANALYZE');
   }
-  const adminId=(await pool.query('SELECT user_id FROM users WHERE email=$1',[adminEmail])).rows[0].user_id;
   for(const recipe of starterRecipes){
    const exists=await pool.query('SELECT 1 FROM recipes WHERE title=$1 AND NOT is_sample',[recipe.title]);
    if(exists.rows.length)continue;

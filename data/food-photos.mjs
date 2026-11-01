@@ -1,4 +1,3 @@
-// Commons source and license records for locally hosted food photography.
 export default [
   {
     "key": "mushrooms",
@@ -10164,6 +10163,303 @@ export default [
     "key": "dish-e6da5b532cf4",
     "src": "/food/dish-e6da5b532cf4.jpg",
     "subject": "Biryani lahore",
+    "modified": true
+  },
+  {
+    "title": "File:Meen curry 2.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Meen_curry_2.JPG",
+    "author": "Kalakki at Malayalam Wikipedia",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "key": "dish-1775eb168740",
+    "src": "/food/dish-1775eb168740.jpg",
+    "subject": "Meen curry 2",
+    "modified": true
+  },
+  {
+    "title": "File:Kerala spicy Fish Curry.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kerala_spicy_Fish_Curry.jpg",
+    "author": "Ramesh NG",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "key": "dish-96e9443f0569",
+    "src": "/food/dish-96e9443f0569.jpg",
+    "subject": "Kerala spicy Fish Curry",
+    "modified": true
+  },
+  {
+    "title": "File:Fish-curry-rice, Goan-style 02.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fish-curry-rice,_Goan-style_02.jpg",
+    "author": "Fredericknoronha",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-cf2aecc64da5",
+    "src": "/food/dish-cf2aecc64da5.jpg",
+    "subject": "Fish-curry-rice, Goan-style 02",
+    "modified": true
+  },
+  {
+    "title": "File:Fish mustard curry.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fish_mustard_curry.jpg",
+    "author": "Halarghya56",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-8cf3cf447722",
+    "src": "/food/dish-8cf3cf447722.jpg",
+    "subject": "Fish mustard curry",
+    "modified": true
+  },
+  {
+    "title": "File:Masala Fish and Pepper Fish.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Masala_Fish_and_Pepper_Fish.JPG",
+    "author": "Zainakil",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-8bdf9ab5dcb2",
+    "src": "/food/dish-8bdf9ab5dcb2.jpg",
+    "subject": "Masala Fish and Pepper Fish",
+    "modified": true
+  },
+  {
+    "title": "File:Masala fish fry by be hungry.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Masala_fish_fry_by_be_hungry.jpg",
+    "author": "Be Hungry Cooking",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-a3692e24e61a",
+    "src": "/food/dish-a3692e24e61a.jpg",
+    "subject": "Masala fish fry by be hungry",
+    "modified": true
+  },
+  {
+    "title": "File:Sous vide cod 2018.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sous_vide_cod_2018.jpg",
+    "author": "https://sousvideguy.com/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "key": "dish-05e3acb0b69a",
+    "src": "/food/dish-05e3acb0b69a.jpg",
+    "subject": "Sous vide cod 2018",
+    "modified": true
+  },
+  {
+    "title": "File:Chicken Keema Matar.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Keema_Matar.jpg",
+    "author": "Sharnab neogi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-e71a5e4015e5",
+    "src": "/food/dish-e71a5e4015e5.jpg",
+    "subject": "Chicken Keema Matar",
+    "modified": true
+  },
+  {
+    "title": "File:Chicken Tikka 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Tikka_1.jpg",
+    "author": "Yakshitha",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-db30b74cc1c1",
+    "src": "/food/dish-db30b74cc1c1.jpg",
+    "subject": "Chicken Tikka 1",
+    "modified": true
+  },
+  {
+    "title": "File:Dal tadka and naan.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dal_tadka_and_naan.jpg",
+    "author": "Wind Hashira",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-482c096f2e5b",
+    "src": "/food/dish-482c096f2e5b.jpg",
+    "subject": "Dal tadka and naan",
+    "modified": true
+  },
+  {
+    "title": "File:Spicy Khichdi.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Spicy_Khichdi.JPG",
+    "author": "Seena.ge",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-0f7bf0f448ad",
+    "src": "/food/dish-0f7bf0f448ad.jpg",
+    "subject": "Spicy Khichdi",
+    "modified": true
+  },
+  {
+    "title": "File:Indian Sambar.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Indian_Sambar.jpg",
+    "author": "Samphotography",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-0a42a83b28ac",
+    "src": "/food/dish-0a42a83b28ac.jpg",
+    "subject": "Indian Sambar",
+    "modified": true
+  },
+  {
+    "title": "File:Tomato Rasam - Home Made.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Tomato_Rasam_-_Home_Made.JPG",
+    "author": "Mailz2kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-c8f1e4c9b2a4",
+    "src": "/food/dish-c8f1e4c9b2a4.jpg",
+    "subject": "Tomato Rasam - Home Made",
+    "modified": true
+  },
+  {
+    "title": "File:Aloo gobi.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Aloo_gobi.jpg",
+    "author": "Wikimedia Commons contributor",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "key": "dish-273dc43de62c",
+    "src": "/food/dish-273dc43de62c.jpg",
+    "subject": "Aloo gobi",
+    "modified": true
+  },
+  {
+    "title": "File:Aloo Matar.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Aloo_Matar.JPG",
+    "author": "Zeel Patel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-ed42132628e5",
+    "src": "/food/dish-ed42132628e5.jpg",
+    "subject": "Aloo Matar",
+    "modified": true
+  },
+  {
+    "title": "File:Bhindi Masala.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bhindi_Masala.jpg",
+    "author": "Monali.mishra",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-96495f670064",
+    "src": "/food/dish-96495f670064.jpg",
+    "subject": "Bhindi Masala",
+    "modified": true
+  },
+  {
+    "title": "File:Cabbage and Carrot Poriyal.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cabbage_and_Carrot_Poriyal.jpg",
+    "author": "Deviselvam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-98779c6286a9",
+    "src": "/food/dish-98779c6286a9.jpg",
+    "subject": "Cabbage and Carrot Poriyal",
+    "modified": true
+  },
+  {
+    "title": "File:Beans poriyal.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Beans_poriyal.JPG",
+    "author": "Nithyasrm",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-51eb3d8b4045",
+    "src": "/food/dish-51eb3d8b4045.jpg",
+    "subject": "Beans poriyal",
+    "modified": true
+  },
+  {
+    "title": "File:Rajma Chawal Thali.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rajma_Chawal_Thali.jpg",
+    "author": "Medhi jyoti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-26fc68bb9f9a",
+    "src": "/food/dish-26fc68bb9f9a.jpg",
+    "subject": "Rajma Chawal Thali",
+    "modified": true
+  },
+  {
+    "title": "File:Egg bhurji(anda bhurji).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Egg_bhurji(anda_bhurji).jpg",
+    "author": "Siddb6",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-0816aa782399",
+    "src": "/food/dish-0816aa782399.jpg",
+    "subject": "Egg bhurji(anda bhurji)",
+    "modified": true
+  },
+  {
+    "title": "File:Egg curry pic.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Egg_curry_pic.jpg",
+    "author": "Ekabhishek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-c9fe09b532aa",
+    "src": "/food/dish-c9fe09b532aa.jpg",
+    "subject": "Egg curry pic",
+    "modified": true
+  },
+  {
+    "title": "File:Poha.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Poha.jpg",
+    "author": "Sanjay Acharya, aka Sanjay ach at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "key": "dish-938d838c6fca",
+    "src": "/food/dish-938d838c6fca.jpg",
+    "subject": "Poha",
+    "modified": true
+  },
+  {
+    "title": "File:Rava Upma.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rava_Upma.jpg",
+    "author": "Nokib Sarkar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-40ffc9b07d41",
+    "src": "/food/dish-40ffc9b07d41.jpg",
+    "subject": "Rava Upma",
+    "modified": true
+  },
+  {
+    "title": "File:Plain Curd Rice.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Plain_Curd_Rice.jpg",
+    "author": "5boi38",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-37244a1e51fc",
+    "src": "/food/dish-37244a1e51fc.jpg",
+    "subject": "Plain Curd Rice",
+    "modified": true
+  },
+  {
+    "title": "File:Picture of Lemon rice dish.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Picture_of_Lemon_rice_dish.JPG",
+    "author": "Nithyasrm",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-519b0f9a7bdd",
+    "src": "/food/dish-519b0f9a7bdd.jpg",
+    "subject": "Picture of Lemon rice dish",
+    "modified": true
+  },
+  {
+    "title": "File:Poha with tomato sause.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Poha_with_tomato_sause.jpg",
+    "author": "Mrsagar105",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-ef501cd9fde3",
+    "src": "/food/dish-ef501cd9fde3.jpg",
+    "subject": "Poha with tomato sause",
+    "modified": true
+  },
+  {
+    "title": "File:Masala Khichadi.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Masala_Khichadi.jpg",
+    "author": "Dkgohil",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "key": "dish-04f0149b7b40",
+    "src": "/food/dish-04f0149b7b40.jpg",
+    "subject": "Masala Khichadi",
     "modified": true
   }
 ];

@@ -12,7 +12,7 @@ test('end-to-end database and role workflow',{timeout:120000},async()=>{
  const email=`test-${Date.now()}@pantrychef.invalid`;let uid,recipeId;
  try{
   assert.equal((await request('admin')).status,401);
-  const meta=(await request('meta')).data;assert.equal(meta.ingredients.length,84);
+  const meta=(await request('meta')).data;assert.ok(meta.ingredients.length>=84);
   const mushroom=meta.ingredients.find(i=>i.name==='mushroom').ingredient_id;
   const garlic=meta.ingredients.find(i=>i.name==='garlic').ingredient_id;
   const searched=await request('recipes?ingredients='+mushroom);assert.equal(searched.status,200);assert.ok(searched.data.total>0);

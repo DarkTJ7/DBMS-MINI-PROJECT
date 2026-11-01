@@ -174,3 +174,14 @@ card and linked the correct Commons source. Evidence: screenshots/distinct-chick
 - All nine existing database/API/photo/security tests passed. Production build passed.
 - No browser console errors or warnings during the interaction checks. Reduced-motion support was reviewed in code; OS accessibility settings were not changed.
 - Preview: `docs/screenshots/warm-palette-desktop.png`.
+
+## Ingredient relevance and Indian catalogue (2026-11-02)
+
+- All 13 tests pass; raw output is in `SEARCH-RELEVANCE-TEST-OUTPUT.txt`.
+- New regression tests assert actual required fish/chicken links in both search modes, distinguish fish from fish sauce, check exclusions, and check that vegetarian + fish has no results.
+- All 40 additions are present once with matching quantities, units and recipe-specific steps. Repeated setup retains the same catalogue rows.
+- Synthetic rows are excluded from discovery without deleting benchmark data; saved legacy recipes can still be opened.
+- Every new recipe has a distinct local image path and SHA-256 content hash, stable between cards and details. All assets retain author/source/license credits.
+- Browser: searching fish in Keyword returns exactly ten fish recipes; Meaning mode also returns fish dishes. Photos remain illustrative serving suggestions.
+- Home recipes are independently written variants, not externally imported/copyrighted instructions or claims of kitchen testing. Cooking-temperature checks use https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures. General ingredient/method references: https://www.indianhealthyrecipes.com/fish-curry-recipe/ and https://www.indianhealthyrecipes.com/chicken-curry/.
+- Production build passed; production browser check returned ten fish recipes in Meaning mode, each with a distinct image. Indian Fish Masala Curry showed its required fish quantity and five cooking steps. Screenshot: `docs/screenshots/accurate-fish-search.png`.

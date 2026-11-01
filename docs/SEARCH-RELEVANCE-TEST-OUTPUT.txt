@@ -1,0 +1,21 @@
+✔ PostgreSQL enforces visibility, ownership and admin privileges without API guards (269.2821ms)
+✔ end-to-end database and role workflow (2830.9461ms)
+✔ recipe creation is atomic when a foreign key fails (7.8118ms)
+✔ recipe photos follow dish names consistently across recipe IDs (7.017ms)
+✔ every photo is bundled locally and has a source and license credit (614.2637ms)
+✔ every existing recipe has a distinct photo file and identical views agree (760.3676ms)
+✔ the reported chicken soup and two pilafs use different appropriate images (1.6912ms)
+✔ the new Indian collection has forty different, stable image files (24.4112ms)
+✔ ingredient intent separates fish from fish sauce and supports exclusions (3.4785ms)
+✔ fish and chicken require real ingredients in both search modes (268.3178ms)
+✔ curated Indian recipes are installed with complete matching steps and ingredient quantities (224.9881ms)
+✔ passwords are salted and placeholder seed hashes cannot authenticate (317.9609ms)
+✔ validation rejects malformed IDs, unsafe origins, and weak signup passwords (44.8278ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3172.5434
