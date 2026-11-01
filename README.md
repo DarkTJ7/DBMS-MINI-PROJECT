@@ -202,14 +202,21 @@ follow the course's disclosure rules and contribute their own real changes.
 
 ## Real food photographs
 
-Recipe cards, details and the hero use 31 bundled Wikimedia Commons photographs
-instead of CSS bowl illustrations. `lib/recipe-photos.mjs` matches food words in
-the title consistently; synthetic/custom recipes receive representative serving
-suggestions, not a claim that the exact dish was photographed. No Google scraping,
-image-generation service, API key or external image request is needed at runtime.
-The assets are in `public/food/`, metadata in `data/food-photos.mjs`, and credits
-are available through the footer and each recipe detail. Full source and license
-records are in `docs/PHOTO-CREDITS.md` and `/photo-credits.html`. Images are displayed
-with cropping; original downloaded files are unmodified. Missing assets show an
-accessible Photo unavailable placeholder. Catalogue matching and local asset /
-credit completeness are tested in `tests/recipe-photos.test.mjs`.
+The 906 existing recipe records have stable, distinct photo assignments in
+`data/recipe-photo-assignments.mjs`. `lib/recipe-photos.mjs` uses the recipe ID
+and expected title before canonical-title and food-word fallbacks, keeping search,
+cookbook and detail views consistent. The reported Mediterranean chicken soup,
+Mexican chicken pilaf and American chicken pilaf have different soup/rice photos.
+
+The local collection contains 927 credited Commons assets. Photos illustrate
+serving suggestions, not exact recipe photography. They may be resized,
+JPEG-compressed and cropped for display. Source and license records are in
+`data/food-photos.mjs`, `docs/PHOTO-CREDITS.md` and `/photo-credits.html`.
+No image service, API key or external image request is needed while using the app.
+
+New or renamed community dishes use representative fallbacks until a distinct
+photo is added to the assignment manifest. Add a source/license record and local
+asset together, then run the photo tests. Tests verify all 906 existing assignments
+have different paths, sources and image bytes; they also cover the three reported
+recipes and guard against stale photos after title edits. They do not certify
+that every photo depicts the exact synthetic ingredient list or cuisine.

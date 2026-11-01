@@ -138,3 +138,27 @@ The production API returned HTTP 200 and all 31 photo assets returned HTTP 200.
 Desktop starter cards loaded their expected images. A 390px-wide mobile check
 showed a single card column, no horizontal overflow and successfully loaded visible
 photos. Evidence: screenshots/real-food-photos.png and real-food-mobile.png.
+
+## Duplicate photo regression validation - 1 November 2026
+
+Replaced shared ingredient-only images for existing records with 906 stable,
+distinct photo assignments. Expanded the local collection to 927 credited assets.
+Downloaded candidates were screened using Commons file categories, visual review,
+exact hashes and a conservative perceptual-hash comparison. Published images were
+optimized for display, retaining their original source/license credits.
+
+`node --test tests/*.test.mjs`: **9 passed, 0 failed**. The new tests check every
+existing recipe's image path, Commons source and actual image bytes for duplicates,
+plus the Mediterranean Chicken Breast Soup / Mexican Chicken Breast Pilaf /
+American Chicken Breast Pilaf regression and stale-photo protection after edits.
+Raw output is in `PHOTO-DEDUP-TEST-OUTPUT.txt`.
+
+New/renamed submissions require an explicit assignment to join the existing
+catalogue's uniqueness guarantee. Their representative fallback can reuse an image.
+These images are serving suggestions and may differ from synthetic recipes.
+
+Production build passed after the existing advisory reminder was acknowledged by
+retrying the same build. In the browser, a quoted OR search for the three reported
+titles returned five matching records (some titles occur more than once). All five
+used different loaded image URLs. The soup detail retained the same photo as its
+card and linked the correct Commons source. Evidence: screenshots/distinct-chicken-recipes.png.
