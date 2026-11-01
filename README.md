@@ -199,3 +199,17 @@ atomically. Delete also removes its embedding, ingredient links, saves and ratin
 
 The project has Codex assistance. Both members must understand the implementation,
 follow the course's disclosure rules and contribute their own real changes.
+
+## Real food photographs
+
+Recipe cards, details and the hero use 31 bundled Wikimedia Commons photographs
+instead of CSS bowl illustrations. `lib/recipe-photos.mjs` matches food words in
+the title consistently; synthetic/custom recipes receive representative serving
+suggestions, not a claim that the exact dish was photographed. No Google scraping,
+image-generation service, API key or external image request is needed at runtime.
+The assets are in `public/food/`, metadata in `data/food-photos.mjs`, and credits
+are available through the footer and each recipe detail. Full source and license
+records are in `docs/PHOTO-CREDITS.md` and `/photo-credits.html`. Images are displayed
+with cropping; original downloaded files are unmodified. Missing assets show an
+accessible Photo unavailable placeholder. Catalogue matching and local asset /
+credit completeness are tested in `tests/recipe-photos.test.mjs`.

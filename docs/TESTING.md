@@ -118,3 +118,23 @@ change title/instructions, saved successfully, and reopened with the persisted
 values. The form was exercised at a narrow browser size and verified on the
 production build at desktop size. `screenshots/admin-edit.png` captures the editor.
 The temporary recipe was removed after verification; the collection remains 906.
+
+## Real food photograph validation - 1 November 2026
+
+Replaced CSS bowl illustrations with 31 locally hosted Commons photos, matched
+by title words with representative serving-suggestion labels. All seven automated
+tests passed (zero failures), including the two new matching/asset/credit checks;
+raw output is in PHOTO-TEST-OUTPUT.txt. Earlier API, RLS and transaction tests also
+passed. The first API test attempt ran after the development server had stopped
+for its existing Next.js security reminder; it passed after the server restart.
+The known Next.js advisory remains a separate maintenance item.
+
+The browser verified all first five starter-result photos loaded from local paths,
+and confirmed photo source/license links in the detail modal. These are food
+illustrations, not exact photography of all 906 synthetic/starter recipes.
+
+Production build passed after retrying the existing Next.js advisory reminder.
+The production API returned HTTP 200 and all 31 photo assets returned HTTP 200.
+Desktop starter cards loaded their expected images. A 390px-wide mobile check
+showed a single card column, no horizontal overflow and successfully loaded visible
+photos. Evidence: screenshots/real-food-photos.png and real-food-mobile.png.
