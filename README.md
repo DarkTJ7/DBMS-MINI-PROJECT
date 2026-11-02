@@ -10,6 +10,10 @@ A Next.js frontend and backend backed by PostgreSQL and pgvector. Enter pantry
 ingredients, find matching dishes, inspect missing ingredients, and save recipes.
 This implementation follows the supplied DBMS Level 3 project requirements.
 
+## Completed project report
+
+[Download the completed DBMS Project Report (PDF)](docs/reports/PantryChef_DBMS_Project_Report.pdf). The 26-page report follows the supplied template and includes student details, the abstract, technology stack, ER and relational diagrams, SQL and vector commands, the Next.js project tree, code and application screenshots, testing evidence and rubric completion status.
+
 ## On Tarun's machine
 
 Open **this folder**, not a ZIP file, in VS Code. In its PowerShell terminal run:
@@ -95,12 +99,13 @@ app, not an externally deployed service.
 
 ## Data and search behavior
 
-- Default dataset: **906 recipes**, 84 ingredients, 60 original sample users plus
-  the setup admin. It combines 900 synthetic vectorized recipes, one existing
-  seed demo recipe, and five coherent starter recipes. User submissions add more.
+- Public catalogue: **545 approved, non-synthetic recipes**: 500 attributed
+  Wikibooks imports and 45 established dishes. The local report snapshot recorded
+  1,449 total stored rows, including synthetic benchmark and nonpublic records.
+  Synthetic benchmark rows are excluded from normal meal discovery.
 - Matching means **ingredient names**, not quantity sufficiency or substitutions.
-  Only required ingredients count in the percentage. Any required-ingredient
-  overlap qualifies; select **Ready to cook only** to require a complete match.
+  Only required ingredients count in the percentage. Pantry searches require
+  at least **75%** coverage; select **Ready to cook only** to require a complete match.
 - Vegetarian/vegan filters exclude known meat/dairy ingredient names. They are
   catalogue-based examples; unstructured instructions are not certified dietary
   or allergy labels. Stock is conservatively excluded because its origin is unknown.
