@@ -15,8 +15,9 @@ test('end-to-end database and role workflow',{timeout:120000},async()=>{
   const meta=(await request('meta')).data;assert.ok(meta.ingredients.length>=84);
   const mushroom=meta.ingredients.find(i=>i.name==='mushroom').ingredient_id;
   const garlic=meta.ingredients.find(i=>i.name==='garlic').ingredient_id;
-  const searched=await request('recipes?ingredients='+mushroom);assert.equal(searched.status,200);assert.ok(searched.data.total>0);
-  for(const r of searched.data.recipes){const ingredients=await sql('SELECT 1 FROM recipe_ingredients WHERE recipe_id=$1 AND ingredient_id=$2 AND NOT is_optional',[r.recipe_id,mushroom]);assert.equal(ingredients.length,1);}
+  const butter=meta.ingredients.find(i=>i.name==='butter').ingredient_id;
+  const searched=await request('recipes?ingredients='+[mushroom,garlic,butter].join(','));assert.equal(searched.status,200);assert.ok(searched.data.total>0);assert.ok(searched.data.recipes.every(r=>Number(r.match_pct)>=75));
+  for(const r of searched.data.recipes){const ingredients=await sql('SELECT 1 FROM recipe_ingredients WHERE recipe_id=$1 AND ingredient_id=ANY($2::int[]) AND NOT is_optional',[r.recipe_id,[mushroom,garlic,butter]]);assert.ok(ingredients.length>0);}
   const semantic=await request('recipes?mode=semantic&q=creamy%20pasta');assert.equal(semantic.status,200);assert.ok(Number(semantic.data.recipes[0].similarity)>0);
   const keyword=await request('recipes?mode=text&q=chicken');assert.ok(keyword.data.total>0);
   const noMatch=await request('recipes?mode=text&q=zzzzunfindableword');assert.equal(noMatch.data.total,0);

@@ -205,3 +205,12 @@ card and linked the correct Commons source. Evidence: screenshots/distinct-chick
 - Commons candidates were screened using descriptions/categories and visual contact sheets. The selected new downloads were checked for valid dimensions and exact duplicates. The local assets are resized/compressed JPEG files, so the app does not depend on live image-search URLs.
 - All 17 automated tests passed, including the 545-recipe coverage/uniqueness regression and existing database, role, search and security tests. Raw output: `SOURCE-PHOTO-TEST-OUTPUT.txt`.
 - Production build passed. All 500 new image URLs returned HTTP 200 with JPEG content type. Browser verification showed four loaded, distinct lobster card images; Jerk Lobster detail used the identical card image with its author/license link. Evidence: `screenshots/expanded-recipe-photos.png` and `screenshots/expanded-recipe-photo-detail.png`.
+
+
+## Minimum pantry match of 75% (2026-11-02)
+
+- Selecting ingredients and clicking **Find my next meal** now returns only dishes with at least 75% of their required ingredients available. The SQL condition uses ingredient counts before rounding and runs before counting, ordering and pagination. Optional ingredients do not lower the match.
+- The cutoff also applies when keyword/meaning searches or other filters use selected pantry ingredients. Browsing without ingredients and the saved cookbook remain available. **Ready to cook only** still requires all required ingredients.
+- Regression checks include exact 75% and 100% inclusion, 50% and 70% exclusion, two-page pagination with a larger pantry, result totals, and browsing without a pantry.
+- All 18 tests and the production build passed. Raw results: `PANTRY-MATCH-TEST-OUTPUT.txt`.
+- Browser verified Simple Tomato Garlic Rice at 75% with onion listed as missing; lower matches were excluded. Original pantry selections were restored after the check. Evidence: `screenshots/pantry-match-minimum-75.png`.

@@ -37,4 +37,41 @@ test('curated Indian recipes are installed with complete matching steps and ingr
  }
  const discover=await findRecipes({});assert.ok(discover.recipes.every(r=>!r.is_sample));
 });
+
+test('pantry searches include 75% and 100%, exclude 50% and 70%, and paginate after filtering',async()=>{
+ const fixtures=await sql(`SELECT r.recipe_id,array_agg(ri.ingredient_id ORDER BY ri.ingredient_id) AS ids
+  FROM recipes r JOIN recipe_ingredients ri USING(recipe_id)
+  WHERE r.status='approved' AND NOT r.is_sample AND NOT ri.is_optional
+  GROUP BY r.recipe_id HAVING count(*) IN (4,10) ORDER BY r.recipe_id`);
+ const four=fixtures.find(r=>r.ids.length===4),ten=fixtures.find(r=>r.ids.length===10);
+ assert.ok(four&&ten,'The catalogue must include four- and ten-ingredient recipes.');
+ for(const [recipe,matched,included] of [[four,3,true],[four,4,true],[four,2,false],[ten,7,false]]){
+  const ingredientIds=recipe.ids.slice(0,matched);
+  const expected=await sql(`SELECT r.recipe_id FROM recipes r JOIN recipe_ingredients ri USING(recipe_id)
+   WHERE r.status='approved' AND NOT r.is_sample AND NOT ri.is_optional GROUP BY r.recipe_id
+   HAVING count(*) FILTER(WHERE ri.ingredient_id=ANY($1::int[]))*4>=count(*)*3`,[ingredientIds]);
+  const first=await findRecipes({ingredientIds});assert.equal(first.total,expected.length);
+  const found=[];
+  for(let page=1;page<=Math.max(1,Math.ceil(first.total/24));page++){
+   const result=page===1?first:await findRecipes({ingredientIds,page});
+   assert.equal(result.total,first.total);
+   for(const row of result.recipes){assert.ok(Number(row.matched)/Number(row.required)>=0.75);found.push(row.recipe_id);}
+  }
+  assert.deepEqual(new Set(found),new Set(expected.map(r=>r.recipe_id)));
+  assert.equal(found.includes(recipe.recipe_id),included,`${matched}/${recipe.ids.length} boundary`);
+  const ready=await findRecipes({ingredientIds,ready:true});
+  assert.ok(ready.recipes.every(r=>Number(r.matched)===Number(r.required)));
+ }
+ const popularIds=(await sql(`SELECT ri.ingredient_id FROM recipe_ingredients ri JOIN recipes r USING(recipe_id)
+  WHERE r.status='approved' AND NOT r.is_sample AND NOT ri.is_optional
+  GROUP BY ri.ingredient_id ORDER BY count(*) DESC,ri.ingredient_id LIMIT 40`)).map(r=>r.ingredient_id);
+ const page1=await findRecipes({ingredientIds:popularIds}),page2=await findRecipes({ingredientIds:popularIds,page:2});
+ assert.ok(page1.total>24,'Exercise multiple result pages with a larger pantry.');
+ assert.equal(page2.total,page1.total);assert.equal(page1.recipes.length,24);
+ const combined=[...page1.recipes,...page2.recipes];
+ assert.equal(new Set(combined.map(r=>r.recipe_id)).size,combined.length);
+ assert.ok(combined.every(r=>Number(r.matched)/Number(r.required)>=0.75));
+ const publicCount=Number((await sql("SELECT count(*) AS n FROM recipes WHERE status='approved' AND NOT is_sample"))[0].n);
+ assert.equal((await findRecipes({})).total,publicCount,'Browsing without pantry ingredients stays available.');
+});
 test.after(async()=>{await pool().end();globalThis.pantryPool=null;});

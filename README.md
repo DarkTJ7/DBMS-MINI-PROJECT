@@ -24,7 +24,7 @@ terminal before starting again. The server automatically starts and keeps Ubuntu
 WSL's PostgreSQL alive. The existing terminal-demo database is not changed.
 
 1. Enter `mushroom, garlic, butter, pasta, cream` in **Add your ingredients**.
-2. Click **+**, then **Find my next meal**.
+2. Click **+**, then **Find my next meal**. Pantry searches show only recipes for which you have **at least 75% of the required ingredients**. “Ready to cook only” narrows this to 100%; optional ingredients do not lower the match.
 3. Open Creamy Garlic Mushroom Pasta. Required ingredients show green checks;
    missing optional ingredients do not prevent a 100% match.
 4. Create a regular account to save your pantry, rate dishes, and use My cookbook.
