@@ -6737,12 +6737,2920 @@ share alike – If you remix, transform, or build upon the material, you must di
 
 ## dish-ef501cd9fde3
 
-- Source: https://commons.wikimedia.org/wiki/File:Poha_with_tomato_sause.jpg
+- File: public/food/dish-ef501cd9fde3.jpg
 - Author: Mrsagar105
+- Source: https://commons.wikimedia.org/wiki/File:Poha_with_tomato_sause.jpg
 - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
 
 ## dish-04f0149b7b40
 
-- Source: https://commons.wikimedia.org/wiki/File:Masala_Khichadi.jpg
+- File: public/food/dish-04f0149b7b40.jpg
 - Author: Dkgohil
+- Source: https://commons.wikimedia.org/wiki/File:Masala_Khichadi.jpg
 - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-bbb45f413602
+
+- File: public/food/dish-bbb45f413602.jpg
+- Author: Missvain
+- Source: https://commons.wikimedia.org/wiki/File:Water_Grill_-_Las_Vegas_-_Dec_2019_-_Stierch_07.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-3607ed14143d
+
+- File: public/food/dish-3607ed14143d.jpg
+- Author: Ceeseven
+- Source: https://commons.wikimedia.org/wiki/File:Lobster_Bisque_in_Hong_Kong_Fast_Food_Shop.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-5c108ce04c9b
+
+- File: public/food/dish-5c108ce04c9b.jpg
+- Author: Kolforn (Kolforn)
+I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wikimedia project scope.
+
+
+
+ This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original.https://creativecommons.org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue
+- Source: https://commons.wikimedia.org/wiki/File:2014-06-12_Lobster_Thermidor,_Pepperpot,_West_Runton.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-2d93b6cb7d59
+
+- File: public/food/dish-2d93b6cb7d59.jpg
+- Author: Peachyeung316
+- Source: https://commons.wikimedia.org/wiki/File:A_Lobster_Soup_and_Croissant.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-7dd5c0a84334
+
+- File: public/food/dish-7dd5c0a84334.jpg
+- Author: Alpha from Melbourne, Australia
+- Source: https://commons.wikimedia.org/wiki/File:Mutton_Curry_with_Rice_-_Rich_Maha,_Melbourne_(268884344).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-0d7eab610ae7
+
+- File: public/food/dish-0d7eab610ae7.jpg
+- Author: No machine-readable author provided. Thogru assumed (based on copyright claims).
+- Source: https://commons.wikimedia.org/wiki/File:Lamb_kebab.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-a83af26bc563
+
+- File: public/food/dish-a83af26bc563.jpg
+- Author: Shaharbano
+- Source: https://commons.wikimedia.org/wiki/File:Marag_-_Hyderabadi_Mutton_Stew.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9aa28ec68482
+
+- File: public/food/dish-9aa28ec68482.jpg
+- Author: Realanant 1995
+- Source: https://commons.wikimedia.org/wiki/File:Mutton_roast.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-bfcf83a36797
+
+- File: public/food/dish-bfcf83a36797.jpg
+- Author: Miyuki Meinaka
+- Source: https://commons.wikimedia.org/wiki/File:Nabari_Gyujiru,_Beef_Soup_of_Nabari.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-11a08dbaf1bb
+
+- File: public/food/dish-11a08dbaf1bb.jpg
+- Author: Shaharbano
+- Source: https://commons.wikimedia.org/wiki/File:Hyderabadi_marag.JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-98223b70e0cf
+
+- File: public/food/dish-98223b70e0cf.jpg
+- Author: Silpajoset
+- Source: https://commons.wikimedia.org/wiki/File:Mutton_stew.jpeg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-008641a56d3c
+
+- File: public/food/dish-008641a56d3c.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Lamb_chops,_baked_potato,_and_vegetables_-_San_Francisco,_CA.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-313837334eab
+
+- File: public/food/dish-313837334eab.jpg
+- Author: Gmihail at Serbian Wikipedia
+- Source: https://commons.wikimedia.org/wiki/File:Roast_lamb.jpg
+- License: CC BY-SA 3.0 rs (https://creativecommons.org/licenses/by-sa/3.0/rs/deed.en)
+
+## dish-b46a013f9ac5
+
+- File: public/food/dish-b46a013f9ac5.jpg
+- Author: Peachyeung316
+- Source: https://commons.wikimedia.org/wiki/File:Two_of_roasted_lamb_legs.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c4a99ce824ff
+
+- File: public/food/dish-c4a99ce824ff.jpg
+- Author: Evan-Amos
+- Source: https://commons.wikimedia.org/wiki/File:Big_Mac_hamburger.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-0e3b32baf492
+
+- File: public/food/dish-0e3b32baf492.jpg
+- Author: Naotake Murayama from Los Altos, CA, USA
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Lamb_Loin_Chops-03.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-4cc40c60180e
+
+- File: public/food/dish-4cc40c60180e.jpg
+- Author: Naotake Murayama from Los Altos, CA, USA
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Lamb_Loin_Chops-01.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-15669fcaa0e8
+
+- File: public/food/dish-15669fcaa0e8.jpg
+- Author: insatiablemunch
+- Source: https://commons.wikimedia.org/wiki/File:Lamb_Gyros_Sydney.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-4558f3a3fa18
+
+- File: public/food/dish-4558f3a3fa18.jpg
+- Author: HaJunkiyada
+- Source: https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Lamb_Chops_with_Fried_Potatoes_and_Onions.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-7e258540be44
+
+- File: public/food/dish-7e258540be44.jpg
+- Author: P1898
+- Source: https://commons.wikimedia.org/wiki/File:Lamb_kebab_skewer.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-8f1d7e1ac62e
+
+- File: public/food/dish-8f1d7e1ac62e.jpg
+- Author: Worm That Turned
+- Source: https://commons.wikimedia.org/wiki/File:Shepherds_pie.JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-3a4b37fc7835
+
+- File: public/food/dish-3a4b37fc7835.jpg
+- Author: yancy9
+- Source: https://commons.wikimedia.org/wiki/File:Lamb_Chops_With_Guajillo_Chili_Sauce_and_Charro_Beans_(cropped).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-fc5ed0278327
+
+- File: public/food/dish-fc5ed0278327.jpg
+- Author: AAB_BAA
+- Source: https://commons.wikimedia.org/wiki/File:Ground_beef_kebab_(15440562729).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-aba30311c5bd
+
+- File: public/food/dish-aba30311c5bd.jpg
+- Author: Roozitaa
+- Source: https://commons.wikimedia.org/wiki/File:Indian_Shrimp_Curry_3.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-4397c7e5e166
+
+- File: public/food/dish-4397c7e5e166.jpg
+- Author: Rupak76
+- Source: https://commons.wikimedia.org/wiki/File:Malabar_Prawn_Curry.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-999ae9226b02
+
+- File: public/food/dish-999ae9226b02.jpg
+- Author: Jon Sullivan
+- Source: https://commons.wikimedia.org/wiki/File:Shrimp_curry_peas_rice_bowls.jpg
+- License: Public domain (https://commons.wikimedia.org/wiki/File:Shrimp_curry_peas_rice_bowls.jpg)
+
+## dish-93640a7f7126
+
+- File: public/food/dish-93640a7f7126.jpg
+- Author: Ravirajdayal
+- Source: https://commons.wikimedia.org/wiki/File:Prawn_Curry.JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-18b566d6d2e6
+
+- File: public/food/dish-18b566d6d2e6.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Tuna_fish_and_corn_on_lettuce,_with_guacamole,_mango_salsa,_and_black_pepper_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-4cf761759c60
+
+- File: public/food/dish-4cf761759c60.jpg
+- Author: Ted Murphy
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_shrimp_salad.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-cf41d951787b
+
+- File: public/food/dish-cf41d951787b.jpg
+- Author: gran
+- Source: https://commons.wikimedia.org/wiki/File:Fettuccine_with_mushroom-cream_and_shrimp_sauce.jpg
+- License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+
+## dish-e273474e8a93
+
+- File: public/food/dish-e273474e8a93.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Shrimp_and_vegetables_tempura_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-f58593fb14ee
+
+- File: public/food/dish-f58593fb14ee.jpg
+- Author: Andy Li
+- Source: https://commons.wikimedia.org/wiki/File:King_prawns_fried_rice,_Stir_Fry_by_CK.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-9e35b4758828
+
+- File: public/food/dish-9e35b4758828.jpg
+- Author: april kim
+- Source: https://commons.wikimedia.org/wiki/File:Fried_shrimp.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-dcb8ead46c0d
+
+- File: public/food/dish-dcb8ead46c0d.jpg
+- Author: Prayitno / Thank you for (12 millions +) view from Los Angeles, USA
+- Source: https://commons.wikimedia.org/wiki/File:Caesar_Salad_%26_Grilled_Shrimps_(19461199606).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-641a222ace1f
+
+- File: public/food/dish-641a222ace1f.jpg
+- Author: Rberchie
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Shrimps.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-0268992edb7f
+
+- File: public/food/dish-0268992edb7f.jpg
+- Author: Wide Awake!
+- Source: https://commons.wikimedia.org/wiki/File:Egg_Shrimp_Fried_Rice_with_3pcs_Crab_XLB_from_Binondo%27s_Best_at_SM_City_Cebu_(2025-04-13).jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-a0b6e6e86123
+
+- File: public/food/dish-a0b6e6e86123.jpg
+- Author: Atelier Joly
+- Source: https://commons.wikimedia.org/wiki/File:Fish_Pie.jpg
+- License: CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+
+## dish-01149f0e4e34
+
+- File: public/food/dish-01149f0e4e34.jpg
+- Author: T.Tseng
+- Source: https://commons.wikimedia.org/wiki/File:Deep_fried_prawns_with_shells_(almost_like_potato_chips),_saut%C3%A9ed_with_our_special_garlic_sauce,_topped_with_ground_black_pepper.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-cd51408f2339
+
+- File: public/food/dish-cd51408f2339.jpg
+- Author: Punker1999
+- Source: https://commons.wikimedia.org/wiki/File:Shrimp_Pasta.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-15a14f9e1bc2
+
+- File: public/food/dish-15a14f9e1bc2.jpg
+- Author: T.Tseng
+- Source: https://commons.wikimedia.org/wiki/File:Deep_fried_prawns_with_shells,_garlic_sauce,_ground_black_pepper.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-f820e2724989
+
+- File: public/food/dish-f820e2724989.jpg
+- Author: Saint235
+- Source: https://commons.wikimedia.org/wiki/File:The_famous_Goan_Prawns_Curry_Rice.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-4cebcf256cc4
+
+- File: public/food/dish-4cebcf256cc4.jpg
+- Author: Nandhinikandhasamy
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Gravy_02.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c636b4568a9c
+
+- File: public/food/dish-c636b4568a9c.jpg
+- Author: City Foodsters
+- Source: https://commons.wikimedia.org/wiki/File:Shrimp_Head_Miso_Soup.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-ea33260c2740
+
+- File: public/food/dish-ea33260c2740.jpg
+- Author: Deepak Official Id
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Fried_rice.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-3262139aaf9e
+
+- File: public/food/dish-3262139aaf9e.jpg
+- Author: Crisco 1492
+- Source: https://commons.wikimedia.org/wiki/File:Fried_rice_and_chicken,_Banaran9_Cafe,_2014-06-16.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-05467cd22b03
+
+- File: public/food/dish-05467cd22b03.jpg
+- Author: Geoffreyrabbit
+- Source: https://commons.wikimedia.org/wiki/File:Sate_beef_soup_noodles.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-26dd4bd90785
+
+- File: public/food/dish-26dd4bd90785.jpg
+- Author: GKWOCK CTAING HILLTAIN
+- Source: https://commons.wikimedia.org/wiki/File:HK_%E5%8C%97%E5%8D%80_North_District_%E4%B8%8A%E6%B0%B4%E4%B8%AD%E5%BF%83_Sheung_Shui_Centre_%E5%95%86%E5%A0%B4_shopping_mall_shop_%E4%B8%8A%E6%B5%B7%E5%A7%A5%E5%A7%A5_Shanghai_Lao_Lao_Restaurant_food_%E8%99%BE%E4%BB%81%E7%82%92%E9%A3%AF_Peeled_prawn_fried_rice_with_egg_September_2022_Px3_03.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-af6f4a5ac5f5
+
+- File: public/food/dish-af6f4a5ac5f5.jpg
+- Author: HWUANGIAO Maeomn
+- Source: https://commons.wikimedia.org/wiki/File:HK_%E4%BD%90%E6%95%A6_Jordan_%E5%BD%8C%E6%95%A6%E9%81%93_219_Nathan_Road_%E8%8E%8A%E5%A3%AB%E5%80%AB%E6%95%A6%E5%BB%A3%E5%A0%B4_Chuang%27s_Jordan_Plaza_shop_%E6%96%B0%E6%96%B0%E9%85%92%E6%A8%93_Sun_Sun_Restaurant_food_%E8%9D%A6%E4%BB%81_%E7%82%92%E9%A3%AF_fried_peeled_shrimps_prawns_rice_December_2021_SS2_01.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-ef8a1cfa536c
+
+- File: public/food/dish-ef8a1cfa536c.jpg
+- Author: Ralff Nestor Nacor
+- Source: https://commons.wikimedia.org/wiki/File:Sakura_Shrimp_Fried_Rice_(Taiwan).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-a293f8292761
+
+- File: public/food/dish-a293f8292761.jpg
+- Author: Junze93
+- Source: https://commons.wikimedia.org/wiki/File:Fish_Soup.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-abf20279080d
+
+- File: public/food/dish-abf20279080d.jpg
+- Author: Missvain
+- Source: https://commons.wikimedia.org/wiki/File:Maya_Spaghetti_with_Shrimp_-_September_2022_-_Sarah_Stierch.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-d03f0eb896da
+
+- File: public/food/dish-d03f0eb896da.jpg
+- Author: Mereman at English Wikipedia
+- Source: https://commons.wikimedia.org/wiki/File:Smorgatarta.JPG
+- License: CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+
+## dish-8f974a9860f8
+
+- File: public/food/dish-8f974a9860f8.jpg
+- Author: Sankar 1995
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Prawn_and_chicken_kebab_in_restaurant_by_sankar.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-43c0dca0ca08
+
+- File: public/food/dish-43c0dca0ca08.jpg
+- Author: Nicholas Gemini
+- Source: https://commons.wikimedia.org/wiki/File:Pizza_with_shrimp_and_salad_02.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-382e6743586b
+
+- File: public/food/dish-382e6743586b.jpg
+- Author: TOMW maowu LOU ShaSha
+- Source: https://commons.wikimedia.org/wiki/File:HK_SWH_%E8%A5%BF%E7%81%A3%E6%B2%B3_Sai_Wan_Ho_SKW_%E7%AD%B2%E7%AE%95%E7%81%A3%E9%81%93_33_Shau_Kei_Wan_Road_shop_%E9%BA%97%E7%81%A3%E5%A4%A7%E5%BB%88_Lai_Wan_Building_%E6%B5%B7%E5%AF%B6%E6%BC%81%E6%B8%AF_Ocean_Treasure_Seafood_Restaurant_diner_%E8%9D%A6%E4%BB%81%E7%81%AB%E8%85%BF%E7%82%92%E9%A3%AF_food_stir-fried_rice_with_shrimp_March_2026_N13P_01.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-17b26aa470aa
+
+- File: public/food/dish-17b26aa470aa.jpg
+- Author: ayako
+- Source: https://commons.wikimedia.org/wiki/File:Deep_fried_shrimp_mince_toast.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-4c1fa65fcdf6
+
+- File: public/food/dish-4c1fa65fcdf6.jpg
+- Author: FranHogan
+- Source: https://commons.wikimedia.org/wiki/File:Fried_shrimp_sandwich_with_rice_and_beans.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-415a7ac7cdff
+
+- File: public/food/dish-415a7ac7cdff.jpg
+- Author: Ser Amantio di Nicolao
+- Source: https://commons.wikimedia.org/wiki/File:Skrimp_Shack_fried_shrimp_dinner_with_french_fries_in_styrofoam.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-b7e1dbbfb0b9
+
+- File: public/food/dish-b7e1dbbfb0b9.jpg
+- Author: Ralff Nestor Nacor
+- Source: https://commons.wikimedia.org/wiki/File:Shrimp_Garlic_Pasta.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-3322dcc56f4c
+
+- File: public/food/dish-3322dcc56f4c.jpg
+- Author: goanfishcurryrice3
+- Source: https://commons.wikimedia.org/wiki/File:Fish_Curry_rice_plate_(25311634191).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-47f9180d1cf3
+
+- File: public/food/dish-47f9180d1cf3.jpg
+- Author: Pradeepraajkumar1981
+- Source: https://commons.wikimedia.org/wiki/File:Tuna_Fish_curry_South_Indian_Style.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-420bd0d716cb
+
+- File: public/food/dish-420bd0d716cb.jpg
+- Author: Ryczka
+- Source: https://commons.wikimedia.org/wiki/File:Acorn_crust_salmon.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-57b8316e9b29
+
+- File: public/food/dish-57b8316e9b29.jpg
+- Author: Alpha
+- Source: https://commons.wikimedia.org/wiki/File:Tuna_Salad.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-2fb4b2e2c55f
+
+- File: public/food/dish-2fb4b2e2c55f.jpg
+- Author: Benoît Prieur
+- Source: https://commons.wikimedia.org/wiki/File:Beef_noodle_soup_Pine_and_Crane_DTLA_(July_2022).jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-10ff2dd6e7db
+
+- File: public/food/dish-10ff2dd6e7db.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:White_rice_and_stew_with_fish_in_White_plate.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-3b8638587f26
+
+- File: public/food/dish-3b8638587f26.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_fish_with_jollof_rice_and_fried_irish_potatoes.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-f794ca7de21f
+
+- File: public/food/dish-f794ca7de21f.jpg
+- Author: Gerda Arendt
+- Source: https://commons.wikimedia.org/wiki/File:Mainz,_Favorite,_halibut_with_asparagus.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-09c48b002b23
+
+- File: public/food/dish-09c48b002b23.jpg
+- Author: HaJunkiyada
+- Source: https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Tilapia_with_roasted_zucchini_and_sweet_potato.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-3b8bf7f19f7d
+
+- File: public/food/dish-3b8bf7f19f7d.jpg
+- Author: Joegoaukfishcurry2
+- Source: https://commons.wikimedia.org/wiki/File:Goan_Fish_Curry_Rice.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-58c6977d13d6
+
+- File: public/food/dish-58c6977d13d6.jpg
+- Author: MOIBARDE
+- Source: https://commons.wikimedia.org/wiki/File:Stew_with_fish.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-83082bd5e9fd
+
+- File: public/food/dish-83082bd5e9fd.jpg
+- Author: goanfishcurryrice3
+- Source: https://commons.wikimedia.org/wiki/File:Fish_Currty_Rice_(24578903884).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-8d589cbfbfd3
+
+- File: public/food/dish-8d589cbfbfd3.jpg
+- Author: Edithobayaa1
+- Source: https://commons.wikimedia.org/wiki/File:Fante_Kelley_with_fried_fish_and_egg.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-3d3730358a53
+
+- File: public/food/dish-3d3730358a53.jpg
+- Author: Kars Alfrink from Utrecht, Netherlands
+- Source: https://commons.wikimedia.org/wiki/File:Sliced_fish_soup,_Pek_Kio_Market_%26_Food_Centre_(25065937730).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-2da549dfd9a8
+
+- File: public/food/dish-2da549dfd9a8.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Catfish_pepper_soup_with_vegetables.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9005fb686ceb
+
+- File: public/food/dish-9005fb686ceb.jpg
+- Author: Pava
+- Source: https://commons.wikimedia.org/wiki/File:%2215_-_ITALY_-_grill_salmon_with_lattuce.jpg
+- License: CC BY-SA 3.0 it (https://creativecommons.org/licenses/by-sa/3.0/it/deed.en)
+
+## dish-3b4b30275cdf
+
+- File: public/food/dish-3b4b30275cdf.jpg
+- Author: Andrew Dunn
+- Source: https://commons.wikimedia.org/wiki/File:Fish_and_chips.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-40b063fffad6
+
+- File: public/food/dish-40b063fffad6.jpg
+- Author: Jkwinter
+- Source: https://commons.wikimedia.org/wiki/File:Srilankan_fish_curry.JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-1384ffb05984
+
+- File: public/food/dish-1384ffb05984.jpg
+- Author: Kwameghana(Bright Kwame Ayisi)
+- Source: https://commons.wikimedia.org/wiki/File:Okro_stew_with_fish_in_bowl.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-0c890cce5cd4
+
+- File: public/food/dish-0c890cce5cd4.jpg
+- Author: Mack Male from Edmonton, AB, Canada
+- Source: https://commons.wikimedia.org/wiki/File:Baked_Cod_%26_Lentils_(39560294202).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-d25a4f1fe086
+
+- File: public/food/dish-d25a4f1fe086.jpg
+- Author: Mack Male from Edmonton, AB, Canada
+- Source: https://commons.wikimedia.org/wiki/File:Baked_Cod_%26_Lentils_(38881075884).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-8fabf984a348
+
+- File: public/food/dish-8fabf984a348.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Tuna_salad_on_mixed_greens,_with_corn,_carrots,_tomatoes,_olive_oil,_red_vinegar,_and_black_pepper_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-2b732af5cfc4
+
+- File: public/food/dish-2b732af5cfc4.jpg
+- Author: Iain Cameron
+- Source: https://commons.wikimedia.org/wiki/File:My_Cullen_Skink_Soup.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-dca0a7ea1f55
+
+- File: public/food/dish-dca0a7ea1f55.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Dry_fish_pepper_soup_2.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-bba53fbbc820
+
+- File: public/food/dish-bba53fbbc820.jpg
+- Author: Bagaball
+- Source: https://commons.wikimedia.org/wiki/File:Akan_Ghanaian_Palm_Nut_Soup.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-3af135ffee65
+
+- File: public/food/dish-3af135ffee65.jpg
+- Author: MOs810
+- Source: https://commons.wikimedia.org/wiki/File:Fish_soup_in_Poznan.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-3cc99f691f7a
+
+- File: public/food/dish-3cc99f691f7a.jpg
+- Author: Tiia Monto
+- Source: https://commons.wikimedia.org/wiki/File:Salmon_soup.png
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-3e9f45460de6
+
+- File: public/food/dish-3e9f45460de6.jpg
+- Author: Daniel Paullll
+- Source: https://commons.wikimedia.org/wiki/File:Beans_with_fried_fish.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8ab95a5e267d
+
+- File: public/food/dish-8ab95a5e267d.jpg
+- Author: Muslim 23x
+- Source: https://commons.wikimedia.org/wiki/File:Egyptian_fish_stew.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9e06342478e2
+
+- File: public/food/dish-9e06342478e2.jpg
+- Author: Bicanski on Pixnio
+- Source: https://commons.wikimedia.org/wiki/File:Fish_tomato_stew.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-abe75ce9bd9d
+
+- File: public/food/dish-abe75ce9bd9d.jpg
+- Author: Salil Kumar Mukherjee
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Fish_finger.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-d560c6148fed
+
+- File: public/food/dish-d560c6148fed.jpg
+- Author: Gordon Joly
+- Source: https://commons.wikimedia.org/wiki/File:Beer_Battered_Fish_and_Chips.jpg
+- License: CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+
+## dish-a3d2f244b5bb
+
+- File: public/food/dish-a3d2f244b5bb.jpg
+- Author: ShmilyDigital
+- Source: https://commons.wikimedia.org/wiki/File:Fish_Fillet_Fingers.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-eda15f723528
+
+- File: public/food/dish-eda15f723528.jpg
+- Author: Gerda Arendt
+- Source: https://commons.wikimedia.org/wiki/File:Fish_soup,_Ibiza.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-dd0da6259757
+
+- File: public/food/dish-dd0da6259757.jpg
+- Author: Julan Shirwod Nueva
+- Source: https://commons.wikimedia.org/wiki/File:Pritong_Isda_(Fried_Fish).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-4907e596ac7a
+
+- File: public/food/dish-4907e596ac7a.jpg
+- Author: Armineaghayan
+- Source: https://commons.wikimedia.org/wiki/File:Pan-fried_white_fish_fillet_with_vegetables.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8ef2878b52f6
+
+- File: public/food/dish-8ef2878b52f6.jpg
+- Author: Bembety
+- Source: https://commons.wikimedia.org/wiki/File:Stew_02.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-054209ea768d
+
+- File: public/food/dish-054209ea768d.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Creamy_salmon_soup_at_Red_Onion_in_January_2023.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-aedd08455b39
+
+- File: public/food/dish-aedd08455b39.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:White_rice_and_beans_with_egg_and_dry_fish_stew_side_of_carrot_and_cucumber_with_chilled_zobo.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-f889712c78f5
+
+- File: public/food/dish-f889712c78f5.jpg
+- Author: Sergey A. Demidov / Sergey A. Demidov
+- Source: https://commons.wikimedia.org/wiki/File:20251210_Halibut_dish_in_Moscow.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-4485a42d70e0
+
+- File: public/food/dish-4485a42d70e0.jpg
+- Author: GeoTrinity
+- Source: https://commons.wikimedia.org/wiki/File:Fish_Mulligatawny_Soup_-_Pollack_with_Yam_Sweet_Potatoes.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-6578ee8e93bf
+
+- File: public/food/dish-6578ee8e93bf.jpg
+- Author: Aarno at English Wikibooks
+- Source: https://commons.wikimedia.org/wiki/File:Gravlax.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-9b4ad37df12e
+
+- File: public/food/dish-9b4ad37df12e.jpg
+- Author: Mack Male from Edmonton, AB, Canada
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Sockeye_Salmon_Medallions_(3083265855).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-d6b5463a651f
+
+- File: public/food/dish-d6b5463a651f.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Lunch_with_European_hake_at_Eatery_Lund.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-e051c495e7ed
+
+- File: public/food/dish-e051c495e7ed.jpg
+- Author: Bdx
+- Source: https://commons.wikimedia.org/wiki/File:D%C5%BEiaugsmas,_4_July_2025,_halibut.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-a6057cda5fb0
+
+- File: public/food/dish-a6057cda5fb0.jpg
+- Author: Wikimedia Commons contributors
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Seabass_fish_23_January_2025_Filipinas2.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-6dc6cd2ebe41
+
+- File: public/food/dish-6dc6cd2ebe41.jpg
+- Author: Syced
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_salmon_at_French_restaurant_in_Tokyo.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-7efbcfee6a4e
+
+- File: public/food/dish-7efbcfee6a4e.jpg
+- Author: ProjectManhattan
+- Source: https://commons.wikimedia.org/wiki/File:Sliced_fish_vermicelli_soup.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-d267b61295dc
+
+- File: public/food/dish-d267b61295dc.jpg
+- Author: Roenashy
+- Source: https://commons.wikimedia.org/wiki/File:Stewed_Fish_01.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c1e809680114
+
+- File: public/food/dish-c1e809680114.jpg
+- Author: Justdifference
+- Source: https://commons.wikimedia.org/wiki/File:Rice_Served_with_Stew,_Cow_Leg_and_fish.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-b19bc8520b3d
+
+- File: public/food/dish-b19bc8520b3d.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Fillet_of_salmon_at_restaurant_Alter_Ego,_Tallinn,_Estonia.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-7f501eca16a0
+
+- File: public/food/dish-7f501eca16a0.jpg
+- Author: Aderiqueza
+- Source: https://commons.wikimedia.org/wiki/File:Pot_of_Stew.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-6eb10a48fa12
+
+- File: public/food/dish-6eb10a48fa12.jpg
+- Author: User:Justinc
+- Source: https://commons.wikimedia.org/wiki/File:Kedgeree.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-aaeb90a870a5
+
+- File: public/food/dish-aaeb90a870a5.jpg
+- Author: Agbapulonwu cherish
+- Source: https://commons.wikimedia.org/wiki/File:Nigerian_Roasted_Plantain_With_Stew_and_Fish.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-dc21fdb32780
+
+- File: public/food/dish-dc21fdb32780.jpg
+- Author: Fine acer
+- Source: https://commons.wikimedia.org/wiki/File:Yam,_fish_and_stew.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9b3a94269a78
+
+- File: public/food/dish-9b3a94269a78.jpg
+- Author: Tesleemah
+- Source: https://commons.wikimedia.org/wiki/File:Pepper_soup.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-498e1482850a
+
+- File: public/food/dish-498e1482850a.jpg
+- Author: HaJunkiyada
+- Source: https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Homemade_salmon_with_snow_peas.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-1cc786e28afc
+
+- File: public/food/dish-1cc786e28afc.jpg
+- Author: Missvain
+- Source: https://commons.wikimedia.org/wiki/File:Della_Santina%27s_-_salmon_risotto_-_March_2023_-_Sarah_Stierch.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-658966d4b005
+
+- File: public/food/dish-658966d4b005.jpg
+- Author: Jostbrain
+- Source: https://commons.wikimedia.org/wiki/File:Cat_Fish_pepper_soup.png
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-5c5f7a8f82b3
+
+- File: public/food/dish-5c5f7a8f82b3.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Rice_and_beans_with_stew_and_fish.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-a9d81e150ee4
+
+- File: public/food/dish-a9d81e150ee4.jpg
+- Author: Tiia Monto
+- Source: https://commons.wikimedia.org/wiki/File:Baked_salmon_2.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-1bc7eb00e9b6
+
+- File: public/food/dish-1bc7eb00e9b6.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Salmon_soup_in_Ruotsinpyht%C3%A4%C3%A4.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-f1fd1447deea
+
+- File: public/food/dish-f1fd1447deea.jpg
+- Author: E4024
+- Source: https://commons.wikimedia.org/wiki/File:Fish_soup_(Bal%C4%B1k_%C3%A7orbas%C4%B1).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-68d20783d5e8
+
+- File: public/food/dish-68d20783d5e8.jpg
+- Author: T.Tseng
+- Source: https://commons.wikimedia.org/wiki/File:Shishito_peppers_and_anchovies,_daikon_pickles,_fish_cake_soup.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-aa6aaeae9944
+
+- File: public/food/dish-aa6aaeae9944.jpg
+- Author: Gerda Arendt
+- Source: https://commons.wikimedia.org/wiki/File:Fish_soup,_Porto_Moniz,_Madeira.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-2bbe9cd6ca2d
+
+- File: public/food/dish-2bbe9cd6ca2d.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Vegetable_soup_with_fish_and_Pomo.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-6524724de1e0
+
+- File: public/food/dish-6524724de1e0.jpg
+- Author: Under the same moon...
+- Source: https://commons.wikimedia.org/wiki/File:Moqueca_(Brazilian_fish_stew)_(20326498234).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-3f6185737d41
+
+- File: public/food/dish-3f6185737d41.jpg
+- Author: jeffreyw
+- Source: https://commons.wikimedia.org/wiki/File:Tuna_salad_sandwich.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-cd2418e5afb2
+
+- File: public/food/dish-cd2418e5afb2.jpg
+- Author: daSupremo
+- Source: https://commons.wikimedia.org/wiki/File:Okro_stew_in_a_bowl.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-b05a0bb2d63d
+
+- File: public/food/dish-b05a0bb2d63d.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Fish_spaghetti_jollof.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-42d7d4df88ca
+
+- File: public/food/dish-42d7d4df88ca.jpg
+- Author: Yef
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Fish.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c43d14734510
+
+- File: public/food/dish-c43d14734510.jpg
+- Author: Royalesignature
+- Source: https://commons.wikimedia.org/wiki/File:Rice_beans_and_Spag_with_stew_and_cat_fish.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-ea23d47f31d3
+
+- File: public/food/dish-ea23d47f31d3.jpg
+- Author: Marsilar
+- Source: https://commons.wikimedia.org/wiki/File:02025_0353_Fish_soup.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8b9621c0a178
+
+- File: public/food/dish-8b9621c0a178.jpg
+- Author: BishopNana
+- Source: https://commons.wikimedia.org/wiki/File:Native_Fresh_Fish_stew.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-eaac5a2280fc
+
+- File: public/food/dish-eaac5a2280fc.jpg
+- Author: Gaurav Dhwaj Khadka
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Fish_2.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-31346b745564
+
+- File: public/food/dish-31346b745564.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Fish_pies_and_fish_rolls.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-63e3274e647f
+
+- File: public/food/dish-63e3274e647f.jpg
+- Author: MOs810
+- Source: https://commons.wikimedia.org/wiki/File:Fish_soup_G%C4%85ski.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-0989199156e4
+
+- File: public/food/dish-0989199156e4.jpg
+- Author: Offordile234
+- Source: https://commons.wikimedia.org/wiki/File:FRIED_PLANTAIN_FISH.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-08dbc37eb094
+
+- File: public/food/dish-08dbc37eb094.jpg
+- Author: E4024
+- Source: https://commons.wikimedia.org/wiki/File:Fish_soup_in_Ankara.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-2fec9a15d4f9
+
+- File: public/food/dish-2fec9a15d4f9.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Peppered_Grilled_fish_with_fried_Irish,_ketchup_and_lemon.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-7b667c67f602
+
+- File: public/food/dish-7b667c67f602.jpg
+- Author: Nancy Nwachukwu
+- Source: https://commons.wikimedia.org/wiki/File:Unripe_plantain_porridge_with_stock_fish_cuts.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-7d5df52d1ab9
+
+- File: public/food/dish-7d5df52d1ab9.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:White_rice_and_stew_with_fish.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-b5aea1fdf849
+
+- File: public/food/dish-b5aea1fdf849.jpg
+- Author: Peachyeung316
+- Source: https://commons.wikimedia.org/wiki/File:Home_style_Beef_Curry_with_carrot_and_potatoes.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-7a39b02c276d
+
+- File: public/food/dish-7a39b02c276d.jpg
+- Author: Ceeseven
+- Source: https://commons.wikimedia.org/wiki/File:Japanese_Curry_Chicken_and_Fried_Egg_with_Rice.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-a938d5864ac8
+
+- File: public/food/dish-a938d5864ac8.jpg
+- Author: Buck
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Stroganoff_%26_Egg_Noodles.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-6342e1a2c376
+
+- File: public/food/dish-6342e1a2c376.jpg
+- Author: Vyacheslav Argenberg
+- Source: https://commons.wikimedia.org/wiki/File:Beef_noodle_soup,_Rostov-on-Don,_Russia.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-288aaa578444
+
+- File: public/food/dish-288aaa578444.jpg
+- Author: Missvain
+- Source: https://commons.wikimedia.org/wiki/File:Beef_stew_at_Swiss_Hotel_-_Sarah_Stierch.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-50a00cdbbc0b
+
+- File: public/food/dish-50a00cdbbc0b.jpg
+- Author: Peachyeung316
+- Source: https://commons.wikimedia.org/wiki/File:Beef_noodle_soup_with_choi_sam_and_mushrooms.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-ac1500c3c300
+
+- File: public/food/dish-ac1500c3c300.jpg
+- Author: Pannet
+- Source: https://commons.wikimedia.org/wiki/File:Noodle_soup_beef_03.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-25d3ae68e9a1
+
+- File: public/food/dish-25d3ae68e9a1.jpg
+- Author: Vranak
+- Source: https://commons.wikimedia.org/wiki/File:Roast_Beef_Dip_lunch.JPG
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-ab1c45e216d2
+
+- File: public/food/dish-ab1c45e216d2.jpg
+- Author: Tokumeigakarinoaoshima
+- Source: https://commons.wikimedia.org/wiki/File:Beef_stew_meal_of_Nakau.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-21ae77360003
+
+- File: public/food/dish-21ae77360003.jpg
+- Author: Bajinra
+- Source: https://commons.wikimedia.org/wiki/File:Roast_Beef_Sandwich.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-207b46f8ab62
+
+- File: public/food/dish-207b46f8ab62.jpg
+- Author: Willis Lam
+- Source: https://commons.wikimedia.org/wiki/File:Dickey%27s_BBQ_Beef_Brisket_Classic_Sandwich_(28545540178).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-c62b33e30614
+
+- File: public/food/dish-c62b33e30614.jpg
+- Author: Gary Lum
+- Source: https://commons.wikimedia.org/wiki/File:Meatloaf_With_Cauliflower_Pumpkin_Mash_And_Avocado_(67915371).jpeg
+- License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+
+## dish-5c2de94fccbc
+
+- File: public/food/dish-5c2de94fccbc.jpg
+- Author: E4024
+- Source: https://commons.wikimedia.org/wiki/File:Beef_stew_with_dried_plums.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c891465d1d92
+
+- File: public/food/dish-c891465d1d92.jpg
+- Author: P1898
+- Source: https://commons.wikimedia.org/wiki/File:Sauteed_beef_and_mushroom_casserole.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-32a6246d3118
+
+- File: public/food/dish-32a6246d3118.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Hot_Beef_Burger_at_Morrison%27s.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c5c42ed9049b
+
+- File: public/food/dish-c5c42ed9049b.jpg
+- Author: Elizabeth from Lansing, MI, USA
+- Source: https://commons.wikimedia.org/wiki/File:KC_BBQ_Beef_Brisket_Sandwich_(3423558731).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-6416850569ed
+
+- File: public/food/dish-6416850569ed.jpg
+- Author: Fumikas Sagisavas
+- Source: https://commons.wikimedia.org/wiki/File:Cheese_and_beef_burger.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-d6edfc914b9c
+
+- File: public/food/dish-d6edfc914b9c.jpg
+- Author: JungleCrow (talk)
+- Source: https://commons.wikimedia.org/wiki/File:Domdom_beef_croquette_burger.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-eb0c7f4e861e
+
+- File: public/food/dish-eb0c7f4e861e.jpg
+- Author: Andrejj
+- Source: https://commons.wikimedia.org/wiki/File:Beef_soup.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-56da3e5552fd
+
+- File: public/food/dish-56da3e5552fd.jpg
+- Author: TurnOnTheNight
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Kebab_at_2026_BIFC_20260905151757.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-d2c468460da7
+
+- File: public/food/dish-d2c468460da7.jpg
+- Author: Benoît Prieur
+- Source: https://commons.wikimedia.org/wiki/File:Beef_kebab_(Carousel_Restaurant_Hollywood)_July_2023.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-4bc11e116028
+
+- File: public/food/dish-4bc11e116028.jpg
+- Author: Finbar.concaig
+- Source: https://commons.wikimedia.org/wiki/File:Curry_beef_pie.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-0ba430ccf3c9
+
+- File: public/food/dish-0ba430ccf3c9.jpg
+- Author: Jess Lander from Culver City, CA, USA
+- Source: https://commons.wikimedia.org/wiki/File:Pakistani_gobi_aloo,_seekh_kebab,_and_beef_karahi.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-002d03389445
+
+- File: public/food/dish-002d03389445.jpg
+- Author: AlbertCahalan
+- Source: https://commons.wikimedia.org/wiki/File:Cookbook-beef-stew.jpg
+- License: Public domain (https://commons.wikimedia.org/wiki/File:Cookbook-beef-stew.jpg)
+
+## dish-2ab1ce7e04b9
+
+- File: public/food/dish-2ab1ce7e04b9.jpg
+- Author: Guilhem Vellut from Paris, France
+- Source: https://commons.wikimedia.org/wiki/File:Stir-fried_beef,_Fire_Town,_Montparnasse,_Paris_002.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-7c6c3c79e65a
+
+- File: public/food/dish-7c6c3c79e65a.jpg
+- Author: Geoffreyrabbit
+- Source: https://commons.wikimedia.org/wiki/File:Angus_beef_steak_with_potato.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-a9dfbace0d2a
+
+- File: public/food/dish-a9dfbace0d2a.jpg
+- Author: Peachyeung316
+- Source: https://commons.wikimedia.org/wiki/File:Baked_pasta_with_Beef_tongue_and_tomato_sauce_from_Kam_Kee_Cafe.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-19025a0d79f9
+
+- File: public/food/dish-19025a0d79f9.jpg
+- Author: Marife.altabano
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Pepperoni_Pizza.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-e38131dad87d
+
+- File: public/food/dish-e38131dad87d.jpg
+- Author: Mark Pellegrini
+- Source: https://commons.wikimedia.org/wiki/File:Chili_con_carne_2.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-f8dfbc0cfe4d
+
+- File: public/food/dish-f8dfbc0cfe4d.jpg
+- Author: jeffreyw
+- Source: https://commons.wikimedia.org/wiki/File:Beef_barley_soup_(15439896429).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-8051707284d2
+
+- File: public/food/dish-8051707284d2.jpg
+- Author: Gurman chef
+- Source: https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%B2%D0%B5%D0%B4%D1%81%D0%BA%D0%B8_%D0%B1%D0%B8%D1%84%D1%82%D0%B5%D0%BA,_Beef_steak_cooked_on_charcoal_grill.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-58920032184a
+
+- File: public/food/dish-58920032184a.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Minced_beef_steak_at_restaurant_Jyv%C3%A4nen.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-82726fcd5712
+
+- File: public/food/dish-82726fcd5712.jpg
+- Author: DC
+- Source: https://commons.wikimedia.org/wiki/File:Boeuf_bourguignon_servi_avec_des_p%C3%A2tes.jpg
+- License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+
+## dish-5f7fddacb475
+
+- File: public/food/dish-5f7fddacb475.jpg
+- Author: Acabashi
+- Source: https://commons.wikimedia.org/wiki/File:Roast_beef_dinner_at_Black_Horse_Inn,_Nuthurst,_West_Sussex,_England.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-5aef366d0e01
+
+- File: public/food/dish-5aef366d0e01.jpg
+- Author: Peachyeung316
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Ham_and_Beef_steaks_in_Carving_Trolley.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-cfc941572c5c
+
+- File: public/food/dish-cfc941572c5c.jpg
+- Author: Archie MacDonald52
+- Source: https://commons.wikimedia.org/wiki/File:Beef_fillet_steak_with_mushrooms.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-e735776d1d64
+
+- File: public/food/dish-e735776d1d64.jpg
+- Author: Alpha from Melbourne, Australia
+- Source: https://commons.wikimedia.org/wiki/File:Curry_Beef_Pepper_Rice.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-6cf454fe6e47
+
+- File: public/food/dish-6cf454fe6e47.jpg
+- Author: jeffreyw
+- Source: https://commons.wikimedia.org/wiki/File:Mmm...veggie_beef_soup_(4320521264).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-992d89b0b771
+
+- File: public/food/dish-992d89b0b771.jpg
+- Author: avlxyz
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Beef_Dumplings_-_Camy,_Melbourne.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-d3ce25c76782
+
+- File: public/food/dish-d3ce25c76782.jpg
+- Author: YKanchan07
+- Source: https://commons.wikimedia.org/wiki/File:Burger_pizza_made_by_me.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c23ec40be4e2
+
+- File: public/food/dish-c23ec40be4e2.jpg
+- Author: Horacio Cambeiro
+- Source: https://commons.wikimedia.org/wiki/File:Bife_argentino_a_la_plancha_%E2%80%A2_Argentine_grilled_steak.jpg
+- License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+
+## dish-35b6f708c537
+
+- File: public/food/dish-35b6f708c537.jpg
+- Author: hiwarz
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_steak_with_baked_potato_and_gravy.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-c09e8466274c
+
+- File: public/food/dish-c09e8466274c.jpg
+- Author: Silar
+- Source: https://commons.wikimedia.org/wiki/File:020221029_155200_Roast_beef,_Bistro_Galicia.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-d209189752f8
+
+- File: public/food/dish-d209189752f8.jpg
+- Author: Solomon203
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Burger_sold_from_JB_Burger_20201011.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c1143b45557a
+
+- File: public/food/dish-c1143b45557a.jpg
+- Author: Zheng Zhou
+- Source: https://commons.wikimedia.org/wiki/File:Corned_Beef_Sandwich.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-bae493a26d58
+
+- File: public/food/dish-bae493a26d58.jpg
+- Author: Zingarese
+- Source: https://commons.wikimedia.org/wiki/File:Lion%E2%80%99s_Choice_Original_Roast_Beef_Sandwich_cooked_well_done.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-e0e33e4e874f
+
+- File: public/food/dish-e0e33e4e874f.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Beef_stew_with_potatoes_and_carrots_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-9e2d41426dc8
+
+- File: public/food/dish-9e2d41426dc8.jpg
+- Author: Horacio Cambeiro
+- Source: https://commons.wikimedia.org/wiki/File:Rows_of_fried_Argentine_beef_empanadas.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-7d3fb2ae6171
+
+- File: public/food/dish-7d3fb2ae6171.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Beef_stew_at_restaurant_Frans_%26_Sandra.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-72c196d49b5f
+
+- File: public/food/dish-72c196d49b5f.jpg
+- Author: Benreis
+- Source: https://commons.wikimedia.org/wiki/File:Pieminister_beef_steak_ale_pie_(1).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-d5e81c9967f4
+
+- File: public/food/dish-d5e81c9967f4.jpg
+- Author: Ozizo
+- Source: https://commons.wikimedia.org/wiki/File:Shiraoi_Beef_Cutlet_Burger.jpg
+- License: Public domain (https://commons.wikimedia.org/wiki/File:Shiraoi_Beef_Cutlet_Burger.jpg)
+
+## dish-fd2b9166db1c
+
+- File: public/food/dish-fd2b9166db1c.jpg
+- Author: jeffreyw
+- Source: https://commons.wikimedia.org/wiki/File:Mmm..._chorizo_ground_beef_cheese_burger_(7521730648).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-800063c2e59a
+
+- File: public/food/dish-800063c2e59a.jpg
+- Author: Øyvind Holmstad
+- Source: https://commons.wikimedia.org/wiki/File:Small_burgers_hamburgers_hamburger_(e)_with_stick_A.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-72769c24b722
+
+- File: public/food/dish-72769c24b722.jpg
+- Author: Cyapoj
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Kebab_and_Pita.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-82d67f0867ac
+
+- File: public/food/dish-82d67f0867ac.jpg
+- Author: Vee Satayamas from Bangkok, Thailand
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Noodle_Soup_(28745848437).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-8703c38ab790
+
+- File: public/food/dish-8703c38ab790.jpg
+- Author: jeffreyw
+- Source: https://commons.wikimedia.org/wiki/File:Mmm..._Beef_n_Barley_Soup_(5086768393).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-9ccc148614dc
+
+- File: public/food/dish-9ccc148614dc.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Beef_stew_with_potatoes,_carrots,_celery,_mushrooms,_and_peas_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-7be0fa5a85c8
+
+- File: public/food/dish-7be0fa5a85c8.jpg
+- Author: Chinedum 'nedJamez' Okerengwor
+- Source: https://commons.wikimedia.org/wiki/File:Vegetable_Soup_with_diced_Beef.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-831ff959b731
+
+- File: public/food/dish-831ff959b731.jpg
+- Author: Horacio Cambeiro
+- Source: https://commons.wikimedia.org/wiki/File:Traditional_Argentine_beef_empanada_being_deep_fried_in_hot_oil.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-3a524457cd85
+
+- File: public/food/dish-3a524457cd85.jpg
+- Author: Dancingpolishcow
+- Source: https://commons.wikimedia.org/wiki/File:Stew_beef_and_pasta.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-1f709c450c4c
+
+- File: public/food/dish-1f709c450c4c.jpg
+- Author: Benreis
+- Source: https://commons.wikimedia.org/wiki/File:Pieminister_beef_steak_ale_pie_(2).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c99777d01daa
+
+- File: public/food/dish-c99777d01daa.jpg
+- Author: jay galvin
+- Source: https://commons.wikimedia.org/wiki/File:Mexican_Beef_Stew.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-01a8f9bab673
+
+- File: public/food/dish-01a8f9bab673.jpg
+- Author: N509FZ
+- Source: https://commons.wikimedia.org/wiki/File:Lanzhou-style_beef_noodle_soup_at_Qiaotou_(20190610190359).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-1f99695f24ac
+
+- File: public/food/dish-1f99695f24ac.jpg
+- Author: Luisfi
+- Source: https://commons.wikimedia.org/wiki/File:Stew-luis-figueroa.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8460e28d23e8
+
+- File: public/food/dish-8460e28d23e8.jpg
+- Author: Apeach316
+- Source: https://commons.wikimedia.org/wiki/File:Satay_beef_noodle_soup_in_lunch.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-00d05e94e10a
+
+- File: public/food/dish-00d05e94e10a.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Meatloaf_with_gravy,_broccoli,_French_fries,_and_a_bun_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-0332977b1b3a
+
+- File: public/food/dish-0332977b1b3a.jpg
+- Author: Horacio Cambeiro
+- Source: https://commons.wikimedia.org/wiki/File:Bife_argentino_a_la_plancha_%E2%80%A2_Argentine_grilled_steak_(25488).jpg
+- License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+
+## dish-6d8263415cda
+
+- File: public/food/dish-6d8263415cda.jpg
+- Author: Willis Lam
+- Source: https://commons.wikimedia.org/wiki/File:Dickey%27s_BBQ_Big_Beef_Brisket_Sandwich!_(15305907568).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-dcbf2199067c
+
+- File: public/food/dish-dcbf2199067c.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_beef_steak_in_Cala_P%C3%AD,_Mallorca,_Spain.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-fd4798eb9a7b
+
+- File: public/food/dish-fd4798eb9a7b.jpg
+- Author: Meszaros Rodrigo
+- Source: https://commons.wikimedia.org/wiki/File:Hungarian_beef_stew.JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8e3f49b58624
+
+- File: public/food/dish-8e3f49b58624.jpg
+- Author: Thiago Fior de Castro
+- Source: https://commons.wikimedia.org/wiki/File:Hamburger_(8).jpg
+- License: Public domain (https://commons.wikimedia.org/wiki/File:Hamburger_(8).jpg)
+
+## dish-7f3a850ed26a
+
+- File: public/food/dish-7f3a850ed26a.jpg
+- Author: Len Rizzi (photographer)
+- Source: https://commons.wikimedia.org/wiki/File:NCI_Visuals_Food_Hamburger.jpg
+- License: Public domain (https://commons.wikimedia.org/wiki/File:NCI_Visuals_Food_Hamburger.jpg)
+
+## dish-f6ef560b32bb
+
+- File: public/food/dish-f6ef560b32bb.jpg
+- Author: Di (they-them)
+- Source: https://commons.wikimedia.org/wiki/File:Hamburger_Helper_Beef_Stroganoff.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-f9046d776733
+
+- File: public/food/dish-f9046d776733.jpg
+- Author: Photographer: Peggy Greb, Original uploader: Fredrik
+- Source: https://commons.wikimedia.org/wiki/File:Vegetable_beef_barley_soup.jpg
+- License: Public domain (https://commons.wikimedia.org/wiki/File:Vegetable_beef_barley_soup.jpg)
+
+## dish-1abc90e60323
+
+- File: public/food/dish-1abc90e60323.jpg
+- Author: Skitterphoto
+- Source: https://commons.wikimedia.org/wiki/File:Hamburger_tasty.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-4ff7a47920f8
+
+- File: public/food/dish-4ff7a47920f8.jpg
+- Author: jeffreyw
+- Source: https://commons.wikimedia.org/wiki/File:Corned_beef_sandwich_with_brown_mustard.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-c82d1963525a
+
+- File: public/food/dish-c82d1963525a.jpg
+- Author: 大众点评
+- Source: https://commons.wikimedia.org/wiki/File:Beef_noodle_soup(Lanzhou).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9a289540a2aa
+
+- File: public/food/dish-9a289540a2aa.jpg
+- Author: Andrea Nguyen
+- Source: https://commons.wikimedia.org/wiki/File:Claypot_beef_stew_with_potatoes_and_mushrooms.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-2839bc4bff3c
+
+- File: public/food/dish-2839bc4bff3c.jpg
+- Author: Horacio Cambeiro
+- Source: https://commons.wikimedia.org/wiki/File:Traditional_fried_beef_empanadas_from_Argentina.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-51ea06ba3fe0
+
+- File: public/food/dish-51ea06ba3fe0.jpg
+- Author: Ojewuyib
+- Source: https://commons.wikimedia.org/wiki/File:Spicy_jollof_rice_and_fried_beef.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-34cf7803e45a
+
+- File: public/food/dish-34cf7803e45a.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Beef_stew_as_a_convenience_food.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-50ebba3c51b4
+
+- File: public/food/dish-50ebba3c51b4.jpg
+- Author: P1898
+- Source: https://commons.wikimedia.org/wiki/File:Roast_beef_ribs.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-2c468ce86ad4
+
+- File: public/food/dish-2c468ce86ad4.jpg
+- Author: avlxyz
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Beef_Dumplings_-_Ants_Bistro_AUD6_for_6.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-7d79fdf284c2
+
+- File: public/food/dish-7d79fdf284c2.jpg
+- Author: Ceeseven
+- Source: https://commons.wikimedia.org/wiki/File:Curry_Beef_Brisket_%26_Scrambled_Egg_With_Rice.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-48cec0199bc5
+
+- File: public/food/dish-48cec0199bc5.jpg
+- Author: Lokaias
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Burger_(Daniel%27s_Burgers).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-055474c7d30f
+
+- File: public/food/dish-055474c7d30f.jpg
+- Author: Famartin
+- Source: https://commons.wikimedia.org/wiki/File:2020-07-17_00_33_05_A_heated_Hungry_Man_Home-Style_Meatloaf_meal_(Meatloaf_patties_with_mashed_potatoes,_gravy,_mixed_vegetables_and_a_brownie)_in_Rochelle_Park,_Bergen_County,_New_Jersey.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-a613d2956a3c
+
+- File: public/food/dish-a613d2956a3c.jpg
+- Author: Maame1Yaa
+- Source: https://commons.wikimedia.org/wiki/File:A_plate_of_fries_and_a_beef_burger_with_salad.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-82e7a76af22c
+
+- File: public/food/dish-82e7a76af22c.jpg
+- Author: Andy Li
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Belly_with_Noodles_Soup_-_Noodles_Soup_2023-10-24.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-86438a6dcf56
+
+- File: public/food/dish-86438a6dcf56.jpg
+- Author: TAMHWUA YAUMI MAA
+- Source: https://commons.wikimedia.org/wiki/File:HK_SW_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E6%98%9F%E6%9C%88%E6%A8%93_Sky_Cuisine_Restaurant_%E9%A3%B2%E6%97%A9%E8%8C%B6_morning_tea_meal_Steamed_beef_meatballs_April_2021_SS2_10.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-0a3097488040
+
+- File: public/food/dish-0a3097488040.jpg
+- Author: Silvereeds
+- Source: https://commons.wikimedia.org/wiki/File:Bohemian_meatloaf_with_garam_masala_and_nigella_seeds.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-42c8d1f48904
+
+- File: public/food/dish-42c8d1f48904.jpg
+- Author: Indrajit Das
+- Source: https://commons.wikimedia.org/wiki/File:Homemade_meatloaf_04.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-47ec26b9a8c6
+
+- File: public/food/dish-47ec26b9a8c6.jpg
+- Author: ParentingPatch
+- Source: https://commons.wikimedia.org/wiki/File:Turkey_Meatloaf.JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-951185e8d7ed
+
+- File: public/food/dish-951185e8d7ed.jpg
+- Author: Renee Comet (Photographer)
+- Source: https://commons.wikimedia.org/wiki/File:Meatloaf_(1).jpg
+- License: Public domain (https://commons.wikimedia.org/wiki/File:Meatloaf_(1).jpg)
+
+## dish-d023ff43286f
+
+- File: public/food/dish-d023ff43286f.jpg
+- Author: Chandapiwa Malema
+- Source: https://commons.wikimedia.org/wiki/File:Beef_stew,_rice_and_coleslaw.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-ebe59ee0e282
+
+- File: public/food/dish-ebe59ee0e282.jpg
+- Author: Judgefloro
+- Source: https://commons.wikimedia.org/wiki/File:1320Stir_fry_corn_beef_tenderloin_28.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-4c2c6bea3b79
+
+- File: public/food/dish-4c2c6bea3b79.jpg
+- Author: Wikimedia Commons contributors
+- Source: https://commons.wikimedia.org/wiki/File:Steamed_beef_meatballs_dumplings_Chinese_New_Year_%E8%BE%B2%E6%9B%86%E6%96%B0%E5%B9%B4_food_29_January_2025_%E8%9B%87_Philippines5.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8a56769b44d9
+
+- File: public/food/dish-8a56769b44d9.jpg
+- Author: Horacio Cambeiro
+- Source: https://commons.wikimedia.org/wiki/File:Homemade_Argentine_fried_meat_empanadas_resting_on_paper.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-fc7676d39a7d
+
+- File: public/food/dish-fc7676d39a7d.jpg
+- Author: AAB_BAA
+- Source: https://commons.wikimedia.org/wiki/File:Ground_beef_kebab.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-7e0fbd976dc0
+
+- File: public/food/dish-7e0fbd976dc0.jpg
+- Author: Reazul Islam Dolan (রিয়াজুল ইসলাম দোলন)
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Kebab.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-a7a67587646b
+
+- File: public/food/dish-a7a67587646b.jpg
+- Author: heymrleej
+- Source: https://commons.wikimedia.org/wiki/File:Beef_%26_barley_soup_@_Louis%27_Basque_Corner,_Reno.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-7953447fcbe4
+
+- File: public/food/dish-7953447fcbe4.jpg
+- Author: Jiaqian AirplaneFan
+- Source: https://commons.wikimedia.org/wiki/File:Beef_soup_vermicelli_-_panoramio.jpg
+- License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+
+## dish-b828ebbfc286
+
+- File: public/food/dish-b828ebbfc286.jpg
+- Author: Rick
+- Source: https://commons.wikimedia.org/wiki/File:Corned_Beef_Sandwich_Reuben.jpeg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-3051bfb9398e
+
+- File: public/food/dish-3051bfb9398e.jpg
+- Author: Hill93
+- Source: https://commons.wikimedia.org/wiki/File:Beef_Shawarma.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-fa7bdf2e4b96
+
+- File: public/food/dish-fa7bdf2e4b96.jpg
+- Author: KQuhen
+- Source: https://commons.wikimedia.org/wiki/File:Taiwanese_tomato_beef_noodle_soup_Taipei.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9bf8a5e588d0
+
+- File: public/food/dish-9bf8a5e588d0.jpg
+- Author: Ed Bierman
+- Source: https://commons.wikimedia.org/wiki/File:Corned_beef_pie.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-871a9aa07cfb
+
+- File: public/food/dish-871a9aa07cfb.jpg
+- Author: Valeva1010
+- Source: https://commons.wikimedia.org/wiki/File:Moroccan_Beef_Stew.png
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-f2bff62c87cb
+
+- File: public/food/dish-f2bff62c87cb.jpg
+- Author: Geoffreyrabbit
+- Source: https://commons.wikimedia.org/wiki/File:Cantonese_beef_noodle.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-64c41563b544
+
+- File: public/food/dish-64c41563b544.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Curried_beef_and_noodle_soup_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-41b708adfcf7
+
+- File: public/food/dish-41b708adfcf7.jpg
+- Author: MNXANL
+- Source: https://commons.wikimedia.org/wiki/File:202308_Lanxi-Style_Beef_Noodle_with_Fried_Scallion_Egg.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-0cf9d896b3b7
+
+- File: public/food/dish-0cf9d896b3b7.jpg
+- Author: Wikiuser100
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_flank_steak.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-5ade31cdcb40
+
+- File: public/food/dish-5ade31cdcb40.jpg
+- Author: 991joseph
+- Source: https://commons.wikimedia.org/wiki/File:Vegetable_biryani_with_beef_roast.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-741d112c4884
+
+- File: public/food/dish-741d112c4884.jpg
+- Author: Taman Renyah
+- Source: https://commons.wikimedia.org/wiki/File:Beef_ribs_soup.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-7539607133e5
+
+- File: public/food/dish-7539607133e5.jpg
+- Author: Guilhem Vellut from Paris, France
+- Source: https://commons.wikimedia.org/wiki/File:Spicy_noodle_soup_with_beef,_Festival_des_P%C3%A2tes,_Paris_001.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-674895e8d4d0
+
+- File: public/food/dish-674895e8d4d0.jpg
+- Author: Jjj84206
+- Source: https://commons.wikimedia.org/wiki/File:Taiwanese_Beef_Noodle_Soup.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-fe3eaf4e5888
+
+- File: public/food/dish-fe3eaf4e5888.jpg
+- Author: ModriDirkac
+- Source: https://commons.wikimedia.org/wiki/File:Beef_soup_with_noodles.JPG
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-931f25f5f1c1
+
+- File: public/food/dish-931f25f5f1c1.jpg
+- Author: Geoffreyrabbit
+- Source: https://commons.wikimedia.org/wiki/File:Satay_beef_noodle_soup_for_lunch.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-956d1c04b02b
+
+- File: public/food/dish-956d1c04b02b.jpg
+- Author: Mark Pellegrini
+- Source: https://commons.wikimedia.org/wiki/File:Chili_con_carne_1.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-809bcf9d8d97
+
+- File: public/food/dish-809bcf9d8d97.jpg
+- Author: Peachyeung316
+- Source: https://commons.wikimedia.org/wiki/File:Yi_mein_Chinese_medicated_soup_with_beef_bellies_and_beef_balls_from_Yuen_Long_Drunk_Bull_Chinese_noodle_shop.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-accf92c7287a
+
+- File: public/food/dish-accf92c7287a.jpg
+- Author: transcendancing
+- Source: https://commons.wikimedia.org/wiki/File:Fox%27s_salmon_steak,_same_mushroom_sauce,_roasted_carrots_and_steamed_broccoli._-mycookingadventures_(50103299871).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-be81f3cd4ea8
+
+- File: public/food/dish-be81f3cd4ea8.jpg
+- Author: benketaro
+- Source: https://commons.wikimedia.org/wiki/File:Beef_stroganoff_with_pasta.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-fc336beca4cc
+
+- File: public/food/dish-fc336beca4cc.jpg
+- Author: No machine-readable author provided. Manuel González Olaechea assumed (based on copyright claims).
+- Source: https://commons.wikimedia.org/wiki/File:Empanadas.JPG
+- License: CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+
+## dish-73cd94ba5285
+
+- File: public/food/dish-73cd94ba5285.jpg
+- Author: Ceeseven
+- Source: https://commons.wikimedia.org/wiki/File:Curry_Chicken_Leg.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-e1859258b2b6
+
+- File: public/food/dish-e1859258b2b6.jpg
+- Author: Rameshng
+- Source: https://commons.wikimedia.org/wiki/File:Biryani_ready_to_serve.JPG
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-045cc4f47bc7
+
+- File: public/food/dish-045cc4f47bc7.jpg
+- Author: 赤猫法師
+- Source: https://commons.wikimedia.org/wiki/File:Biryani_and_Raita.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-67428da4d685
+
+- File: public/food/dish-67428da4d685.jpg
+- Author: Missvain
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_curry_at_Divewalk_Cafe_-_Sarah_Stierch.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-2097493dc8e0
+
+- File: public/food/dish-2097493dc8e0.jpg
+- Author: Infrogmation of New Orleans
+- Source: https://commons.wikimedia.org/wiki/File:Friday_dinner_-_Curry_chicken_with_bell_peppers_and_rice_-_02.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-09f1c3866556
+
+- File: public/food/dish-09f1c3866556.jpg
+- Author: Navin75
+- Source: https://commons.wikimedia.org/wiki/File:Bombay_grilled_cheese_with_chicken_masala.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-2364e58e9446
+
+- File: public/food/dish-2364e58e9446.jpg
+- Author: Andy Li
+- Source: https://commons.wikimedia.org/wiki/File:Fried_chicken_and_rice_with_Korean_curry_-_Kogi_Korean_cuisine_2025-10-19.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-5571f05c3367
+
+- File: public/food/dish-5571f05c3367.jpg
+- Author: Ceeseven
+- Source: https://commons.wikimedia.org/wiki/File:Curry_Chicken_Thigh_%26_Drumstick.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-1560a88d0be7
+
+- File: public/food/dish-1560a88d0be7.jpg
+- Author: Guilhem Vellut from Paris, France
+- Source: https://commons.wikimedia.org/wiki/File:Green_curry_chicken_with_rice,_Cit%C3%A9_Imp%C3%A9riale,_Paris_001.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-58ec88236dae
+
+- File: public/food/dish-58ec88236dae.jpg
+- Author: Stopoverrheactingdude
+- Source: https://commons.wikimedia.org/wiki/File:Butter_Chicken_%26_Naan.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-59f4c3c45c2c
+
+- File: public/food/dish-59f4c3c45c2c.jpg
+- Author: regan76
+- Source: https://commons.wikimedia.org/wiki/File:Curry_Chicken_Green_Beans.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-821ebfc49383
+
+- File: public/food/dish-821ebfc49383.jpg
+- Author: Lekhashree G
+- Source: https://commons.wikimedia.org/wiki/File:Fusion_Cuisine_-_HARISSA_CHICKEN_LAYERED_SOFIYANI_DUM_BIRYANI_-_Bangalore_-_Karnataka_-_IMG_0591.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-a96822b6b43f
+
+- File: public/food/dish-a96822b6b43f.jpg
+- Author: Bluemantis07
+- Source: https://commons.wikimedia.org/wiki/File:South_Indian_Chicken_curry.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-cba48fbb153a
+
+- File: public/food/dish-cba48fbb153a.jpg
+- Author: Gaurav Dhwaj Khadka
+- Source: https://commons.wikimedia.org/wiki/File:Gravy_Chicken_Curry.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c76560b52ae8
+
+- File: public/food/dish-c76560b52ae8.jpg
+- Author: Wikimedia Commons contributor
+- Source: https://commons.wikimedia.org/wiki/File:Biryani_chicken.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-59a86921e887
+
+- File: public/food/dish-59a86921e887.jpg
+- Author: Infrogmation of New Orleans
+- Source: https://commons.wikimedia.org/wiki/File:Chill_Out_Thai_Curry_Chicken,_New_Orleans.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-9977f37ab1ba
+
+- File: public/food/dish-9977f37ab1ba.jpg
+- Author: Rameshng
+- Source: https://commons.wikimedia.org/wiki/File:Biryani_rice.JPG
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-ec89f0204c19
+
+- File: public/food/dish-ec89f0204c19.jpg
+- Author: CharmaineZoe's Marvelous Melange from England
+- Source: https://commons.wikimedia.org/wiki/File:Roast_Chicken,_roast_potatoes,_parsnips_%26_caulflower_cheese_-_05_05_2019_(48014487143).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-a6cd00a5310f
+
+- File: public/food/dish-a6cd00a5310f.jpg
+- Author: MaiDenzel
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_stew_in_a_chaffin_dish.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-80da3a7e86b0
+
+- File: public/food/dish-80da3a7e86b0.jpg
+- Author: Yakshitha
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_soup_3.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-f7208141baf9
+
+- File: public/food/dish-f7208141baf9.jpg
+- Author: Evan-Amos
+- Source: https://commons.wikimedia.org/wiki/File:Fried-Chicken-Set.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-dae9de0cc168
+
+- File: public/food/dish-dae9de0cc168.jpg
+- Author: PeterToman
+- Source: https://commons.wikimedia.org/wiki/File:HK_TST_Wing_On_Travel_pentry_tea_party_cake_July-2013_%E9%9B%9E%E8%82%89%E6%B4%BE_Chicken_Mushroom_meat_Pie_%E9%9B%9E%E6%89%B9_9-July-2013.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-10d48103e14b
+
+- File: public/food/dish-10d48103e14b.jpg
+- Author: Peachyeung316
+- Source: https://commons.wikimedia.org/wiki/File:Speical_hainanese_chicken_rice_in_hk.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-65c79c234422
+
+- File: public/food/dish-65c79c234422.jpg
+- Author: Catherine Amia
+- Source: https://commons.wikimedia.org/wiki/File:Fried_rice,_chicken_and_dipping_sauce.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-41cb51e08494
+
+- File: public/food/dish-41cb51e08494.jpg
+- Author: daSupremo
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_chicken_2.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-272d5d6fbea8
+
+- File: public/food/dish-272d5d6fbea8.jpg
+- Author: Andy Li
+- Source: https://commons.wikimedia.org/wiki/File:Baked_potato_with_coronation_chicken_-_Audit_Room_Caf%C3%A9,_Petworth_House_2026-05-04.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-14fb8b024929
+
+- File: public/food/dish-14fb8b024929.jpg
+- Author: Louiesemendez
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Chicken_Inasal.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-79d9946b6ed4
+
+- File: public/food/dish-79d9946b6ed4.jpg
+- Author: Emilian Robert Vicol from Com. Balanesti, Romania
+- Source: https://commons.wikimedia.org/wiki/File:Barbecue-Chicken-Wings_13264-480x360_(4791356615).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-111c9f9aad02
+
+- File: public/food/dish-111c9f9aad02.jpg
+- Author: Gaurav Dhwaj Khadka
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Roast_2.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-4240d5042ad8
+
+- File: public/food/dish-4240d5042ad8.jpg
+- Author: Mariuszjbie
+- Source: https://commons.wikimedia.org/wiki/File:Broth.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-720ee8941fbb
+
+- File: public/food/dish-720ee8941fbb.jpg
+- Author: Zarate123
+- Source: https://commons.wikimedia.org/wiki/File:Fried_chicken333.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-3f1f27023a94
+
+- File: public/food/dish-3f1f27023a94.jpg
+- Author: Tmannya
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_sandwich.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-adbfe9e89fc7
+
+- File: public/food/dish-adbfe9e89fc7.jpg
+- Author: Willis Lam
+- Source: https://commons.wikimedia.org/wiki/File:Buffalo_Burgers_Buffalo_Chicken_Wings_(36082467922).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-69ece23861f8
+
+- File: public/food/dish-69ece23861f8.jpg
+- Author: T.Tseng
+- Source: https://commons.wikimedia.org/wiki/File:Hainanese_Chicken_Rice,_with_fried_egg_and_buttermilk_fried_chicken_skin.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-e0d0fed71ecd
+
+- File: public/food/dish-e0d0fed71ecd.jpg
+- Author: Famartin
+- Source: https://commons.wikimedia.org/wiki/File:2020-03-24_13_20_27_A_slice_of_Boston_Market_Home_Style_Chicken_Pot_Pie_after_heating_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-2dbb6e7b3c21
+
+- File: public/food/dish-2dbb6e7b3c21.jpg
+- Author: N509FZ
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_chicken_wings_at_Guan%27s_Wing_Bar,_Ganjiakou_(20210409175010).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-f59f759b15a5
+
+- File: public/food/dish-f59f759b15a5.jpg
+- Author: Jiafei Slay Queen
+- Source: https://commons.wikimedia.org/wiki/File:Piece_of_fried_chicken.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-875534000b75
+
+- File: public/food/dish-875534000b75.jpg
+- Author: Oleg Sidorenko
+- Source: https://commons.wikimedia.org/wiki/File:Cashew_chicken_salad_Thailand.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-882dd50e47a7
+
+- File: public/food/dish-882dd50e47a7.jpg
+- Author: Ceeseven
+- Source: https://commons.wikimedia.org/wiki/File:Roast_Chicken_with_Potato_Wedges.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-7fcf308c2a89
+
+- File: public/food/dish-7fcf308c2a89.jpg
+- Author: Anitah Pezz
+- Source: https://commons.wikimedia.org/wiki/File:Cheesy_Stuffed_Chicken_Breast_with_wine.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-ba0446bfde74
+
+- File: public/food/dish-ba0446bfde74.jpg
+- Author: Kunokuno
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Pesto_Pasta.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-10182c74d092
+
+- File: public/food/dish-10182c74d092.jpg
+- Author: Morgan from Montreal, Quebec, Canada
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Alfredo_Pizza_(4270373800).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-058275917ca5
+
+- File: public/food/dish-058275917ca5.jpg
+- Author: Oddbodz
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Pie.JPG
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-21ad70518e72
+
+- File: public/food/dish-21ad70518e72.jpg
+- Author: Shark2025
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Pasta_bowl.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c91bad12335b
+
+- File: public/food/dish-c91bad12335b.jpg
+- Author: Jjanhone
+- Source: https://commons.wikimedia.org/wiki/File:Arnolds_chicken_ceasar_salad.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-22a12ffe86fb
+
+- File: public/food/dish-22a12ffe86fb.jpg
+- Author: TheCulinaryGeek
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Cacciatore.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-2154b4742c48
+
+- File: public/food/dish-2154b4742c48.jpg
+- Author: Gerda Arendt
+- Source: https://commons.wikimedia.org/wiki/File:Roasted_chicken_half,_Frauenstein.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-5c1c56b087a0
+
+- File: public/food/dish-5c1c56b087a0.jpg
+- Author: Rosakoalaglitzereinhorn
+- Source: https://commons.wikimedia.org/wiki/File:Coronation_chicken_sandwich_unwrapped_01.02.2012_15-34-38.JPG
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-bc824319008d
+
+- File: public/food/dish-bc824319008d.jpg
+- Author: Guilhem Vellut from Paris, France
+- Source: https://commons.wikimedia.org/wiki/File:Red_curry_chicken,_Meiwenti,_53_Rue_de_Richelieu,_75001_Paris,_January_2016.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-30548b329a2e
+
+- File: public/food/dish-30548b329a2e.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_breast,_roasted_with_olive_oil_and_black_pepper,_on_peas_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-d880d4c98747
+
+- File: public/food/dish-d880d4c98747.jpg
+- Author: Gerda Arendt
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_breast,_Mainz.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-10cca891fb2a
+
+- File: public/food/dish-10cca891fb2a.jpg
+- Author: HaJunkiyada
+- Source: https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Chicken_Soup_with_Rice_Noodles.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-ecef7692cdb8
+
+- File: public/food/dish-ecef7692cdb8.jpg
+- Author: FranHogan
+- Source: https://commons.wikimedia.org/wiki/File:Breast_of_chicken_dinner.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-d4fc5128b58b
+
+- File: public/food/dish-d4fc5128b58b.jpg
+- Author: Michael Rivera
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Tender_Parmesan,_Cheddar%27s.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9a8cba8d4791
+
+- File: public/food/dish-9a8cba8d4791.jpg
+- Author: Tristan Kenney
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_parmigiana.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-ed1f771739e0
+
+- File: public/food/dish-ed1f771739e0.jpg
+- Author: Ruth Hartnup from Vancouver, Canada
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_pot_pie_and_Caesar_salad_at_Riggers_(9242316470).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-77fd93457260
+
+- File: public/food/dish-77fd93457260.jpg
+- Author: Nikchick
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Pie2.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-2957191c8991
+
+- File: public/food/dish-2957191c8991.jpg
+- Author: Tomwsulcer
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Quesadilla_dish_at_Latin_Bistro_restaurant_Summit_NJ.JPG
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-25c18f5e8a3d
+
+- File: public/food/dish-25c18f5e8a3d.jpg
+- Author: TourismSchool
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Pasta_in_White_Sauce.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-1a53218e81c2
+
+- File: public/food/dish-1a53218e81c2.jpg
+- Author: Alpha
+- Source: https://commons.wikimedia.org/wiki/File:%E7%94%B0%E4%B8%83%E6%B4%8B%E5%8F%82%E7%82%96%E8%80%81%E9%B8%A1_Tianqi_and_Ginseng_Chicken_Double-boiled_Soup_-_First_Taste.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-146726e86c88
+
+- File: public/food/dish-146726e86c88.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Thai_chicken_soup_at_the_office.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-5b35b8ea5449
+
+- File: public/food/dish-5b35b8ea5449.jpg
+- Author: NeoBatfreak
+- Source: https://commons.wikimedia.org/wiki/File:Pickled_Mustard_Green_Chicken_Soup_(%E9%85%B8%E8%8F%9C%E9%9B%9E%E7%B5%B2%E6%B9%AF).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-655525686f1c
+
+- File: public/food/dish-655525686f1c.jpg
+- Author: Cajsa Lilliehook from Portland
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Vegetable_Soup_(8731954951).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-3766d784c1f6
+
+- File: public/food/dish-3766d784c1f6.jpg
+- Author: foéÖþoooey from Seattle, Washington, United States of America
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Stock_%26_the_Cajun_Trinity_(267329323).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-da4806eb3d03
+
+- File: public/food/dish-da4806eb3d03.jpg
+- Author: Ferrous Büller
+- Source: https://commons.wikimedia.org/wiki/File:Chicken,_Pasta,_Zucchini,_Sequent.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-a936ddbe695a
+
+- File: public/food/dish-a936ddbe695a.jpg
+- Author: NeoBatfreak
+- Source: https://commons.wikimedia.org/wiki/File:Peking_style_garlic_chicken_wings_%E5%8C%97%E4%BA%AC%E8%92%9C%E9%A6%99%E9%9B%9E%E7%BF%85.png
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-b0a2df4902b0
+
+- File: public/food/dish-b0a2df4902b0.jpg
+- Author: Michael Coté
+- Source: https://commons.wikimedia.org/wiki/File:King_Ranch_chicken_casserole.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-ffaac33830d0
+
+- File: public/food/dish-ffaac33830d0.jpg
+- Author: Ser Amantio di Nicolao
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_kebab_with_cherry_rice_and_tomato.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-64488e510569
+
+- File: public/food/dish-64488e510569.jpg
+- Author: Benreis
+- Source: https://commons.wikimedia.org/wiki/File:Fried_chicken_box.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-6d400726ca52
+
+- File: public/food/dish-6d400726ca52.jpg
+- Author: Infrogmation of New Orleans
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_chicken_and_risotto.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-53a8b8d8b344
+
+- File: public/food/dish-53a8b8d8b344.jpg
+- Author: The Bangsawan
+- Source: https://commons.wikimedia.org/wiki/File:Satay_Cocos_%26_Chicken_wings.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-bc9ea6e5b86e
+
+- File: public/food/dish-bc9ea6e5b86e.jpg
+- Author: Andy Li
+- Source: https://commons.wikimedia.org/wiki/File:Roasted_chicken_and_french_fries_-_La_Petite_Plage_2025-03-25.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-aa315f6b0371
+
+- File: public/food/dish-aa315f6b0371.jpg
+- Author: E4024
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_stew_(Turkey).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-238ce8b0e51f
+
+- File: public/food/dish-238ce8b0e51f.jpg
+- Author: Jpatokal
+- Source: https://commons.wikimedia.org/wiki/File:Yeziji_Hainanese_coconut_chicken_soup.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-0fe7ab9ca4ae
+
+- File: public/food/dish-0fe7ab9ca4ae.jpg
+- Author: Frettie
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_meat_-_chicken_legs_near_Host%C3%A1kov,_Vladislav,_T%C5%99eb%C3%AD%C4%8D_District.jpg
+- License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+
+## dish-a09fa923cc40
+
+- File: public/food/dish-a09fa923cc40.jpg
+- Author: E4024
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_broth_soup.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-db524be585c5
+
+- File: public/food/dish-db524be585c5.jpg
+- Author: Jeremy Keith from Brighton & Hove, United Kingdom
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_caeser_salad_(5959543492).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-531911659df5
+
+- File: public/food/dish-531911659df5.jpg
+- Author: City Foodsters
+- Source: https://commons.wikimedia.org/wiki/File:2_Piece_Fried_Chicken_(Dark_meat)_-_15828488599.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-11f358351f41
+
+- File: public/food/dish-11f358351f41.jpg
+- Author: N509FZ
+- Source: https://commons.wikimedia.org/wiki/File:Fuliji_roast_chicken_(20150815131713).JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8ae5f5239dc3
+
+- File: public/food/dish-8ae5f5239dc3.jpg
+- Author: Ceeseven
+- Source: https://commons.wikimedia.org/wiki/File:McDonald%27s_Grilled_Chicken_Burger.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-32ec4703f314
+
+- File: public/food/dish-32ec4703f314.jpg
+- Author: Silar
+- Source: https://commons.wikimedia.org/wiki/File:020230311_baked_chicken_breast.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-250377e96eed
+
+- File: public/food/dish-250377e96eed.jpg
+- Author: Olgatladi2020
+- Source: https://commons.wikimedia.org/wiki/File:A_pot_of_chicken_stew_on_the_stove.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-99c495006f88
+
+- File: public/food/dish-99c495006f88.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_sandwich_on_toasted_homemade_bread,_with_Jarlsberg_cheese,_Ligurian_walnut_pesto,_olive_oil,_and_black_pepper,_baked_and_served_hot_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-3285f545c4d5
+
+- File: public/food/dish-3285f545c4d5.jpg
+- Author: Kolforn (Kolforn)
+I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the Wikimedia project scope.
+
+
+
+ This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.
+You are free:
+to share – to copy, distribute and transmit the work
+to remix – to adapt the work
+Under the following conditions:
+attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original.https://creativecommons.org/licenses/by-sa/4.0CC BY-SA 4.0 Creative Commons Attribution-Share Alike 4.0 truetrue
+- Source: https://commons.wikimedia.org/wiki/File:-2015-10-30_Saut%C3%A9ed_chicken_with_forty_cloves_of_garlic,_Trimingham_(2).JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-a901a4997986
+
+- File: public/food/dish-a901a4997986.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:White_rice_with_chicken_stew.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-4650f0db508d
+
+- File: public/food/dish-4650f0db508d.jpg
+- Author: Kuchtici.eu
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_breast_with_prosciutto.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-5c87bce981ff
+
+- File: public/food/dish-5c87bce981ff.jpg
+- Author: Yotam Nachum
+- Source: https://commons.wikimedia.org/wiki/File:Cafe_Caramel_Chicken_breast_and_French_Fries.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-671256904916
+
+- File: public/food/dish-671256904916.jpg
+- Author: Krista
+- Source: https://commons.wikimedia.org/wiki/File:Coop%27s_fried_chicken,_jambalaya,_gumbo,_New_Orleans_2014.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-18eedd28e03e
+
+- File: public/food/dish-18eedd28e03e.jpg
+- Author: Roenashy
+- Source: https://commons.wikimedia.org/wiki/File:Fried_chicken_and_roasted_potatoes_01.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-d83d05745828
+
+- File: public/food/dish-d83d05745828.jpg
+- Author: Cheikh cherif
+- Source: https://commons.wikimedia.org/wiki/File:Poulet_r%C3%B4ti_aux_pommes_de_terre.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-13380eb97692
+
+- File: public/food/dish-13380eb97692.jpg
+- Author: Arnold Gatilao from Oakland, CA, USA
+- Source: https://commons.wikimedia.org/wiki/File:Garlic_Pepper_Chicken_Wings_(15179454553).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-27c3e25ed31f
+
+- File: public/food/dish-27c3e25ed31f.jpg
+- Author: Gaurav Dhwaj Khadka
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Curry_with_Rice.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-fe710b73e8f4
+
+- File: public/food/dish-fe710b73e8f4.jpg
+- Author: Rosakoalaglitzereinhorn
+- Source: https://commons.wikimedia.org/wiki/File:Coronation_chicken_sandwich_wrapped_london_01.02.2012_15-33-08.JPG
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-b2c6a5005677
+
+- File: public/food/dish-b2c6a5005677.jpg
+- Author: E4024
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_chicken_wings,_Turkish_style.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9c2a5579e046
+
+- File: public/food/dish-9c2a5579e046.jpg
+- Author: Bukky658
+- Source: https://commons.wikimedia.org/wiki/File:Tomatoes_stew_with_chicken_lap_and_fishes.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-62fe9be7374b
+
+- File: public/food/dish-62fe9be7374b.jpg
+- Author: Sheena Aloner
+- Source: https://commons.wikimedia.org/wiki/File:Home_made_Grilled_Chicken_in_charcoal.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-54eb91f7beb9
+
+- File: public/food/dish-54eb91f7beb9.jpg
+- Author: Isma Morocco
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_wings.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8b4acba0ed21
+
+- File: public/food/dish-8b4acba0ed21.jpg
+- Author: Qwertyxp2000
+- Source: https://commons.wikimedia.org/wiki/File:Texas_Chicken_Wings_6.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-bcef80701484
+
+- File: public/food/dish-bcef80701484.jpg
+- Author: Ceeseven
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Fillet_Salad.JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-88711aff3ae8
+
+- File: public/food/dish-88711aff3ae8.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_wings_at_home.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-f13bf9700038
+
+- File: public/food/dish-f13bf9700038.jpg
+- Author: Ceeseven
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Fillet_with_Rice_in_Garlic_Sauce.JPG
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-605661f413eb
+
+- File: public/food/dish-605661f413eb.jpg
+- Author: WINGSEN
+- Source: https://commons.wikimedia.org/wiki/File:HK_Food_Chicken_Wings_Party_903_a.jpg
+- License: CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+
+## dish-1278d46a2c44
+
+- File: public/food/dish-1278d46a2c44.jpg
+- Author: JIP
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_wings_at_Hesburger.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8f16dca2b438
+
+- File: public/food/dish-8f16dca2b438.jpg
+- Author: Olgatladi2020
+- Source: https://commons.wikimedia.org/wiki/File:A_serving_of_Mealie_meal_with_spinach_and_chicken_stew_at_home.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-ab51d45245c6
+
+- File: public/food/dish-ab51d45245c6.jpg
+- Author: Amuzujoe
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Chicken_07.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-e7117e0fc620
+
+- File: public/food/dish-e7117e0fc620.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Summer_rolls,_chicken,_etc_,_on_salad_-_Cambridge,_MA.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-789d37ec6fbe
+
+- File: public/food/dish-789d37ec6fbe.jpg
+- Author: Acabashi
+- Source: https://commons.wikimedia.org/wiki/File:Crispy_chicken_and_rice_at_Highgate_Cricket_Club,_Crouch_End_2.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9970a6c8732a
+
+- File: public/food/dish-9970a6c8732a.jpg
+- Author: Neha1209
+- Source: https://commons.wikimedia.org/wiki/File:Marinated_Chicken_Skewers_roasted_in_Charcoal.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c780c76e60c3
+
+- File: public/food/dish-c780c76e60c3.jpg
+- Author: Vyacheslav Argenberg
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_chicken,_Rostov-on-Don,_Russia.jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-a98c1788fbaa
+
+- File: public/food/dish-a98c1788fbaa.jpg
+- Author: T.Tseng
+- Source: https://commons.wikimedia.org/wiki/File:Skillet_fried_chicken.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-63d6de218cce
+
+- File: public/food/dish-63d6de218cce.jpg
+- Author: N509FZ
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Chicken_Sandwich_from_McDonald%27s_Dongzhimenwai_Store_(20191222163031).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-09354b43c58c
+
+- File: public/food/dish-09354b43c58c.jpg
+- Author: Jubair1985
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Rice_and_Chicken,_C_Minor_Music_Cafe.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-60cd8f023c0b
+
+- File: public/food/dish-60cd8f023c0b.jpg
+- Author: E4024
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_soup_in_Ankara.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-f83d81870525
+
+- File: public/food/dish-f83d81870525.jpg
+- Author: Dreameryonmae
+- Source: https://commons.wikimedia.org/wiki/File:Sup_Manuk_(Chicken_Soup).jpg
+- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0)
+
+## dish-2ea6da1dfb0c
+
+- File: public/food/dish-2ea6da1dfb0c.jpg
+- Author: Anagoria
+- Source: https://commons.wikimedia.org/wiki/File:2016-08-14_Kung_Pao_Chicken_dish_in_Beijing_anagoria.jpg
+- License: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+
+## dish-4934254520b0
+
+- File: public/food/dish-4934254520b0.jpg
+- Author: Sharon Mollerus from Duluth, USA
+- Source: https://commons.wikimedia.org/wiki/File:Pasta_with_a_Chicken_Lemon_Cream_Sauce_(764644143).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-74e037c3f837
+
+- File: public/food/dish-74e037c3f837.jpg
+- Author: Chammy17
+- Source: https://commons.wikimedia.org/wiki/File:Carbonara,_fried_chicken_dish_of_biggs.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-633df372efb7
+
+- File: public/food/dish-633df372efb7.jpg
+- Author: zmtomako
+- Source: https://commons.wikimedia.org/wiki/File:Ghanaian_Chicken_Kebab_with_Ghanaian_Peppers_and_Ghanaian_Jollof_Rice_(Ghanaian_Cuisine).jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-5ed01ae6863f
+
+- File: public/food/dish-5ed01ae6863f.jpg
+- Author: jetalone from Tea cafe Cha Coo La in Kanda-Tsukasa, Chiyoda, Tokyo
+- Source: https://commons.wikimedia.org/wiki/File:Chazuke_with_umeboshi_and_chicken_fillet,_closeup_by_jetalone.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-bd8a29958693
+
+- File: public/food/dish-bd8a29958693.jpg
+- Author: FitTasteTic
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_breast_on_Spinach.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-7c2b0e670873
+
+- File: public/food/dish-7c2b0e670873.jpg
+- Author: Sharon Chen from Austin, United States
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Chicken_Breasts_(28905381261).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-e598eb4e1d2e
+
+- File: public/food/dish-e598eb4e1d2e.jpg
+- Author: DIVIDIVYA
+- Source: https://commons.wikimedia.org/wiki/File:GRILLED_CHICKEN.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-976cdc435e84
+
+- File: public/food/dish-976cdc435e84.jpg
+- Author: Kismoah HGOA2
+- Source: https://commons.wikimedia.org/wiki/File:MC_%E6%BE%B3%E9%96%80_Macau_%E6%BE%B3%E9%96%80%E5%8D%8A%E5%B3%B6_Macao_Peninsula_%E7%B4%85%E7%AA%97%E9%96%80%E8%A1%97_Rua_da_Alf%C3%A2ndega_shop_food_chicken_fillets_November_2019_SS2_05.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-391656bb9eff
+
+- File: public/food/dish-391656bb9eff.jpg
+- Author: HaJunkiyada
+- Source: https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Roast_chicken_with_peas_and_green_salad.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-bcbae2aeeff1
+
+- File: public/food/dish-bcbae2aeeff1.jpg
+- Author: Horacio Cambeiro
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_sandwich_and_french_fries.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-a3c8c71b7d50
+
+- File: public/food/dish-a3c8c71b7d50.jpg
+- Author: susi.bsu
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_sandwich_at_Scotty%27s_Brewhouse.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-bf77f5c7f9dd
+
+- File: public/food/dish-bf77f5c7f9dd.jpg
+- Author: Shoodho
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_wings_for_lunch.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-ada91cfa70ec
+
+- File: public/food/dish-ada91cfa70ec.jpg
+- Author: FitTasteTic
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_breast_on_Vegetables.jpg
+- License: CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+
+## dish-dab854fc2499
+
+- File: public/food/dish-dab854fc2499.jpg
+- Author: Jameswasswa
+- Source: https://commons.wikimedia.org/wiki/File:Whole_spiced_chicken_(roasted).jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-6f5aab2e24ff
+
+- File: public/food/dish-6f5aab2e24ff.jpg
+- Author: Kham Tran - www.khamtran.com
+- Source: https://commons.wikimedia.org/wiki/File:Home-Made-Fried-Chicken-Wings-2008.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+
+## dish-e2245d657dec
+
+- File: public/food/dish-e2245d657dec.jpg
+- Author: Stephanie cheks
+- Source: https://commons.wikimedia.org/wiki/File:Fried_rice_1.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-ca75d80b62a4
+
+- File: public/food/dish-ca75d80b62a4.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Red_pepper_and_tomato_soup,_with_chicken,_wild_rice,_and_black_pepper_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-b65c6495e038
+
+- File: public/food/dish-b65c6495e038.jpg
+- Author: @joefoodie
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_Pot_Pie.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+
+## dish-53d8b7823e5f
+
+- File: public/food/dish-53d8b7823e5f.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Chicken_stew.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-253b9faf3193
+
+- File: public/food/dish-253b9faf3193.jpg
+- Author: Dhivya Bharathi Official
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_pizza_at_cochin.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-2f83f17415be
+
+- File: public/food/dish-2f83f17415be.jpg
+- Author: TourismSchool
+- Source: https://commons.wikimedia.org/wiki/File:White_Sauce_Chicken_Pasta_with_olive_oil.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-7d9b713bb634
+
+- File: public/food/dish-7d9b713bb634.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Irish_Potatoes_with_grilled_chicken.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-8ccbf1f4791f
+
+- File: public/food/dish-8ccbf1f4791f.jpg
+- Author: Fitzhenrymort
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_salad_sandwich.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-9bd032460b2e
+
+- File: public/food/dish-9bd032460b2e.jpg
+- Author: Faisal Ahammad
+- Source: https://commons.wikimedia.org/wiki/File:Fried_chicken_pieces_coated_in_sauce_with_sesame_seeds_2025.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-a057e9234afe
+
+- File: public/food/dish-a057e9234afe.jpg
+- Author: Abdul-Rauf Moshie
+- Source: https://commons.wikimedia.org/wiki/File:Fried_Rice_With_Chicken.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-b2d9a9fab2f3
+
+- File: public/food/dish-b2d9a9fab2f3.jpg
+- Author: Halima Waziri
+- Source: https://commons.wikimedia.org/wiki/File:Well_fried_chickens.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-c3d46a16b5b1
+
+- File: public/food/dish-c3d46a16b5b1.jpg
+- Author: Gerda Arendt
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_breast,_Mittelheim.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-540d1379c303
+
+- File: public/food/dish-540d1379c303.jpg
+- Author: Olgatladi2020
+- Source: https://commons.wikimedia.org/wiki/File:A_mealie_meal_served_with_chicken_stew_and_spinach.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-5fc6d81736ab
+
+- File: public/food/dish-5fc6d81736ab.jpg
+- Author: PagesAndPathsPH
+- Source: https://commons.wikimedia.org/wiki/File:Chicken,_Spaghetti_Sauce,_Pasta,_and_Fries.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-e08ce9bc234e
+
+- File: public/food/dish-e08ce9bc234e.jpg
+- Author: Roenashy
+- Source: https://commons.wikimedia.org/wiki/File:Fried_rice_with_chicken_and_vegies.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-a00a29a1ac5f
+
+- File: public/food/dish-a00a29a1ac5f.jpg
+- Author: RedWordSmith
+- Source: https://commons.wikimedia.org/wiki/File:Salad_and_pot_pie.jpg
+- License: CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+
+## dish-9b3d6aaad7ad
+
+- File: public/food/dish-9b3d6aaad7ad.jpg
+- Author: Daderot
+- Source: https://commons.wikimedia.org/wiki/File:Broiled_chicken_breast_and_tomato_sandwich,_on_mixed_rye-white_toast,_with_mustard_and_black_pepper_-_Massachusetts.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-1a84574d38c4
+
+- File: public/food/dish-1a84574d38c4.jpg
+- Author: Andy Li
+- Source: https://commons.wikimedia.org/wiki/File:3_Chicken_Wings,_PERi-Salted_Chips,_Corn_on_the_Cob_-_Nando%27s.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+
+## dish-e638d8692912
+
+- File: public/food/dish-e638d8692912.jpg
+- Author: Peachyeung316
+- Source: https://commons.wikimedia.org/wiki/File:Chicken_noodle_soup_in_yuen_long.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+## dish-e3bee647df40
+
+- File: public/food/dish-e3bee647df40.jpg
+- Author: Prayitno / Thank you for (12 millions +) view from Los Angeles, USA
+- Source: https://commons.wikimedia.org/wiki/File:Grilled_Lobster_(8558909573).jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)

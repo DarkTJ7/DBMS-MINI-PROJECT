@@ -195,3 +195,13 @@ card and linked the correct Commons source. Evidence: screenshots/distinct-chick
 - Search performance: an EXPLAIN ANALYZE sample spent 10,991.739 ms in LLVM JIT out of 11,266.099 ms total. Recipe lookups now set `jit=off` only within that search transaction. Local development API checks afterwards: lobster 84 ms, mutton 24 ms, beef 34 ms. These are observations on this machine, not performance guarantees.
 - No change to row-level security or session derivation. Existing database-role tests passed after the query optimization.
 - Final production build passed. Production menu showed all seven category counts and 545 public dishes; mutton filter returned seven source-backed recipes. Final snapshot version is `seven-proteins-500-v2`; withdrawn imports are retained with rejected status rather than deleting their saved/review data. Preview: `docs/screenshots/expanded-protein-collection.png`.
+
+
+## Photos for the expanded collection (2026-11-02)
+
+- All 500 imported recipes now resolve to a locally bundled photo. Together with the original 45 public dishes, all 545 public recipes have different image paths, Commons source URLs and SHA-256 file hashes.
+- Card and detail lookup share a stable source-key/title mapping. An edited title or unknown source key falls back to the labeled placeholder rather than inheriting an unrelated assignment.
+- Photos are illustrative serving suggestions. The pictured ingredients, preparation and presentation may differ from the linked recipe; they are not photographs of tested results for each imported recipe. This label appears on cards and source/author/license credit appears in details.
+- Commons candidates were screened using descriptions/categories and visual contact sheets. The selected new downloads were checked for valid dimensions and exact duplicates. The local assets are resized/compressed JPEG files, so the app does not depend on live image-search URLs.
+- All 17 automated tests passed, including the 545-recipe coverage/uniqueness regression and existing database, role, search and security tests. Raw output: `SOURCE-PHOTO-TEST-OUTPUT.txt`.
+- Production build passed. All 500 new image URLs returned HTTP 200 with JPEG content type. Browser verification showed four loaded, distinct lobster card images; Jerk Lobster detail used the identical card image with its author/license link. Evidence: `screenshots/expanded-recipe-photos.png` and `screenshots/expanded-recipe-photo-detail.png`.

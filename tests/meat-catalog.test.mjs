@@ -31,7 +31,7 @@ test('installed catalogue is idempotent and source details stay intact',async()=
  for(const row of stored){const source=sourceByKey.get(row.catalog_details.sourceKey);assert.ok(source);assert.equal(row.instructions,source.steps.join('\n\n'));assert.deepEqual(row.catalog_details.ingredients,source.ingredients);assert.equal(row.is_sample,false);}
  const detail=await recipeDetail(stored[0].recipe_id);
  assert.deepEqual(detail.cooking_guide.steps,detail.catalog_details.steps);assert.equal(detail.cooking_guide.suggested,false);
- assert.equal(photoForRecipe(detail),null);
+ assert.ok(photoForRecipe(detail)?.src);
 });
 test('all seven protein filters and both search modes require the actual meat',async()=>{
  for(const [protein,names] of Object.entries(proteinGroups)){

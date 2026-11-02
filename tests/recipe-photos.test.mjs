@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import {access,readFile} from 'node:fs/promises';
 import {photoForRecipe,photos,assignments} from '../lib/recipe-photos.mjs';
 import {indianRecipes} from '../data/indian-recipes.mjs';
+import sourceRecipes from '../data/meat-recipes.mjs';
+import sourceAssignments from '../data/source-recipe-photos.mjs';
 
 test('recipe photos follow dish names consistently across recipe IDs',()=>{
  const cases={
@@ -77,4 +79,24 @@ test('the new Indian collection has forty different, stable image files',async()
   assert.equal(photoForRecipe({...recipe,recipe_id:999999}).src,photo.src);
  }
  assert.equal(files.size,40);
+});
+
+test('all 500 sourced recipes have stable photos in cards and details without public duplicates',async()=>{
+ const {createHash}=await import('node:crypto');
+ assert.equal(sourceAssignments.length,500);
+ const files=new Set(),sources=new Set(),hashes=new Set();
+ const starterTitles=['Creamy Garlic Mushroom Pasta','Garlic Butter Mushrooms','Mushroom Garlic Rice','One-Pot Tomato Chicken Rice','Simple Tomato Garlic Rice'];
+ const publicRecipes=[...starterTitles.map(title=>({title})),...indianRecipes,...sourceRecipes.map(r=>({title:r.title,source_recipe:true,catalog_details:{sourceKey:r.key}}))];
+ for(const r of publicRecipes){
+  const photo=photoForRecipe(r);assert.ok(photo,`Missing photo: ${r.title}`);
+  assert.ok(!files.has(photo.src),`Repeated file: ${r.title}`);files.add(photo.src);
+  assert.ok(!sources.has(photo.source),`Repeated source: ${r.title}`);sources.add(photo.source);
+  const bytes=await readFile(new URL('../public'+photo.src,import.meta.url));
+  const hash=createHash('sha256').update(bytes).digest('hex');assert.ok(!hashes.has(hash),`Repeated contents: ${r.title}`);hashes.add(hash);
+  if(r.source_recipe)assert.equal(photoForRecipe({title:r.title,source_recipe:true}).src,photo.src);
+ }
+ assert.equal(files.size,545);
+ const first=sourceRecipes[0];
+ assert.equal(photoForRecipe({title:'Edited into a different dish',catalog_details:{sourceKey:first.key}}),null);
+ assert.equal(photoForRecipe({title:'Unknown source recipe',source_recipe:true}),null);
 });
