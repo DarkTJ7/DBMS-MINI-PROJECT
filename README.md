@@ -80,9 +80,8 @@ It generates private credentials in `.env.local`. **Never commit or share
 `.env.local`, generated credentials, user data or `node_modules`.**
 
 For native Linux, macOS, Docker or remote PostgreSQL instructions, see
-[Project setup and architecture](docs/PROJECT.md) and the detailed setup notes
-in this README's Git history. Remote setup has additional database-role
-requirements; it is not a hosted deployment recipe.
+[Project setup and architecture](docs/PROJECT.md). Remote setup has additional
+database-role requirements; it is not a hosted deployment recipe.
 
 ## Suggested evaluation / demo flow
 
