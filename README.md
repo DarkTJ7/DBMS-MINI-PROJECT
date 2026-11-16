@@ -1,59 +1,70 @@
-# DBMS MINI PROJECT — PantryChef
+# PantryChef — DBMS Mini Project
 
-Current collection (2026-11-02): **545 public recipes, including 521 distinct meat/seafood recipes across chicken, fish, mutton, beef, lamb, prawns and lobster**. This includes 500 imported Wikibooks recipes with original measurements, methods and per-recipe attribution. Use the Protein filter to browse each category. Category counts overlap for mixed-meat dishes. See [recipe provenance and license details](docs/RECIPE-SOURCES.md).
+**PantryChef** is a recipe-discovery web application built with Next.js,
+PostgreSQL and pgvector. Users enter ingredients they have, discover matching
+recipes, see missing ingredients, and save or rate recipes.
 
-All 500 imported recipes now have distinct, locally bundled real food photographs, in addition to the original 45 public dishes. Photos are credited **serving suggestions**, not claims that the pictured meal was cooked from that exact recipe. Cards and recipe details use the same stable image. Future source recipes without an assigned photo show a labeled placeholder. Unknown source times are shown as unspecified; PantryChef does not manufacture timings or quantities. The 900 synthetic benchmark recipes stay outside normal discovery.
+**Team:** Tarun Jagan (Member 1) · Tanishk Gowda (Member 2)
 
-**Team:** Tarun Jagan (Member 1), Tanishk Gowda (Member 2).
+<details>
+<summary><strong>Project evaluation quick links</strong></summary>
 
-A Next.js frontend and backend backed by PostgreSQL and pgvector. Enter pantry
-ingredients, find matching dishes, inspect missing ingredients, and save recipes.
-This implementation follows the supplied DBMS Level 3 project requirements.
+- [Completed DBMS project report (PDF)](docs/reports/PantryChef_DBMS_Project_Report.pdf)
+- [Viva guide](docs/VIVA-GUIDE.md)
+- [Project design and requirements](docs/PROJECT.md)
+- [DBMS rubric checklist](docs/RUBRIC-CHECKLIST.md)
+- [Testing and validation history](docs/TESTING.md)
+- [Recipe sources and provenance](docs/RECIPE-SOURCES.md)
+- [Photo credits and licences](docs/PHOTO-CREDITS.md)
+- [Query plans](docs/QUERY-PLANS.md) · [100K-row benchmark](docs/QUERY-PLANS-100K.md)
 
-## Completed project report
+</details>
 
-[Download the completed DBMS Project Report (PDF)](docs/reports/PantryChef_DBMS_Project_Report.pdf). The 26-page report follows the supplied template and includes student details, the abstract, technology stack, ER and relational diagrams, SQL and vector commands, the Next.js project tree, code and application screenshots, testing evidence and rubric completion status.
+## Project at a glance
 
-## On Tarun's machine
+- **545 public recipes** in the documented 2 November 2026 catalogue snapshot,
+  including 500 attributed Wikibooks imports and 45 other public dishes.
+- Seven protein categories: chicken, fish, mutton, beef, lamb, prawns/shrimp
+  and lobster. Category totals overlap for recipes containing multiple proteins.
+- Pantry-based discovery requires at least **75% of required ingredients**.
+  The **Ready to cook only** option requires a 100% required-ingredient match.
+- Keyword search uses PostgreSQL full-text search; Meaning search uses
+  128-dimensional TF-IDF/TruncatedSVD (LSA) vectors with pgvector cosine search.
+- Recipe photographs are bundled locally and credited as illustrative serving
+  suggestions, not guaranteed photographs of the exact cooked dish.
+- Synthetic benchmark records are excluded from normal public meal discovery.
 
-Open **this folder**, not a ZIP file, in VS Code. In its PowerShell terminal run:
+## Technology stack
+
+| Layer | Technology |
+| --- | --- |
+| Frontend | Next.js, React, CSS, Motion |
+| Backend | Next.js Route Handlers / Node.js |
+| Database | PostgreSQL 16 |
+| Vector search | pgvector |
+| Authentication | Hashed passwords, opaque sessions and restricted runtime DB role |
+| Tests | Node.js test runner, PostgreSQL and API integration tests |
+
+## Run the project
+
+### Existing Windows setup
+
+Requirements: Node.js 22+, Python 3.11+, WSL2 with an Ubuntu distribution,
+and PostgreSQL 16 with pgvector configured as described in the project setup.
+
+Open the repository folder in VS Code. In PowerShell run:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\start-app.ps1
 ```
 
-Open **http://127.0.0.1:3000**. Keep the terminal running; Ctrl+C stops the app.
-If another copy is already running, use the URL it prints or stop the earlier
-terminal before starting again. The server automatically starts and keeps Ubuntu
-WSL's PostgreSQL alive. The existing terminal-demo database is not changed.
+Then open [http://127.0.0.1:3000](http://127.0.0.1:3000). Keep the terminal
+running while using the app. Press Ctrl+C in that terminal to stop it.
 
-1. Enter `mushroom, garlic, butter, pasta, cream` in **Add your ingredients**.
-2. Click **+**, then **Find my next meal**. Pantry searches show only recipes for which you have **at least 75% of the required ingredients**. “Ready to cook only” narrows this to 100%; optional ingredients do not lower the match.
-3. Open Creamy Garlic Mushroom Pasta. Required ingredients show green checks;
-   missing optional ingredients do not prevent a 100% match.
-4. Create a regular account to save your pantry, rate dishes, and use My cookbook.
-5. Search by **Keyword** for full-text results, or **Meaning** for vector similarity.
+### Fresh setup
 
-The admin account is created during setup. Its email and generated setup password
-are in your **private `.env.local`** file. Use them to sign in and open **Admin**.
-Seed users have unusable placeholder hashes; they cannot log in.
-
-## Friend's computer / fresh Windows setup
-
-Requirements: Node.js **22 or later** (with npm), Python **3.11 or later**, and
-WSL2 with an Ubuntu distro named **Ubuntu**. The ZIP contains source and seed
-data, not installed software or your database service. Internet is needed to
-install packages. The app itself and its database run locally.
-
-1. Extract `PantryChef-App.zip`, open the **PantryChef-App** folder in VS Code.
-2. In the Ubuntu terminal install PostgreSQL and the extension:
-
-```bash
-sudo apt-get update
-sudo apt-get install postgresql-16 postgresql-16-pgvector
-```
-
-3. In VS Code's **Windows PowerShell** terminal run:
+Install PostgreSQL 16 and pgvector inside Ubuntu/WSL, then from the repository
+root run:
 
 ```powershell
 python -m pip install -r requirements.txt
@@ -62,182 +73,92 @@ npm.cmd run db:setup
 npm.cmd run dev
 ```
 
-`db:setup` generates `.env.local`, creates dedicated owner and restricted runtime database logins,
-creates `pantrychef_app`, restores the original seed into that **new database**,
-adds the app schema, hashes an administrator password, trains embeddings, and
-adds five coherent starter recipes. It does not drop existing databases.
-Subsequent runs are idempotent. Never share `.env.local`, `.generated`, user data,
-or `node_modules`; the supplied ZIP excludes them.
+The setup script creates the dedicated application database and runtime role,
+restores the bundled seed into the new database, applies application and access
+SQL, installs the recipe catalogues, and trains the local embedding model.
+It generates private credentials in `.env.local`. **Never commit or share
+`.env.local`, generated credentials, user data or `node_modules`.**
 
-If Python's command is different, set `PYTHON_BIN` in `.env.local` to the executable
-path. Start the app again after changing environment variables. Do not change
-DATABASE_URL to the old `pantrychef` database: use the new app database.
+For native Linux, macOS, Docker or remote PostgreSQL instructions, see
+[Project setup and architecture](docs/PROJECT.md) and the detailed setup notes
+in this README's Git history. Remote setup has additional database-role
+requirements; it is not a hosted deployment recipe.
 
-## Native PostgreSQL, Linux, macOS, Docker, or remote database
+## Suggested evaluation / demo flow
 
-The application connects through `DATABASE_URL`; WSL is only a Windows convenience.
-Copy `.env.example` to `.env.local` and enter your own connection URL and setup
-administrator details. Use a dedicated role that owns the project's tables. The DBA must provision the
-`pantrychef_runtime` login as well; remote `db:setup` currently needs CREATEROLE
-privileges to provision/update that login. Do not grant that privilege to runtime.
-Restore `database/pantrychef_seed_dump.sql` into an **empty** database after
-replacing `OWNER TO postgres` with your project's database role. Use a current
-PostgreSQL 16 client supporting `\restrict`. Install pgvector first. Then run:
+1. Start PantryChef and open the home page.
+2. Add `mushroom, garlic, butter, pasta, cream` to the pantry.
+3. Select **Find my next meal** and show that pantry results meet the 75%
+   required-ingredient threshold.
+4. Enable **Ready to cook only** to demonstrate a complete 100% match.
+5. Open a recipe to show required and optional ingredients, missing items,
+   instructions, source credits and photo attribution.
+6. Register/sign in to demonstrate pantry persistence, saved recipes and ratings.
+7. Demonstrate Keyword and Meaning search.
+8. If admin access is configured, show recipe moderation/editing and the
+   role-restricted admin functions.
 
-```text
-python -m pip install -r requirements.txt
-npm install
-npm run db:setup
-npm run dev
-```
+## DBMS concepts demonstrated
 
-Outside the default Windows/WSL setup, the database must already exist and contain
-the seed schema. Setup does not create a remote database or install pgvector.
-Use environment-specific TLS settings for remote databases. Production hosting
-needs HTTPS; production session cookies are Secure. This is a local classroom
-app, not an externally deployed service.
+- Relational schema, primary keys, foreign keys, composite keys and constraints.
+- SQL DDL and DML, joins, filtering, aggregation and nested queries.
+- PostgreSQL functions, procedures, triggers, views and transactions.
+- Indexing, full-text search, pgvector and query-plan analysis.
+- Database roles, least-privilege runtime access and row-level security.
+- Application/database integration through parameterized queries.
 
-## Data and search behavior
+See [the project report](docs/reports/PantryChef_DBMS_Project_Report.pdf),
+[SQL demo queries](database/demo_queries.sql) and
+[the rubric checklist](docs/RUBRIC-CHECKLIST.md) for evaluation details.
 
-- Public catalogue: **545 approved, non-synthetic recipes**: 500 attributed
-  Wikibooks imports and 45 established dishes. The local report snapshot recorded
-  1,449 total stored rows, including synthetic benchmark and nonpublic records.
-  Synthetic benchmark rows are excluded from normal meal discovery.
-- Matching means **ingredient names**, not quantity sufficiency or substitutions.
-  Only required ingredients count in the percentage. Pantry searches require
-  at least **75%** coverage; select **Ready to cook only** to require a complete match.
-- Vegetarian/vegan filters exclude known meat/dairy ingredient names. They are
-  catalogue-based examples; unstructured instructions are not certified dietary
-  or allergy labels. Stock is conservatively excluded because its origin is unknown.
-- Semantic search uses locally trained TF-IDF and TruncatedSVD/LSA, normalized
-  128-dimensional vectors, and cosine distance. It is a vocabulary-dependent
-  baseline rather than a hosted language model. Embeddings include recipe titles,
-  instructions, and structured ingredient names. The model is rebuilt on a fresh
-  setup and used by the Node backend to embed new searches and submissions.
-- Synthetic instructions may mention items absent from their structured lists;
-  these recipes are labeled in the detail view. Starter recipes avoid that issue.
+## Testing
 
-## Development and validation
-
-```powershell
-npm.cmd run build
-npm.cmd run start
-```
-
-For tests, keep a dev or production server running in one terminal. In another:
+With the database configured and a development or production server running,
+execute the automated suite in another terminal:
 
 ```powershell
 npm.cmd test
+npm.cmd run build
 node scripts/benchmark.mjs
 ```
 
-Integration tests create temporary accounts and recipes and clean them up. Tests
-require the setup admin credentials to remain configured. Tests cover pantry
-matching, semantic/full-text search, approval permissions, saves, ratings,
-session revocation, validation, and transaction rollback. Production builds use
-Webpack explicitly for a reproducible local build. Dependencies are locked in
-`pnpm-lock.yaml`; npm is also supported for a fresh install.
+The tests cover database permissions, authentication, pantry matching,
+ingredient relevance, semantic/full-text search, catalogue imports, photo
+assignments, saves, ratings and transaction behavior. The documented historical
+run reached **18 passing tests and 0 failures** on 2 November 2026; see
+[the validation record](docs/TESTING.md). This is a recorded result, not a
+fresh test run performed by reading this README.
 
-Optional **synthetic performance dataset**, not 100,000 unique real recipes:
-
-```powershell
-node scripts/scale.mjs 100000
-node scripts/benchmark.mjs
-```
-
-This adds labeled load-test clones until the database reaches the target, up to
-200,000 recipes. It rebuilds the vector index and refreshes statistics. Use a
-separate test database for long-term experiments; those clones appear in search.
-Query plans are written to `docs/QUERY-PLANS.md`. The default friend setup stays
-small and practical.
-
-Remove only the labeled synthetic clones afterwards with
-`node scripts/remove-load-test.mjs`. Real user submissions are not selected.
-`docs/QUERY-PLANS-100K.md` preserves the actual 100,000-row validation run.
-
-## Structure
+## Repository map
 
 | Path | Purpose |
 | --- | --- |
-| `app/page.js`, `app/globals.css` | Responsive React frontend |
-| `app/api/[...path]/route.js` | Backend route handlers and authorization |
-| `lib/db.mjs` | Parameterized PostgreSQL queries and transactions |
-| `lib/auth.mjs`, `lib/security.mjs` | Hashed passwords and opaque sessions |
-| `lib/recipes.mjs`, `lib/embeddings.mjs` | Pantry, full-text, and vector search |
-| `database/*.sql` | Seed schema, constraints, functions, trigger, indexes, view |
-| `scripts/` | Setup, launch, embeddings, load test, query plans |
-| `tests/` | Automated security and database/API tests |
-| `docs/PROJECT.md` | Requirements mapping, design, schema, demo, responsibilities |
-| `docs/TESTING.md` | Validation results and limitations |
+| `app/` | Frontend and API route handlers |
+| `lib/` | Database access, authentication, security, search and recipe logic |
+| `database/` | Schema, seed dump, application SQL, access controls and demo queries |
+| `data/` | Recipe catalogue and local photo/source mappings |
+| `scripts/` | Database setup, catalogue imports, embedding training and benchmarks |
+| `tests/` | Automated database, API, search, photo and security tests |
+| `docs/` | Project documentation, validation, screenshots and report |
 
-## Git / GitHub
+## Data, matching and known limitations
 
-Source files are tracked in https://github.com/DarkTJ7/DBMS-MINI-PROJECT.
-The source import and this rubric update were prepared with Codex assistance.
-Both members must review the implementation and record their own genuine work.
-The ZIP excludes Git metadata. On a friend's machine, run `git init` after extraction.
-See the proposed responsibilities in `docs/PROJECT.md`; they are not a record of
-completed individual contributions.
+The pantry percentage compares ingredient names in the structured required
+ingredient list; it does not establish quantity sufficiency, substitutions,
+expiry, nutrition or allergy safety. Optional ingredients do not reduce the
+match percentage. Dietary filters are catalogue-based and are not certified
+allergen or dietary guarantees.
 
-## Troubleshooting
+Meaning search uses a local TF-IDF/TruncatedSVD model. It is a vocabulary-based
+baseline, not a hosted large language model. The 100,000-row benchmark uses
+labelled synthetic clones to measure query behavior; it does not represent
+100,000 independently curated real recipes. Query-plan and timing results are
+machine-specific observations, not production performance guarantees.
 
-- **Binary text in VS Code:** extract the ZIP, then use File → Open Folder.
-- **npm is missing:** install Node.js from its official distribution and reopen VS Code.
-- **Database connection error:** `wsl -d Ubuntu -u root -- pg_ctlcluster 16 main start`;
-  then run setup again and keep the app terminal open.
-- **pgvector missing:** install `postgresql-16-pgvector` inside Ubuntu, not Windows Python.
-- **No recipe matches:** disable Ready to cook, broaden filters, or add more ingredients.
-- **Admin login fails after editing .env.local:** editing the setup password does not
-  reset an existing account. Setup intentionally does not overwrite existing users.
+## Attribution and contribution
 
-## Database permissions and recipe editing
-
-Run `npm.cmd run db:setup` once after upgrading an existing copy, then restart the
-server. Setup is idempotent and adds `RUNTIME_DATABASE_URL` to private `.env.local`.
-Keep both database URLs private. Requests use the non-owner runtime account and
-PostgreSQL row-level policies; the owner account handles authentication/setup.
-A fresh setup provisions both accounts and applies `database/access.sql`.
-
-Admins can open a recipe and select **Edit recipe** to update its text and
-structured ingredients. Saving refreshes its vector and full-text search data
-atomically. Delete also removes its embedding, ingredient links, saves and ratings.
-
-- `docs/RUBRIC-CHECKLIST.md`: exact 50-mark rubric mapping and remaining human tasks.
-- `docs/VIVA-GUIDE.md`: demo steps and questions to practise.
-- `tests/database-access.test.mjs`: direct PostgreSQL permission/isolation checks.
-
-The project has Codex assistance. Both members must understand the implementation,
-follow the course's disclosure rules and contribute their own real changes.
-
-## Real food photographs
-
-The 906 existing recipe records have stable, distinct photo assignments in
-`data/recipe-photo-assignments.mjs`. `lib/recipe-photos.mjs` uses the recipe ID
-and expected title before canonical-title and food-word fallbacks, keeping search,
-cookbook and detail views consistent. The reported Mediterranean chicken soup,
-Mexican chicken pilaf and American chicken pilaf have different soup/rice photos.
-
-The local collection contains 927 credited Commons assets. Photos illustrate
-serving suggestions, not exact recipe photography. They may be resized,
-JPEG-compressed and cropped for display. Source and license records are in
-`data/food-photos.mjs`, `docs/PHOTO-CREDITS.md` and `/photo-credits.html`.
-No image service, API key or external image request is needed while using the app.
-
-New or renamed community dishes use representative fallbacks until a distinct
-photo is added to the assignment manifest. Add a source/license record and local
-asset together, then run the photo tests. Tests verify all 906 existing assignments
-have different paths, sources and image bytes; they also cover the three reported
-recipes and guard against stale photos after title edits. They do not certify
-that every photo depicts the exact synthetic ingredient list or cuisine.
-
-### Interface updates
-
-The interface uses warm ivory backgrounds, charcoal text and terracotta actions. Motion for React provides short card, pantry-chip and dialog transitions, with reduced-motion support and a nonessential-motion gate on low-core devices. Existing meals stay visible while a search loads; first-load placeholders reserve space.
-
-### Accurate ingredient search and Indian recipes (2026-11-02)
-
-Searches now require any explicitly named ingredient, in both Keyword and Meaning modes. Fish means a required fish ingredient (including salmon/tuna), rather than a recipe that mentions fish sauce or general cooking advice. Named species remain specific. Semantic similarity ranks eligible results and omits weak matches.
-
-The public meal finder excludes synthetic scale-test recipes. Those records remain in PostgreSQL for the admin dashboard and performance exercises. The database includes 40 additional independently written home-style recipes: 10 fish, 10 chicken and 20 everyday Indian meals. Their ingredient quantities and cooking steps are stored together in `data/indian-recipes.mjs`; they are practical home versions, not claims of regional authenticity or kitchen-tested professional recipes. Each new recipe has a different credited representative photo.
-
-For an existing installation, run `npm run db:setup` once before restarting the app. `start-app.ps1` detects the catalogue model version and does this automatically. Setup imports the collection transactionally and idempotently, then refreshes the vector model; rerunning setup does not duplicate recipes. The photo and search tests cover this collection.
+The project uses recipe sources and image assets with provenance and licence
+details recorded in [RECIPE-SOURCES.md](docs/RECIPE-SOURCES.md) and
+[PHOTO-CREDITS.md](docs/PHOTO-CREDITS.md). Development assistance from AI tools
+is disclosed in the project materials; both team members should understand the
+implementation and accurately describe their own contributions in the viva.
