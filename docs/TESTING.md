@@ -151,7 +151,7 @@ optimized for display, retaining their original source/license credits.
 existing recipe's image path, Commons source and actual image bytes for duplicates,
 plus the Mediterranean Chicken Breast Soup / Mexican Chicken Breast Pilaf /
 American Chicken Breast Pilaf regression and stale-photo protection after edits.
-Raw output is in `PHOTO-DEDUP-TEST-OUTPUT.txt`.
+the consolidated historical test summary is recorded below.
 
 New/renamed submissions require an explicit assignment to join the existing
 catalogue's uniqueness guarantee. Their representative fallback can reuse an image.
@@ -177,7 +177,7 @@ card and linked the correct Commons source. Evidence: screenshots/distinct-chick
 
 ## Ingredient relevance and Indian catalogue (2026-11-02)
 
-- All 13 tests pass; raw output is in `SEARCH-RELEVANCE-TEST-OUTPUT.txt`.
+- All 13 tests pass; the consolidated historical test summary is recorded below.
 - New regression tests assert actual required fish/chicken links in both search modes, distinguish fish from fish sauce, check exclusions, and check that vegetarian + fish has no results.
 - All 40 additions are present once with matching quantities, units and recipe-specific steps. Repeated setup retains the same catalogue rows.
 - Synthetic rows are excluded from discovery without deleting benchmark data; saved legacy recipes can still be opened.
@@ -190,7 +190,7 @@ card and linked the correct Commons source. Evidence: screenshots/distinct-chick
 
 - 500 imported records have unique source URLs, titles, and normalized cooking-method hashes; all original ingredient lines and methods match the bundled source snapshot.
 - 521 distinct approved, non-synthetic recipes contain at least one of the seven supported proteins. The full public collection has 545 dishes. Counts overlap for mixed-meat recipes: chicken 208, fish 130, mutton 7, beef 155, lamb 13, prawn/shrimp 40, lobster 4.
-- All 16 tests passed. Raw output: `EXPANDED-MEAT-CATALOG-TEST-OUTPUT.txt`. Tests cover every page of each protein filter, Keyword/Meaning ingredient requirements, vegetarian exclusion, duplicate prevention, idempotent import, provenance preservation, and existing role/security behavior.
+- All 16 tests passed. the consolidated historical test summary is recorded below. Tests cover every page of each protein filter, Keyword/Meaning ingredient requirements, vegetarian exclusion, duplicate prevention, idempotent import, provenance preservation, and existing role/security behavior.
 - Browser verified the seven filter counts, mutton results, and lobster detail. Jerk Lobster displayed six original ingredient lines, its full method, servings, source/history links and CC BY-SA license. Missing time and photo values were labeled honestly.
 - Search performance: an EXPLAIN ANALYZE sample spent 10,991.739 ms in LLVM JIT out of 11,266.099 ms total. Recipe lookups now set `jit=off` only within that search transaction. Local development API checks afterwards: lobster 84 ms, mutton 24 ms, beef 34 ms. These are observations on this machine, not performance guarantees.
 - No change to row-level security or session derivation. Existing database-role tests passed after the query optimization.
@@ -203,7 +203,7 @@ card and linked the correct Commons source. Evidence: screenshots/distinct-chick
 - Card and detail lookup share a stable source-key/title mapping. An edited title or unknown source key falls back to the labeled placeholder rather than inheriting an unrelated assignment.
 - Photos are illustrative serving suggestions. The pictured ingredients, preparation and presentation may differ from the linked recipe; they are not photographs of tested results for each imported recipe. This label appears on cards and source/author/license credit appears in details.
 - Commons candidates were screened using descriptions/categories and visual contact sheets. The selected new downloads were checked for valid dimensions and exact duplicates. The local assets are resized/compressed JPEG files, so the app does not depend on live image-search URLs.
-- All 17 automated tests passed, including the 545-recipe coverage/uniqueness regression and existing database, role, search and security tests. Raw output: `SOURCE-PHOTO-TEST-OUTPUT.txt`.
+- All 17 automated tests passed, including the 545-recipe coverage/uniqueness regression and existing database, role, search and security tests. the consolidated historical test summary is recorded below.
 - Production build passed. All 500 new image URLs returned HTTP 200 with JPEG content type. Browser verification showed four loaded, distinct lobster card images; Jerk Lobster detail used the identical card image with its author/license link. Evidence: `screenshots/expanded-recipe-photos.png` and `screenshots/expanded-recipe-photo-detail.png`.
 
 
@@ -212,5 +212,35 @@ card and linked the correct Commons source. Evidence: screenshots/distinct-chick
 - Selecting ingredients and clicking **Find my next meal** now returns only dishes with at least 75% of their required ingredients available. The SQL condition uses ingredient counts before rounding and runs before counting, ordering and pagination. Optional ingredients do not lower the match.
 - The cutoff also applies when keyword/meaning searches or other filters use selected pantry ingredients. Browsing without ingredients and the saved cookbook remain available. **Ready to cook only** still requires all required ingredients.
 - Regression checks include exact 75% and 100% inclusion, 50% and 70% exclusion, two-page pagination with a larger pantry, result totals, and browsing without a pantry.
-- All 18 tests and the production build passed. Raw results: `PANTRY-MATCH-TEST-OUTPUT.txt`.
+- All 18 tests and the production build passed. the consolidated historical test summary is recorded below.
 - Browser verified Simple Tomato Garlic Rice at 75% with onion listed as missing; lower matches were excluded. Original pantry selections were restored after the check. Evidence: `screenshots/pantry-match-minimum-75.png`.
+
+
+## Consolidated historical test evidence
+
+The individual console-output snapshots have been consolidated here to avoid
+maintaining several near-duplicate log files. These are historical results
+recorded during development, not a claim that the tests were rerun during this
+repository cleanup.
+
+| Validation milestone | Recorded result | Main evidence covered |
+| --- | ---: | --- |
+| Initial database/API integration | 4 passed, 0 failed | Pantry search, keyword/semantic search, registration, authorization, moderation, saves, ratings, logout, transaction rollback and password validation |
+| Database permission and RLS update (15 Oct 2026) | 5 passed, 0 failed | Restricted runtime role, denied owner/table/session access, row visibility, admin-only actions, concurrent actor isolation and recipe editing |
+| Initial local food-photo checks (1 Nov 2026) | 7 passed, 0 failed | Recipe photo mapping, local assets, source/license credits and security regressions |
+| Photo uniqueness regression (1 Nov 2026) | 9 passed, 0 failed | Distinct image files for existing recipes, card/detail consistency, reported chicken-photo regression and stale-photo protection |
+| Ingredient relevance / Indian catalogue (2 Nov 2026) | 13 passed, 0 failed | Fish/chicken ingredient intent, exclusions, both search modes, curated Indian recipes and security checks |
+| Seven-protein catalogue (2 Nov 2026) | 16 passed, 0 failed | 500 sourced recipes, seven protein filters, import idempotence, provenance and search requirements |
+| Expanded source-photo coverage (2 Nov 2026) | 17 passed, 0 failed | 500 source recipes, 545 public recipe photo assignments, unique image paths and credits |
+| Minimum pantry-match cutoff (2 Nov 2026) | **18 passed, 0 failed** | Includes 75% and 100% matches, excludes 50% and 70%, checks filtering before pagination and result counts |
+
+The final pantry-match milestone is the latest consolidated test snapshot in
+this history. It records a successful production build as well as 18 passing
+automated tests. The test suite itself remains available under `tests/` and can
+be rerun using the commands in the README.
+
+## Retained visual evidence
+
+Selected screenshots remain under `docs/screenshots/`, including the current
+warm-palette desktop preview, mobile layout, 75% pantry-match result, recipe
+details, admin editing, protein catalogue and expanded recipe-photo examples.
