@@ -14,7 +14,7 @@ async function handle(request,context) {
   if(method!=='GET')checkOrigin(request);
   let body={};if(['POST','PUT','PATCH'].includes(method)) {
    const raw=await request.text();if(raw.length>25000)throw new ApiError('Request is too large.',413);
-   try{body=JSON.parse(raw);}catch{throw new ApiError('Invalid JSON request.');}
+      if(raw.trim())try{body=JSON.parse(raw);}catch{throw new ApiError('Invalid JSON request.');}
    if(!body||typeof body!=='object'||Array.isArray(body))throw new ApiError('Invalid request body.');
   }
   let result;
