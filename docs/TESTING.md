@@ -111,7 +111,7 @@ connection. They demonstrate index behavior, not post-RLS API latency guarantees
 
 Production build (`next build --webpack`) also passed. The final five-test run
 against `next start` passed in about 2.54 seconds; raw output is in
-`TEST-OUTPUT.txt`. Setup was rerun successfully to verify idempotence.
+the consolidated historical test summary below. Setup was rerun successfully to verify idempotence.
 
 Browser evidence: a temporary admin recipe was created, edited to add garlic and
 change title/instructions, saved successfully, and reopened with the persisted
@@ -124,7 +124,7 @@ The temporary recipe was removed after verification; the collection remains 906.
 Replaced CSS bowl illustrations with 31 locally hosted Commons photos, matched
 by title words with representative serving-suggestion labels. All seven automated
 tests passed (zero failures), including the two new matching/asset/credit checks;
-raw output is in PHOTO-TEST-OUTPUT.txt. Earlier API, RLS and transaction tests also
+raw output is in the consolidated historical test summary below. Earlier API, RLS and transaction tests also
 passed. The first API test attempt ran after the development server had stopped
 for its existing Next.js security reminder; it passed after the server restart.
 The known Next.js advisory remains a separate maintenance item.
